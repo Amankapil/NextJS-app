@@ -1,0 +1,9 @@
+.logobg {
+  background-image: url("./logo.svg");
+  width: 115px;
+  /* margin-top: -28px; */
+  height: 45px;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position-y: 50%;
+}
