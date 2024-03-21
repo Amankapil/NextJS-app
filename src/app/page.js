@@ -6,7 +6,7 @@ import Services from "@/components/homepage/Services";
 import Techstack from "@/components/homepage/Techstack";
 import Testimonials from "@/components/homepage/Testimonials";
 import Vision from "@/components/homepage/assets/Vision";
-import Clients from "@/components/homepage/clients";
+// import Clients from "@/components/homepage/Clients";
 import Image from "next/image";
 
 export default function Home() {
