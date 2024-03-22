@@ -40,7 +40,7 @@ const Services = () => {
                 >
                   Tech Training
                 </div>
-                <div class="w-[340px]  leading[150%] opacity-80  text-base font-normal font['Graphik'] leading-normal  max-[1310px]:w-full">
+                <div class="w-[340px]  leading[150%] opacity-80  text-[18px] font-normal font['Graphik'] leading-normal  max-[1310px]:w-full">
                   Hiring Tech Services is working as a placement consultant
                   service company serving the needs of the clients.
                 </div>
@@ -136,7 +136,7 @@ const Services = () => {
                 >
                   IT concerns.
                 </div>
-                <div class="w-[340px]  leading[150%] opacity-80  text-base font-normal font['Graphik'] leading-normal  max-[1310px]:w-full">
+                <div class="w-[340px]  leading[150%] opacity-80  text-[18px] font-normal font['Graphik'] leading-normal  max-[1310px]:w-full">
                   Hiring Tech Services is working as a placement consultant
                   service company serving the needs of the clients.
                 </div>
@@ -239,7 +239,7 @@ const Services = () => {
                 >
                   HR training
                 </div>
-                <div class="w-[340px]  leading[150%] opacity-80  text-base font-normal font['Graphik'] leading-normal  max-[1310px]:w-full">
+                <div class="w-[340px]  leading[150%] opacity-80  text-[18px] font-normal font['Graphik'] leading-normal  max-[1310px]:w-full">
                   Hiring Tech Services is working as a placement consultant
                   service company serving the needs of the clients.
                 </div>
@@ -342,7 +342,7 @@ const Services = () => {
                 >
                   Web services
                 </div>
-                <div class="w-[340px]  leading[150%] opacity-80  text-base font-normal font['Graphik'] leading-normal  max-[1310px]:w-full">
+                <div class="w-[340px]  leading[150%] opacity-80  text-[18px] font-normal font['Graphik'] leading-normal  max-[1310px]:w-full">
                   Hiring Tech Services is working as a placement consultant
                   service company serving the needs of the clients.
                 </div>

@@ -21,7 +21,7 @@ const Hr = () => {
                     <div className="w-[631.03px] max-md:w-full text-black text-[49.20px] font-normal font[''] leading-[59.04px] max-sm:text-[40px]">
                       Hr Training
                     </div>
-                    <div className="w-[513.61px] max-md:w-full opacity80 text-black text-base font-normal font[''] leading-normal">
+                    <div className="w-[513.61px] max-md:w-full opacity80 text-black textbase font-normal font[''] leading-normal text-[18px]">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Odit minus in saepe obcaecati explicabo error ipsa libero
                       doloribus tenetur voluptatem.
@@ -35,20 +35,20 @@ const Hr = () => {
                 </div>
               </div>
 
-              <div className="flex ml[80px] max-md:ml-0 mt-16 gap-10 w-[621px] flex-wrap max-md:w-full ">
-                <div className="w-[167.11px] left-[80px] top-[496px]  opacity-80 text-black text-base font-normal font[''] leading-normal max-sm:w-[30%]">
+              <div className="flex ml[80px] max-md:ml-0 mt-16 gap-10 w-[621px] flex-wrap max-md:w-full text-[18px] ">
+                <div className="w-[167.11px] left-[80px] top-[496px]  opacity-80 text-black font-normal font[''] leading-normal max-sm:w-[30%]">
                   lorem
                 </div>
-                <div className="w-[167.04px] left-[298px] top-[496px]  opacity-80 text-black text-base font-normal font[''] leading-normal max-sm:w-[50%]">
+                <div className="w-[167.04px] left-[298px] top-[496px]  opacity-80 text-black texe font-normal font[''] leading-normal max-sm:w-[50%]">
                   lorem
                 </div>
-                <div className="w-[166.55px] left-[513px] top-[496px]  opacity-80 text-black text-base font-normal font[''] leading-normal max-sm:w-[30%]">
+                <div className="w-[166.55px] left-[513px] top-[496px]  opacity-80 text-black textbase font-normal font[''] leading-normal max-sm:w-[30%]">
                   lorem
                 </div>
-                <div className="w-[166px] left-[80px] top-[570.33px]  opacity-80 text-black text-base font-normal font[''] leading-normal max-md:w-full max-sm:w-[50%]">
+                <div className="w-[166px] left-[80px] top-[570.33px]  opacity-80 text-black textbase font-normal font[''] leading-normal max-md:w-full max-sm:w-[50%]">
                   lorem
                 </div>
-                <div className="w-[125.06px] left-[298.11px] top-[570.33px]  opacity-80 text-black text-base font-normal font[''] leading-normal max-sm:w-[100%]">
+                <div className="w-[125.06px] left-[298.11px] top-[570.33px]  opacity-80 text-black textbase font-normal font[''] leading-normal max-sm:w-[100%]">
                   lorem
                 </div>
               </div>

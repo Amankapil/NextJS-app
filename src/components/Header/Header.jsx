@@ -25,6 +25,9 @@ const Header = () => {
             <Link className="hovertext-[#733e3d]" href="/career">
               Career
             </Link>
+            <Link className="hovertext-[#733e3d]" href="/training">
+              Training
+            </Link>
             <Link
               href="/contact"
               className="px-4 py-2 hover:bg-[#dc4c51] bg-[#733e3d] text-white rounded-3xl  hover:textblack"

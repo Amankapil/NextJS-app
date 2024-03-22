@@ -44,12 +44,17 @@ const JobsPage = () => {
   const [selectedJob, setSelectedJob] = useState(null);
   const [filteredJobs, setFilteredJobs] = useState(jobsData);
 
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    position: "",
-    resume: "",
-  });
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   // position: "",
+  //   resume: "",
+  // });
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [resume, setResume] = useState("");
+  const [message, setMessage] = useState("");
 
   const handleFilterChange = (e) => {
     setFilter(e.target.value);
@@ -87,26 +92,32 @@ const JobsPage = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(formData);
+    console.log(name);
+    console.log(email);
+    console.log(resume);
     try {
-      const response = await axios.post("/api", formData);
-      // setMessage(response.data.message);
-      alert(response.status);
-      setFormData({
-        name: "",
-        email: "",
-        position: "",
-        resume: "",
+      const response = await axios.post("/api", {
+        name: name,
+        email: email,
+        resume: resume,
       });
+      alert(response.status);
+      console.log(response.data.message);
     } catch (error) {
-      // setMessage("Failed to send email");
       alert("Failed to send email");
       console.error("Error occurred while sending email:", error);
     }
   };
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+
+  const handleFileChange = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.readAsDataURL(file);
+      reader.onload = () => {
+        setResume(reader.result);
+      };
+    }
   };
 
   return (
@@ -158,8 +169,8 @@ const JobsPage = () => {
                     <input
                       type="text"
                       name="name"
-                      value={formData.name}
-                      onChange={handleInputChange}
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
                       placeholder="Your Name"
                       className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
                       required
@@ -167,13 +178,13 @@ const JobsPage = () => {
                     <input
                       type="email"
                       name="email"
-                      value={formData.email}
-                      onChange={handleInputChange}
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                       placeholder="Your Email"
                       className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
                       required
                     />
-                    <input
+                    {/* <input
                       type="text"
                       name="position"
                       value={formData.position}
@@ -181,12 +192,12 @@ const JobsPage = () => {
                       placeholder="Position Applied For"
                       className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
                       required
-                    />
+                    /> */}
                     <input
                       type="file"
                       name="resume"
                       accept=".pdf,.doc,.docx"
-                      onChange={handleInputChange}
+                      onChange={handleFileChange}
                       className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
                       required
                     />

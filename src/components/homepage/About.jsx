@@ -10,7 +10,7 @@ const About = () => {
         <h2 className=" text-[#733e3d] text-3xl font-bold mb-4">About Us</h2>
         <div class="self-stretch justify-center gap-[158px] max-xl:px-[80px] max-2lg:gap-[50px] max-xl:gap-[130px] inline-flex max-2md:flex-wrap max-2md:py-10 max-lg:px-[40px] max-sm:px-[20px] max-xlpx-0  max-sm:gap-5 max-2md:gap-[20px]">
           <div class="self-stretch flex-col justify-between items-start inline-flex max-2md:gap-10 max-xl:px-10 max-2md:p-0">
-            <div class="w-[503.60px] letter3 text-black text-[16px] font-normal  leading[120%] max-xl:w-full">
+            <div class="w-[503.60px] letter3 text-black text-[18px] font-normal  leading[120%] max-xl:w-full">
               Hiring Tech is a name that is counted amongst the trustworthy
               placement agencies in Indore (Madhya Pradesh, India). Our company
               is actively involved in rendering dependable solutions for
