@@ -7,7 +7,7 @@ const Web = () => {
   return (
     <>
     <div className="serviepageappdevs">
-      <div className="w-full h-[688px] relative max-lg:h-full">
+      <div className="w-full h-full relative max-lg:h-full">
         <div className="flex max-lg:flex-col  max-lg:justify-center  max-lg:items-center   max-w-7xl mx-auto justify-center gap-40">
         <div>
             <div className="w-[359px]  max-md:w-full max-md:h-full  max-lg:w-[665px] max-lg:h-[800px] h-[434px] left-[730px] mt-[80px]  bg-zinc-100 flex-col justify-center items-center inline-flex">
@@ -24,15 +24,13 @@ const Web = () => {
                     Web Development
                   </div>
                   <div className="w-[513.61px] max-md:w-full opacity80 text-black textbase text-[18px] font-normal font[''] leading-normal"> 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Odit minus in saepe obcaecati explicabo error ipsa
-                    libero doloribus tenetur voluptatem.
+                  In our web development training consultancy, we provide comprehensive programs designed to equip individuals with the skills and knowledge necessary to thrive in the rapidly evolving field of web development. Our courses cover a wide range of essential topics, including but not limited to HTML, CSS, JavaScript, React.js, and more.
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="flex ml[80px] max-md:ml-0 mt-16 gap-10 w-[621px] flex-wrap max-md:w-full text-[18px] ">
+            {/* <div className="flex ml[80px] max-md:ml-0 mt-16 gap-10 w-[621px] flex-wrap max-md:w-full text-[18px] ">
               <div className="w-[167.11px] left-[80px] top-[496px]  opacity-80 text-black textbase font-normal font[''] leading-normal max-sm:w-[30%]">
                 lorem
               </div>
@@ -48,7 +46,7 @@ const Web = () => {
               <div className="w-[125.06px] left-[298.11px] top-[570.33px]  opacity-80 text-black textbase font-normal font[''] leading-normal max-sm:w-[100%]">
                 lorem
               </div>
-            </div>
+            </div> */}
           </div>
 
           

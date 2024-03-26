@@ -9,11 +9,10 @@ const ItConcern = () => {
     <>
       <>
         <div className="serviepageappdevs">
-          <div className="w-full h-[488px] relative max-lg:h-full">
+          <div className="w-full h-full relative max-lg:h-full">
             <div className="flex max-lg:flex-col  max-lg:justify-center  max-lg:items-center   max-w-7xl mx-auto justify-center gap-40">
-            <div>
+              <div>
                 <div className="w-[359px]  max-md:w-full max-md:h-full  max-lg:w-[665px] max-lg:h-[800px] h-[434px] left-[730px] mt-[80px]  bg-zinc-100 flex-col justify-center items-center inline-flex">
-                 
                   <Image src={img} width={600} alt="hero" />
                 </div>
               </div>
@@ -26,15 +25,29 @@ const ItConcern = () => {
                         IT concern
                       </div>
                       <div className="w-[513.61px] max-md:w-full opacity80 text-black  font-normal font[''] leading-normal text-[18px]">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Odit minus in saepe obcaecati explicabo error ipsa
-                        libero doloribus tenetur voluptatem.
+                        We understand that every learner has unique needs and
+                        preferences, which is why we offer flexible training
+                        formats such as online courses, in-person workshops, and
+                        personalized coaching sessions. Our experienced
+                        instructors, who are industry professionals themselves,
+                        deliver practical, hands-on training that ensures
+                        participants gain real-world experience and proficiency
+                        in web development technologies.
+                        <br />
+                        <br />
+                        Whether you're a beginner taking your first steps into
+                        the world of coding or an experienced developer looking
+                        to expand your skill set, our training programs cater to
+                        individuals at all levels of expertise. We provide a
+                        supportive learning environment where participants can
+                        ask questions, receive feedback, and collaborate with
+                        peers to enhance their learning experience.
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div className="flex ml[80px] max-md:ml-0 mt-16 gap-10 w-[621px] flex-wrap max-md:w-full text-[18px] ">
+                {/* <div className="flex ml[80px] max-md:ml-0 mt-16 gap-10 w-[621px] flex-wrap max-md:w-full text-[18px] ">
                   <div className="w-[167.11px] left-[80px] top-[496px]  opacity-80 text-black text-[18px] font-normal font[''] leading-normal max-sm:w-[30%]">
                     lorem
                   </div>
@@ -50,10 +63,8 @@ const ItConcern = () => {
                   <div className="w-[125.06px] left-[298.11px] top-[570.33px]  opacity-80 text-black  font-normal font[''] leading-normal max-sm:w-[100%]">
                     lorem
                   </div>
-                </div>
+                </div> */}
               </div>
-
-              
             </div>
           </div>
         </div>

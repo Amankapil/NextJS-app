@@ -5,7 +5,7 @@ const Trainig = () => {
     <section className="w-full py-6 md:py-12">
       <div className="container px4 md:px6">
         <div className="flex flex-wrap justify-center items-center gap-10 ">
-          <div className="card border-1 shadow-2xl p-12 border-[#733e3d]">
+          <div className="card border-1 shadow-2xl p-12 border-[#733e3d] max-w-[400px]">
             <div className="flex flex-col items-start py-3">
               <h3 className="text-3xl font-bold">FrontEnd Developer</h3>
               <p className="text-[#733e3d] darkxt-gray-400">
@@ -23,24 +23,24 @@ const Trainig = () => {
               <div className="grid gap-4">
                 <div className="flex items-center space-x-2">
                   <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
-                  <span>Unlimited bandwidth</span>
+                  <span>75-Day Intensive Training Program</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
-                  <span>24/7 customer support</span>
+                  <span>Effective Communication Skills Workshop</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
-                  <span>Free SSL certificate</span>
+                  <span>Professional Resume Design Services</span>
                 </div>
 
                 <div className="flex items-center space-x-2">
                   <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
-                  <span>Free SSL certificate</span>
+                  <span>Gap Year Guidance and Support Program</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
-                  <span>Free SSL certificate</span>
+                  <span>Remote Learning Opportunities: Learn from Home</span>
                 </div>
               </div>
             </div>
@@ -51,7 +51,7 @@ const Trainig = () => {
             </div>
           </div>
 
-          <div className="card border-1 shadow-2xl p-12 border-[#733e3d]">
+          <div className="card border-1 shadow-2xl p-12 border-[#733e3d] max-w-[410px]">
             <div className="flex flex-col items-start py-3">
               <h3 className="text-3xl font-bold">Application Developer</h3>
               <p className="text-[#733e3d] darkxt-gray-400">
@@ -69,24 +69,24 @@ const Trainig = () => {
               <div className="grid gap-4">
                 <div className="flex items-center space-x-2">
                   <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
-                  <span>Unlimited bandwidth</span>
+                  <span>75-Day Intensive Training Program</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
-                  <span>24/7 customer support</span>
+                  <span>Effective Communication Skills Workshop</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
-                  <span>Free SSL certificate</span>
+                  <span>Professional Resume Design Services</span>
                 </div>
 
                 <div className="flex items-center space-x-2">
                   <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
-                  <span>Free SSL certificate</span>
+                  <span>Gap Year Guidance and Support Program</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
-                  <span>Free SSL certificate</span>
+                  <span>Remote Learning Opportunities: Learn from Home</span>
                 </div>
               </div>
             </div>
@@ -97,7 +97,7 @@ const Trainig = () => {
             </div>
           </div>
 
-          <div className="card border-1 shadow-2xl p-12 border-[#733e3d]">
+          <div className="card border-1 shadow-2xl p-12 border-[#733e3d]  max-w-[400px]">
             <div className="flex flex-col items-start py-3">
               <h3 className="text-3xl font-bold">Backend developer</h3>
               <p className="text-[#733e3d] darkxt-gray-400">
@@ -115,24 +115,24 @@ const Trainig = () => {
               <div className="grid gap-4">
                 <div className="flex items-center space-x-2">
                   <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
-                  <span>Unlimited bandwidth</span>
+                  <span>75-Day Intensive Training Program</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
-                  <span>24/7 customer support</span>
+                  <span>Effective Communication Skills Workshop</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
-                  <span>Free SSL certificate</span>
+                  <span>Professional Resume Design Services</span>
                 </div>
 
                 <div className="flex items-center space-x-2">
                   <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
-                  <span>Free SSL certificate</span>
+                  <span>Gap Year Guidance and Support Program</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
-                  <span>Free SSL certificate</span>
+                  <span>Remote Learning Opportunities: Learn from Home</span>
                 </div>
               </div>
             </div>
@@ -159,7 +159,7 @@ function CheckCircleIcon(props) {
       height="24"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="currentColor"
+      stroke="green"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"

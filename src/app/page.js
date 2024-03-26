@@ -10,9 +10,12 @@ import Vision from "@/components/homepage/assets/Vision";
 import Image from "next/image";
 
 export default function Home() {
+  // const [showdata, setShowdat] = useState(false);
+
   return (
     <>
       {/* <Header /> */}
+
       <Hero />
       <Vision />
       <About />

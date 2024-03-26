@@ -6,6 +6,9 @@ import herok from "./assets/1097384643preview.mp4";
 import "./style.css";
 
 const Hero = () => {
+
+
+
   return (
     <>
       <div className="hero-container h-[650px]">

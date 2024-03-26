@@ -3,9 +3,16 @@ import Image from "next/image";
 import Link from "next/link";
 import hero from "./assets/ba29745f-1070-4ca1-b9c3-beacd65a2700.jpeg";
 
-const About = () => {
+const About = ({ brand }) => {
   return (
     <>
+      {/* {brand.map((br, id) => {
+        return (
+          <ul key={id}>
+            <li>{br}</li>
+          </ul>
+        );
+      })} */}
       <div className="about-section py-20 mx-auto max-w-7xl">
         <h2 className=" text-[#733e3d] text-3xl font-bold mb-4">About Us</h2>
         <div class="self-stretch justify-center gap-[158px] max-xl:px-[80px] max-2lg:gap-[50px] max-xl:gap-[130px] inline-flex max-2md:flex-wrap max-2md:py-10 max-lg:px-[40px] max-sm:px-[20px] max-xlpx-0  max-sm:gap-5 max-2md:gap-[20px]">

@@ -21,7 +21,7 @@ import TrainingHero from "@/components/trainingpage/TrainingHero";
 const page = () => {
   return (
     <>
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-8xl mx-auto">
 
       <TrainingHero />
       <Trainig />

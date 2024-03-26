@@ -25,23 +25,38 @@ const About = () => {
           </p>
         </div>
       </header> */}
+
+      <div class="w-full max-w-7xl mx-auto ">
+        <div class="w-4px] text-400 text-black text-[87.74px]  font-normal font['Graphik'] leading-[108%] max-md:text-[50px] max-md:leading-[54px]  max-lg:text-[70px] max-lg:leading-[7px] text-center flex justify-center items-center h-[400px]">
+          <div>Empowering Connections, Inspiring Futures.</div>
+        </div>
+      </div>
       <div className="container mx-auto px-4 py-8 ">
         <section className="mb-8 flex justify-between items-center gap-20">
-          <div className="w-1/3">
+          <div className="w-[50%]">
             <h2 className="text-2xl font-bold mb-4 text-[#733e3d]">
               Our Mission
             </h2>
             <p className="text-gray-700 text-[18px]">
-              We are on a mission to equip aspiring developers with the skills
-              and knowledge needed to thrive in the ever-evolving world of web
-              development.
+              We are Hiring Tech IT services, proudly offering advanced IT
+              consultancy services alongside a group of esteemed placement
+              agencies, carefully tending to the needs of both IT and Non-IT
+              industries across India. In Indore, we are recognized as Hiring
+              Tech, known for our excellence and rapid growth in providing
+              top-quality placement solutions for newcomers and experienced
+              professionals alike. Our services cover every corner of the
+              country, ensuring that our clients receive personalized solutions
+              that fit their specific needs.
               <br />
               <br />
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
-              ducimus necessitatibus sint inventore ullam similique eligendi
-              pariatur labore impedit nobis voluptatum molestiae blanditiis
-              veniam aliquid sed facilis accusantium aut officia debitis, enim
-              voluptas aspernatur.
+              As a leading placement consultancy in Indore, endorsed by many
+              reputable companies, Hiring Tech Consultants is respected for our
+              reliability and consistency, having successfully served over a
+              hundred companies. Our expertise includes Placement Services,
+              Manpower Recruitment, Staffing Solutions, Human Resource
+              Consultancy, and Career Consulting, with a proven track record of
+              placing over a hundred and fifty candidates within India and
+              abroad.
             </p>
           </div>
 
@@ -49,20 +64,28 @@ const About = () => {
             <Image src={img} width={600} alt="hero" />
           </div>
         </section>
-        <section className="my-20 mt-20 flex justify-between items-center gap-10">
+        <section className="my-20 mt-20 flex justify-between items-center gap-20">
           <div className="left">
             <Image src={img2} width={600} alt="hero" />
           </div>
-          <div className="w-1/3">
+          <div className="w-[50%]">
             <h2 className="text-2xl font-bold mb-4 text-[#733e3d]">
               What We Offer
             </h2>
             <p className="text-gray-700 text-[18px]">
-              Our team of experienced instructors provides comprehensive
-              training programs covering a wide range of topics, including
-              React.js, JavaScript, HTML, CSS, and more. We offer online
-              courses, workshops, and personalized coaching to help you reach
-              your full potential as a web developer.
+              Our adept instructors specialize in comprehensive training
+              programs for web development, covering vital topics like React.js,
+              JavaScript, HTML, and CSS. We offer diverse learning avenues,
+              including online courses, workshops, and personalized coaching,
+              tailored to your needs. With a focus on practical learning, we
+              provide real-world projects for hands-on experience. Our
+              supportive instructors offer valuable guidance and feedback to
+              help you navigate challenges and maximize your potential. Whether
+              you're a novice or seasoned developer, our programs empower you to
+              succeed in today's tech landscape. Join us to embark on an
+              enriching learning journey, where you'll gain the skills and
+              knowledge necessary to thrive as a web developer. Let's
+              collaborate and shape the future of the web together.
             </p>
             <p className="text-gray-700">
               Our team of experienced instructors provides comprehensive
@@ -74,7 +97,7 @@ const About = () => {
           </div>
         </section>
 
-        <section>
+        <section className="mb-28">
           <h2 className="text-2xl font-bold mb-10 text-[#733e3d]">
             Meet Our Team
           </h2>
