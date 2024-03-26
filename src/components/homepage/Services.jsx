@@ -19,12 +19,17 @@ const Services = () => {
         </div>
         <div className="flex justify-start items-center gap-4 flex-wrap">
           <a
-            class="mb-[17px] service-cards w-[32.451%] h-[392px] pl-[30px] pr-[30px] py-[45px] bgwhite flex-col items-start gap-[46.12px] inline-flex  transitionall text-black group  hover:bg-[#733e3d] hover:shadow-xl transition-all hovertext-white"
+            class="mb-[17px] service-cards w-[32.451%] h-[392px] pl-[30px] pr-[30px] py-[45px] bgwhite flex-col items-start gap-[46.12px] inline-flex  transitionall text-black group  hover:bg-[#733e3d] hover:shadow-xl transition-all hovertext-white hover:text-white"
             href="/services"
           >
             <div class="justify-center items-center inline-flex">
               <div class="w-[62.77px] h-[62.77px] relative flex-col justify-start items-start flex">
-                <Image src={img} width={66} alt="hero" />
+                <Image
+                  src={img}
+                  width={66}
+                  className="mix-blenddifference"
+                  alt="hero"
+                />
               </div>
             </div>
             <div class="flex-col justify-end items-start gap-6 inline-flex max-[800px]:justify-between group-hoverbg-black">
@@ -32,7 +37,7 @@ const Services = () => {
                 <div
                   class="service-heading letter-spacing-4 text-[24px] font-normal font['Graphik'] leading-[28.80px]
                 
-                group-hover:underline"
+                group-hover:underline group-hover:textwhite"
                 >
                   Tech Training
                 </div>
@@ -42,13 +47,14 @@ const Services = () => {
                 </div>
               </div>
               <div class=" arrow-svg w-[68px] h-[27px] px-[18.50px] py-[3px] rounded-[54px] borde borderblack justify-center items-center inline-flex  group-hover:bg[#00246B] group-hover:ml-2  transition-all">
-                <div class="w-[31px] h-[21px] relative  flex-col justify-start items-start flex">
+                <div class="w-[31px] h-[21px]  relative  flex-col justify-start items-start flex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
                     height="21"
                     viewBox="0 0 32 21"
                     fill="none"
+                    className="group-hover:fill-white"
                   >
                     <g clip-path="url(#clip0_906_953)">
                       <path
@@ -80,13 +86,12 @@ const Services = () => {
             </div>
           </a>
           <a
-            class="mb-[17px] service-cards w-[32.451%] h-[392px] pl-[30px] pr-[30px] py-[45px] bgwhite flex-col items-start gap-[46.12px] inline-flex  transitionall text-black group hover:bg-[#733e3d] hover:shadow-md transition-all "
+            class="mb-[17px] service-cards w-[32.451%] h-[392px] pl-[30px] pr-[30px] py-[45px] bgwhite flex-col items-start gap-[46.12px] inline-flex hover:text-white  transitionall text-black group hover:bg-[#733e3d] hover:shadow-md transition-all "
             href="/services"
           >
             <div class="justify-center items-center inline-flex">
               <div class="w-[62.77px] h-[62.77px] relative flex-col justify-start items-start flex">
-              <Image src={img2} width={66} alt="hero" />
-
+                <Image src={img2} width={66} alt="hero" />
               </div>
             </div>
             <div class="flex-col justify-end items-start gap-6 inline-flex max-[800px]:justify-between group-hoverbg-black">
@@ -111,6 +116,7 @@ const Services = () => {
                     height="21"
                     viewBox="0 0 32 21"
                     fill="none"
+                    className="group-hover:fill-white"
                   >
                     <g clip-path="url(#clip0_906_953)">
                       <path
@@ -142,13 +148,12 @@ const Services = () => {
             </div>
           </a>
           <a
-            class="mb-[17px] service-cards w-[32.451%] h-[392px] pl-[30px] pr-[30px] py-[45px] bgwhite flex-col items-start gap-[46.12px] inline-flex  transitionall text-black group  hover:bg-[#733e3d] hover:shadow-md transition-all"
+            class="mb-[17px] service-cards w-[32.451%] h-[392px] pl-[30px] pr-[30px] py-[45px] bgwhite flex-col items-start gap-[46.12px] inline-flex hover:text-white transitionall text-black group  hover:bg-[#733e3d] hover:shadow-md transition-all"
             href="/services"
           >
             <div class="justify-center items-center inline-flex">
               <div class="w-[62.77px] h-[62.77px] relative flex-col justify-start items-start flex">
-              <Image src={img3} width={66} alt="hero" />
-               
+                <Image src={img3} width={66} alt="hero" />
               </div>
             </div>
             <div class="flex-col justify-end items-start gap-6 inline-flex max-[800px]:justify-between group-hoverbg-black">
@@ -173,6 +178,7 @@ const Services = () => {
                     height="21"
                     viewBox="0 0 32 21"
                     fill="none"
+                    className="group-hover:fill-white"
                   >
                     <g clip-path="url(#clip0_906_953)">
                       <path
@@ -204,13 +210,12 @@ const Services = () => {
             </div>
           </a>
           <a
-            class="mb-[17px] service-cards w-[32.451%] h-[392px] pl-[30px] pr-[30px] py-[45px] bgwhite flex-col items-start gap-[46.12px] inline-flex  transitionall text-black group hover:bg-[#733e3d] hover:shadow-md transition-all "
+            class="mb-[17px] service-cards w-[32.451%] h-[392px] pl-[30px] pr-[30px] py-[45px] bgwhite flex-col items-start gap-[46.12px] inline-flex hover:text-white transitionall text-black group hover:bg-[#733e3d] hover:shadow-md transition-all "
             href="/services"
           >
             <div class="justify-center items-center inline-flex">
               <div class="w-[62.77px] h-[62.77px] relative flex-col justify-start items-start flex">
-              <Image src={img4} width={66} alt="hero" />
-
+                <Image src={img4} width={66} alt="hero" />
               </div>
             </div>
             <div class="flex-col justify-end items-start gap-6 inline-flex max-[800px]:justify-between group-hoverbg-black">
@@ -235,6 +240,7 @@ const Services = () => {
                     height="21"
                     viewBox="0 0 32 21"
                     fill="none"
+                    className="group-hover:fill-white"
                   >
                     <g clip-path="url(#clip0_906_953)">
                       <path

@@ -102,7 +102,7 @@ const Trainig = () => {
               <h3 className="text-3xl font-bold">Backend developer</h3>
               <p className="text-[#733e3d] darkxt-gray-400">
                 <span className="text-3xl">6000rs</span>
-                <span>/m0</span>
+                {/* <span>/m0</span> */}
               </p>
             </div>
             <div className="grid gap-4 py-6 card-content">

@@ -4,7 +4,8 @@ import React, { useState } from "react";
 // import img3 from "../assets/pexels-iryna-riabchykova-12876443 1.png"
 import Image from "next/image";
 
-import img from "./assets/trainin.jpg";
+import img from "./assets/it.webp";
+import img2 from "./assets/trainin.jpg";
 const Servicepage = () => {
   
   const [data, setData] = useState(0);
@@ -71,13 +72,13 @@ const Servicepage = () => {
               </div>
 
               <div>
-                <div className="w-[359px]  max-md:w-full max-md:h-full  max-lg:w-[665px] max-lg:h-[800px] h-[434px] left-[730px] mt-[80px]  bg-zinc-100 flex-col justify-center items-center inline-flex">
+                <div className="w[359px]  max-md:w-full max-md:h-full  max-lg:w-[665px] max-lg:h-[800px] h-[434px] left-[730px] mt-[80px]  bg-inc-100 flex-col justify-center items-center inline-flex">
                   {/* <img
                     className="w-[360px] h-[434px] max-md:w-full   max-lg:w-[665px] max-lg:h-[800px] max-md:h-full"
                     src={img3}
                     alt="placeholder"
                   /> */}
-                  <Image src={img} width={600} alt="hero" />
+                  <Image src={img} width={700} alt="hero" />
                 </div>
               </div>
             </div>

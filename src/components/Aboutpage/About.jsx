@@ -3,8 +3,9 @@ import Head from "next/head";
 
 import Image from "next/image";
 
-import img from "./asstes/abouth.jpg";
-import img2 from "./asstes/offer.jpg";
+import img from "./asstes/s2.webp";
+// import img2 from "./asstes/offer.jpg";
+import img2 from "./asstes/offers.webp";
 import img3 from "./asstes/profile.jpg";
 const About = () => {
   return (
@@ -87,7 +88,8 @@ const About = () => {
               knowledge necessary to thrive as a web developer. Let's
               collaborate and shape the future of the web together.
             </p>
-            <p className="text-gray-700">
+            <br />
+            <p className="text-gray-700 text-[18px]">
               Our team of experienced instructors provides comprehensive
               training programs covering a wide range of topics, including
               React.js, JavaScript, HTML, CSS, and more. We offer online

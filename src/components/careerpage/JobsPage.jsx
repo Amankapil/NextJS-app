@@ -37,14 +37,11 @@ const jobsData = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eleifend purus, eget tempor metus. Duis ut purus odio. Sed feugiat, mauris eu laoreet convallis, odio ex molestie nunc, id iaculis mauris odio at ipsum. Nunc placerat tempor ex nec lacinia. Sed finibus velit et aliquam posuere. Mauris nec massa at metus ultrices bibendum ut ac magna. In hac habitasse platea dictumst.",
   },
-  // Add more job listings as needed
 ];
 
 const JobsPage = () => {
   const [filter, setFilter] = useState("");
-
   const [filteredJobs, setFilteredJobs] = useState(jobsData);
-
   const [selectedJob, setSelectedJob] = useState(null);
 
   const [name, setName] = useState("");
