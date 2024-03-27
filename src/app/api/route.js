@@ -9,7 +9,7 @@ export async function POST(req, res) {
     let bodyreq = JSON.parse(passedValue);
     console.log(bodyreq);
 
-    const pdfBase64 = bodyreq.resume.toString("base64");
+    // const pdfBase64 = bodyreq.resume.toString("base64");
     // const resumeContent = Buffer.from(resume, "base64");
 
     // Create a Nodemailer transporter using SMTP transport
@@ -24,13 +24,7 @@ export async function POST(req, res) {
       from: email,
       to: "aman@hiringtech.in",
       subject: "New Resume Submission",
-      text: `Name: ${bodyreq.name}\nEmail: ${bodyreq.email}`,
-      attachments: [
-        {
-          filename: "resume.pdf",
-          content: pdfBase64, // Assuming resume contains the base64-encoded content of the file
-        },
-      ],
+      text: `Name: ${bodyreq.name}\nEmail: ${bodyreq.email}\nResume-Link: ${bodyreq.resume}`,
     };
 
     try {

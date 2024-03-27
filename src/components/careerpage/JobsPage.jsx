@@ -10,7 +10,7 @@ const jobsData = [
     location: "Indore",
     tags: ["Indore", "Indore", "Java Spring boot ", "Python"],
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eleifend purus, eget tempor metus. Duis ut purus odio. Sed feugiat, mauris eu laoreet convallis, odio ex molestie nunc, id iaculis mauris odio at ipsum. Nunc placerat tempor ex nec lacinia. Sed finibus velit et aliquam posuere. Mauris nec massa at metus ultrices bibendum ut ac magna. In hac habitasse platea dictumst.",
+      "Advertisement technology or ad-tech is an $800 billion industry.  Brands rely on targeting consumers across digital ecosystem yet there are not unified solutions which simplify the complex. Tech leaders Google, Meta, even largest consumer tech companies like Amazon, Uber, Netflix rely on advertising revenue with an ever-evolving ecosystem, the problem statements are diverse, high velocity, and technically challenging for the advertisers. We’re a passionate team with experience that includes building a unicorn programmatic media company, & the development of many of the product & technologies used in scale ad targeting, measurement on digital platforms.",
     responsiblity: [
       "Design and build software solutions that directly impact customers and the world.",
       "Take ownership and be responsible for what you build",
@@ -35,7 +35,7 @@ const jobsData = [
     location: "Remote",
     tags: ["React", "HTML", "CSS"],
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eleifend purus, eget tempor metus. Duis ut purus odio. Sed feugiat, mauris eu laoreet convallis, odio ex molestie nunc, id iaculis mauris odio at ipsum. Nunc placerat tempor ex nec lacinia. Sed finibus velit et aliquam posuere. Mauris nec massa at metus ultrices bibendum ut ac magna. In hac habitasse platea dictumst.",
+      "Advertisement technology or ad-tech is an $800 billion industry.  Brands rely on targeting consumers across digital ecosystem yet there are not unified solutions which simplify the complex. Tech leaders Google, Meta, even largest consumer tech companies like Amazon, Uber, Netflix rely on advertising revenue with an ever-evolving ecosystem, the problem statements are diverse, high velocity, and technically challenging for the advertisers. We’re a passionate team with experience that includes building a unicorn programmatic media company, & the development of many of the product & technologies used in scale ad targeting, measurement on digital platforms.",
     responsiblity: [
       "Design and build software solutions that directly impact customers and the world.",
       "Take ownership and be responsible for what you build",
@@ -60,7 +60,7 @@ const jobsData = [
     location: "Pune",
     tags: ["Node.js", "MongoDB"],
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eleifend purus, eget tempor metus. Duis ut purus odio. Sed feugiat, mauris eu laoreet convallis, odio ex molestie nunc, id iaculis mauris odio at ipsum. Nunc placerat tempor ex nec lacinia. Sed finibus velit et aliquam posuere. Mauris nec massa at metus ultrices bibendum ut ac magna. In hac habitasse platea dictumst.",
+      "Advertisement technology or ad-tech is an $800 billion industry.  Brands rely on targeting consumers across digital ecosystem yet there are not unified solutions which simplify the complex. Tech leaders Google, Meta, even largest consumer tech companies like Amazon, Uber, Netflix rely on advertising revenue with an ever-evolving ecosystem, the problem statements are diverse, high velocity, and technically challenging for the advertisers. We’re a passionate team with experience that includes building a unicorn programmatic media company, & the development of many of the product & technologies used in scale ad targeting, measurement on digital platforms.",
     responsiblity: [
       "Design and build software solutions that directly impact customers and the world.",
       "Take ownership and be responsible for what you build",
@@ -85,7 +85,7 @@ const jobsData = [
     location: "Bhopal",
     tags: ["Google ads", "Seo Tool"],
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eleifend purus, eget tempor metus. Duis ut purus odio. Sed feugiat, mauris eu laoreet convallis, odio ex molestie nunc, id iaculis mauris odio at ipsum. Nunc placerat tempor ex nec lacinia. Sed finibus velit et aliquam posuere. Mauris nec massa at metus ultrices bibendum ut ac magna. In hac habitasse platea dictumst.",
+      "Advertisement technology or ad-tech is an $800 billion industry.  Brands rely on targeting consumers across digital ecosystem yet there are not unified solutions which simplify the complex. Tech leaders Google, Meta, even largest consumer tech companies like Amazon, Uber, Netflix rely on advertising revenue with an ever-evolving ecosystem, the problem statements are diverse, high velocity, and technically challenging for the advertisers. We’re a passionate team with experience that includes building a unicorn programmatic media company, & the development of many of the product & technologies used in scale ad targeting, measurement on digital platforms.",
     responsiblity: [
       "Design and build software solutions that directly impact customers and the world.",
       "Take ownership and be responsible for what you build",
@@ -159,16 +159,16 @@ const JobsPage = () => {
     }
   };
 
-  const handleFileChange = (e) => {
-    const file = e.target.files[0];
-    if (file) {
-      const reader = new FileReader();
-      reader.readAsDataURL(file);
-      reader.onload = () => {
-        setResume(reader.result);
-      };
-    }
-  };
+  // const handleFileChange = (e) => {
+  //   const file = e.target.files[0];
+  //   if (file) {
+  //     const reader = new FileReader();
+  //     reader.readAsDataURL(file);
+  //     reader.onload = () => {
+  //       setResume(reader.result);
+  //     };
+  //   }
+  // };
 
   return (
     <div className="container mx-auto p-4 max-w-6xl mb-20">
@@ -195,7 +195,7 @@ const JobsPage = () => {
                   key={tag}
                   className="inline-block bg-[#733e3d] text-white px-2 py-1 rounded-md mr-2"
                 >
-                  {tag}
+                {tag}
                 </li>
               ))}
             </ul>
@@ -208,7 +208,7 @@ const JobsPage = () => {
             <div className="applyform">
               <div className="fixed w-full bsolute inset-0 flex justify-center overflow-croll items-center bg-white bg-opacity50  z-[99999999999999999999999999999999999999999]">
                 <div className="bg-white p-10 max-wxl rounded-lg overflowscroll  flex max-w-[1200px] gap-20 justify-center items-center">
-                  <div className="job-discription max-w-xl overflow-scroll h-[500px] mt-20">
+                  <div className="job-discription max-w-xl overflow-y-scroll h-[500px] mt-20">
                     <h2 className="text-2xl font-semibold mb-4">
                       {selectedJob.title}
                     </h2>
@@ -220,22 +220,24 @@ const JobsPage = () => {
                     {selectedJob.responsiblity.map((tag) => (
                       <li
                         key={tag}
-                        className="inline-block list-disc text-black px-2 py-1 rounded-md mr-2"
+                        className="lock list-disc text-black px-0 py-1 rounded-md mr-2"
                       >
-                        {tag}
+                      {tag}
                       </li>
                     ))}
                     <h2 className="text-2xl font-semibold mb-4">
                       Prerequisite
                     </h2>
-                    {selectedJob.Prerequisite.map((tag) => (
-                      <li
-                        key={tag}
-                        className="inline-block list-disc text-black px-2 py-1 rounded-md mr-2"
-                      >
+                    {/* <ul className="list-outside list-disc p"> */}
+                      {selectedJob.Prerequisite.map((tag) => (
+                        <li
+                          key={tag}
+                          className="lock list-disc text-black px-0 py-1 rounded-md "
+                        >
                         {tag}
-                      </li>
-                    ))}
+                        </li>
+                      ))}
+                    {/* </ul> */}
                   </div>
                   {/* <h2 className="text-2xl font-semibold mb-4">
                     {selectedJob.title}
@@ -263,34 +265,52 @@ const JobsPage = () => {
                       {/* <input
                       type="text"
                       name="position"
-                      value={formData.position}
+                      value={position}
                       onChange={handleInputChange}
                       placeholder="Position Applied For"
                       className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
                       required
                     /> */}
-                      <input
+                    <input
+                        type="text"
+                        name="resumelike"
+                        value={resume}
+                        onChange={(e) => setResume(e.target.value)}
+                        placeholder="Your Resume Link"
+                        className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
+                        required
+                      />
+                      {/* <input
                         type="file"
                         name="resume"
                         accept=".pdf,.doc,.docx"
                         onChange={handleFileChange}
                         className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
                         required
-                      />
+                      /> */}
                       <button
                         type="submit"
                         className="bg-blue-500 text-white py-2 px-4 rounded-md"
                       >
                         Submit
                       </button>
+                    </form>
+                    <div className="absolute right-20 top-20">
                       <button
                         type="reset"
                         className="bg-gray-300 text-gray-800 py-2 px-4 rounded-md ml-2"
                         onClick={() => setSelectedJob(null)}
                       >
-                        Close
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z" />
+                        </svg>
                       </button>
-                    </form>
+                    </div>
                   </div>
                 </div>
               </div>
