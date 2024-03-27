@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import img from "./assets/trainin.jpg";
+import img from "./assets/hre.webp";
 const Hr = () => {
   return (
     <>
@@ -68,7 +68,7 @@ const Hr = () => {
             </div>
 
             <div>
-              <div className="w-[359px]  max-md:w-full max-md:h-full  max-lg:w-[665px] max-lg:h-[800px] h-[434px] left-[730px] mt-[80px]  bg-zinc-100 flex-col justify-center items-center inline-flex">
+              <div className="w[359px]  max-md:w-full max-md:h-full  max-lg:w-[665px] max-lg:h-[800px] h-[434px] left-[730px] mt-[80px]  bg-zinc100 flex-col justify-center items-center inline-flex">
                 {/* <img
                     className="w-[360px] h-[434px] max-md:w-full   max-lg:w-[665px] max-lg:h-[800px] max-md:h-full"
                     src={img3}

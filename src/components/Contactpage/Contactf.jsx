@@ -8,7 +8,7 @@ const Contactf = () => {
       <div className="hero-container">
         <video
           controls
-          preload="none"
+          preload="true"
           autoPlay
           loop
           muted

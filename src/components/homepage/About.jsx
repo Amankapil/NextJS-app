@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import hero from "./assets/ba29745f-1070-4ca1-b9c3-beacd65a2700.jpeg";
+import hero from "./assets/about.jpg";
 
 const About = ({ brand }) => {
   return (
@@ -35,7 +35,7 @@ const About = ({ brand }) => {
             </div>
             <Link
               class=" transition-all mt-6 px-10 py-3 rounded-[31px] border bordr-black justify-center items-center gap-2 inline-flex max-sm:w-full  hover:bg-[#dc4c51] bg-[#733e3d] text-white hovertext-black"
-              href="/about-us"
+              href="/aboutus"
             >
               About us
             </Link>

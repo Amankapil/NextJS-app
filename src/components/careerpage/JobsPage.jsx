@@ -6,12 +6,28 @@ import axios from "axios";
 const jobsData = [
   {
     id: 1,
-    title:
-      "At hiring tech you get tremendous opportunities to elevate your career. Especially through their training program.",
+    title: "Sr Java developer",
     location: "Indore",
     tags: ["Indore", "Indore", "Java Spring boot ", "Python"],
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eleifend purus, eget tempor metus. Duis ut purus odio. Sed feugiat, mauris eu laoreet convallis, odio ex molestie nunc, id iaculis mauris odio at ipsum. Nunc placerat tempor ex nec lacinia. Sed finibus velit et aliquam posuere. Mauris nec massa at metus ultrices bibendum ut ac magna. In hac habitasse platea dictumst.",
+    responsiblity: [
+      "Design and build software solutions that directly impact customers and the world.",
+      "Take ownership and be responsible for what you build",
+      "Work collaboratively across multiple functions (e.g. Product, Sales, Marketing). ",
+      "You will develop and execute against both short and long-term roadmaps, making effective tradeoffs between business impact, user experience, and a high-quality technical foundation.",
+      "You will support your fellow engineers through feedback, code reviews, and the advancement of internal tools and processes.",
+      "Ensuring that all deliverables adhere to our world-class standards",
+      "Help with hiring and organizations building for future scale.",
+    ],
+    Prerequisite: [
+      "5+ years of professional experience",
+      "Professional experience using Java in production quality code.",
+      "Excellent written and verbal English communication skills",
+      "Strong design skills (HLD and LLD)",
+      "Agile and comfortable working in a fast-paced startup environment.",
+      "Focus on collaboration and making progress everyday over excellence. ",
+    ],
   },
   {
     id: 2,
@@ -20,6 +36,23 @@ const jobsData = [
     tags: ["React", "HTML", "CSS"],
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eleifend purus, eget tempor metus. Duis ut purus odio. Sed feugiat, mauris eu laoreet convallis, odio ex molestie nunc, id iaculis mauris odio at ipsum. Nunc placerat tempor ex nec lacinia. Sed finibus velit et aliquam posuere. Mauris nec massa at metus ultrices bibendum ut ac magna. In hac habitasse platea dictumst.",
+    responsiblity: [
+      "Design and build software solutions that directly impact customers and the world.",
+      "Take ownership and be responsible for what you build",
+      "Work collaboratively across multiple functions (e.g. Product, Sales, Marketing). ",
+      "You will develop and execute against both short and long-term roadmaps, making effective tradeoffs between business impact, user experience, and a high-quality technical foundation.",
+      "You will support your fellow engineers through feedback, code reviews, and the advancement of internal tools and processes.",
+      "Ensuring that all deliverables adhere to our world-class standards",
+      "Help with hiring and organizations building for future scale.",
+    ],
+    Prerequisite: [
+      "5+ years of professional experience",
+      "Professional experience using Java in production quality code.",
+      "Excellent written and verbal English communication skills",
+      "Strong design skills (HLD and LLD)",
+      "Agile and comfortable working in a fast-paced startup environment.",
+      "Focus on collaboration and making progress everyday over excellence. ",
+    ],
   },
   {
     id: 3,
@@ -28,6 +61,23 @@ const jobsData = [
     tags: ["Node.js", "MongoDB"],
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eleifend purus, eget tempor metus. Duis ut purus odio. Sed feugiat, mauris eu laoreet convallis, odio ex molestie nunc, id iaculis mauris odio at ipsum. Nunc placerat tempor ex nec lacinia. Sed finibus velit et aliquam posuere. Mauris nec massa at metus ultrices bibendum ut ac magna. In hac habitasse platea dictumst.",
+    responsiblity: [
+      "Design and build software solutions that directly impact customers and the world.",
+      "Take ownership and be responsible for what you build",
+      "Work collaboratively across multiple functions (e.g. Product, Sales, Marketing). ",
+      "You will develop and execute against both short and long-term roadmaps, making effective tradeoffs between business impact, user experience, and a high-quality technical foundation.",
+      "You will support your fellow engineers through feedback, code reviews, and the advancement of internal tools and processes.",
+      "Ensuring that all deliverables adhere to our world-class standards",
+      "Help with hiring and organizations building for future scale.",
+    ],
+    Prerequisite: [
+      "5+ years of professional experience",
+      "Professional experience using Java in production quality code.",
+      "Excellent written and verbal English communication skills",
+      "Strong design skills (HLD and LLD)",
+      "Agile and comfortable working in a fast-paced startup environment.",
+      "Focus on collaboration and making progress everyday over excellence. ",
+    ],
   },
   {
     id: 4,
@@ -36,6 +86,23 @@ const jobsData = [
     tags: ["Google ads", "Seo Tool"],
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eleifend purus, eget tempor metus. Duis ut purus odio. Sed feugiat, mauris eu laoreet convallis, odio ex molestie nunc, id iaculis mauris odio at ipsum. Nunc placerat tempor ex nec lacinia. Sed finibus velit et aliquam posuere. Mauris nec massa at metus ultrices bibendum ut ac magna. In hac habitasse platea dictumst.",
+    responsiblity: [
+      "Design and build software solutions that directly impact customers and the world.",
+      "Take ownership and be responsible for what you build",
+      "Work collaboratively across multiple functions (e.g. Product, Sales, Marketing). ",
+      "You will develop and execute against both short and long-term roadmaps, making effective tradeoffs between business impact, user experience, and a high-quality technical foundation.",
+      "You will support your fellow engineers through feedback, code reviews, and the advancement of internal tools and processes.",
+      "Ensuring that all deliverables adhere to our world-class standards",
+      "Help with hiring and organizations building for future scale.",
+    ],
+    Prerequisite: [
+      "5+ years of professional experience",
+      "Professional experience using Java in production quality code.",
+      "Excellent written and verbal English communication skills",
+      "Strong design skills (HLD and LLD)",
+      "Agile and comfortable working in a fast-paced startup environment.",
+      "Focus on collaboration and making progress everyday over excellence. ",
+    ],
   },
 ];
 
@@ -139,14 +206,36 @@ const JobsPage = () => {
         <div className="fixd inset-0 flex justify-center items-center bg-gray-900 bg-opacity-50">
           <div className="bg-white p-8 max-w-md rounded-lg">
             <div className="applyform">
-              <div className="fixed w-full bsolute inset-0 flex justify-center items-center bg-white bg-opacity50">
-                <div className="bg-white p-10 max-wxl rounded-lg overflowscroll flex max-w-6xl gap-20">
-                  <div className="job-discription max-w-lg">
+              <div className="fixed w-full bsolute inset-0 flex justify-center overflow-croll items-center bg-white bg-opacity50  z-[99999999999999999999999999999999999999999]">
+                <div className="bg-white p-10 max-wxl rounded-lg overflowscroll  flex max-w-[1200px] gap-20 justify-center items-center">
+                  <div className="job-discription max-w-xl overflow-scroll h-[500px] mt-20">
                     <h2 className="text-2xl font-semibold mb-4">
                       {selectedJob.title}
                     </h2>
                     <p className="text-gray-600 mb-4">{selectedJob.location}</p>
                     <p className="mb-4">{selectedJob.description}</p>
+                    <h2 className="text-2xl font-semibold mb-4">
+                      responsiblity
+                    </h2>
+                    {selectedJob.responsiblity.map((tag) => (
+                      <li
+                        key={tag}
+                        className="inline-block list-disc text-black px-2 py-1 rounded-md mr-2"
+                      >
+                        {tag}
+                      </li>
+                    ))}
+                    <h2 className="text-2xl font-semibold mb-4">
+                      Prerequisite
+                    </h2>
+                    {selectedJob.Prerequisite.map((tag) => (
+                      <li
+                        key={tag}
+                        className="inline-block list-disc text-black px-2 py-1 rounded-md mr-2"
+                      >
+                        {tag}
+                      </li>
+                    ))}
                   </div>
                   {/* <h2 className="text-2xl font-semibold mb-4">
                     {selectedJob.title}

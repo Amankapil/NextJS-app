@@ -8,9 +8,9 @@ const Trainig = () => {
           <div className="card border-1 shadow-2xl p-12 border-[#733e3d] max-w-[400px]">
             <div className="flex flex-col items-start py-3">
               <h3 className="text-3xl font-bold">FrontEnd Developer</h3>
-              <p className="text-[#733e3d] darkxt-gray-400">
+              <p className="text-[#733e3d] darkxt-gray-400 mt-3">
                 <span className="text-3xl">6000rs</span>
-                <span>/m0</span>
+                {/* <span>/m0</span> */}
               </p>
             </div>
             <div className="grid gap-4 py-6 card-content">
@@ -21,6 +21,10 @@ const Trainig = () => {
                 </p>
               </div>
               <div className="grid gap-4">
+                <div className="flex items-center space-x-2">
+                  <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
+                  <span>HTML, CSS, REACTJS, NEXTJS, TAILWIND CSS</span>
+                </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
                   <span>75-Day Intensive Training Program</span>
@@ -54,9 +58,9 @@ const Trainig = () => {
           <div className="card border-1 shadow-2xl p-12 border-[#733e3d] max-w-[410px]">
             <div className="flex flex-col items-start py-3">
               <h3 className="text-3xl font-bold">Application Developer</h3>
-              <p className="text-[#733e3d] darkxt-gray-400">
+              <p className="text-[#733e3d] darkxt-gray-400 mt-3">
                 <span className="text-3xl">6000rs</span>
-                <span>/m0</span>
+                {/* <span>/m0</span> */}
               </p>
             </div>
             <div className="grid gap-4 py-6 card-content">
@@ -67,6 +71,10 @@ const Trainig = () => {
                 </p>
               </div>
               <div className="grid gap-4">
+                <div className="flex items-center space-x-2">
+                  <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
+                  <span>Java/Kotlin, React Native,Swift</span>
+                </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
                   <span>75-Day Intensive Training Program</span>
@@ -100,7 +108,7 @@ const Trainig = () => {
           <div className="card border-1 shadow-2xl p-12 border-[#733e3d]  max-w-[400px]">
             <div className="flex flex-col items-start py-3">
               <h3 className="text-3xl font-bold">Backend developer</h3>
-              <p className="text-[#733e3d] darkxt-gray-400">
+              <p className="text-[#733e3d] darkxt-gray-400 mt-3">
                 <span className="text-3xl">6000rs</span>
                 {/* <span>/m0</span> */}
               </p>
@@ -113,6 +121,10 @@ const Trainig = () => {
                 </p>
               </div>
               <div className="grid gap-4">
+              <div className="flex items-center space-x-2">
+                  <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
+                  <span>NODEJS, EXPRESSJS, MONGODB</span>
+                </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
                   <span>75-Day Intensive Training Program</span>

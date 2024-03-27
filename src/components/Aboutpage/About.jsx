@@ -6,7 +6,7 @@ import Image from "next/image";
 import img from "./asstes/s2.webp";
 // import img2 from "./asstes/offer.jpg";
 import img2 from "./asstes/offers.webp";
-import img3 from "./asstes/profile.jpg";
+import img3 from "./asstes/profil.jpg";
 const About = () => {
   return (
     <div className="bggray-100 min-h-screen max-w-7xl mx-auto">

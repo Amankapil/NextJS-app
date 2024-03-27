@@ -23,9 +23,9 @@ const Footer = () => {
                         <i className="fas fa-arrow-up"></i>
                       </p>
                       <p>
-                        United States <br />
-                        866 Wilshire, 2nd Street <br />
-                        Los Angeles 90024.
+                       India<br />
+                        919 9th floor shekhar Central Indore  <br />
+                       MP 462010.
                       </p>
                     </div>
                     {/* <ul class="social-links clearfix">
@@ -65,31 +65,31 @@ const Footer = () => {
                         <Link href="/">About Us</Link>
                       </li>
                       <li>
-                        <Link href="/">Resources</Link>
+                        <Link href="/services">Services</Link>
                       </li>
                       <li>
-                        <Link href="/">Our Solutions</Link>
+                        <Link href="/training">Our Solutions</Link>
                       </li>
                       <li>
                         <Link href="/">Testimonials</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/">Employers</Link>
-                      </li>
-                      <li>
+                      </li> */}
+                      {/* <li>
                         <Link href="/">How It’s Work</Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/career">Job Seekers</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/">Industries</Link>
-                      </li>
-                      <li>
+                      </li> */}
+                      {/* <li>
                         <Link href="/">Leadership</Link>
-                      </li>
+                      </li> */}
                       <li>
-                        <Link href="/contact">Contact Us</Link>
+                        <Link href="/contact">Let's Talk</Link>
                       </li>
                     </ul>
                   </div>
@@ -102,12 +102,12 @@ const Footer = () => {
                       </div>
                       <ul className="info-box clearfix">
                         <li>
-                          <a href="tel:8004561234">(800) 456-1234</a>
+                          <Link href="tel:8004561234">+91 877-0161528</Link>
                         </li>
                         <li>
-                          <a href="mailto:businesspartner@example.com">
-                            business@hiringtech.com
-                          </a>
+                          <Link href="mailto:businesspartner@example.com">
+                            hr@hiringtech.in
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -117,12 +117,12 @@ const Footer = () => {
                       </div>
                       <ul className="info-box clearfix">
                         <li>
-                          <a href="tel:8004560123">(800) 789-0123</a>
+                          <Link href="tel:8004560123">+91 877-0161528</Link>
                         </li>
                         <li>
-                          <a href="mailto:careeroption@example.com">
-                            career@hiringtech.com
-                          </a>
+                          <Link href="mailto:hr@hiringtech.in">
+                            career@hiringtech.in
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -156,13 +156,13 @@ const Footer = () => {
             </div>
             <ul className="footer-nav pull-right clearfix">
               <li>
-                <a href="/">Privacy Policy</a>
+                <Link href="/">Privacy Policy</Link>
               </li>
               <li>
-                <a href="index.html">Terms & Conditions</a>
+                <Link href="/">Terms & Conditions</Link>
               </li>
               <li>
-                <a href="index.html">Site Map</a>
+                <Link href="">Site Map</Link>
               </li>
             </ul>
           </div>

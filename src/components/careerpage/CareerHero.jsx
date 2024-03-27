@@ -9,6 +9,8 @@ const CareerHero = () => {
           curiosity and passion
         </h1>
       </div>
+
+      
     </>
   );
 };
