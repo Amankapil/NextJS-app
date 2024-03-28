@@ -99,7 +99,7 @@ const Testimonials = () => {
 
 
           <SwiperSlide>
-            <div className="bg-[#000]  rounded-lg overflow-hidden shadow-lg w-80 md:w-96">
+            <div className="bg-[#fff]  rounded-lg overflow-hidden shadow-lg w-80 md:w-96">
               <div className="relative">
                 <Image
                   src={hero}

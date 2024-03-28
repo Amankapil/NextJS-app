@@ -80,19 +80,20 @@ const Header = () => {
                 }`}
               >
                 <nav className="flex gap-6 text-base font-medium text-black items-center flex-col w-1/2 mt-20">
-                  <Link className="hovertext-[#733e3d]" href="/aboutus">
+                  <Link onClick={hamburger} className="hovertext-[#733e3d]" href="/aboutus">
                     About Us
                   </Link>
-                  <Link className="hovertext-[#733e3d]" href="/services">
+                  <Link onClick={hamburger} className="hovertext-[#733e3d]" href="/services">
                     Service
                   </Link>
-                  <Link className="hovertext-[#733e3d]" href="/career">
+                  <Link onClick={hamburger} className="hovertext-[#733e3d]" href="/career">
                     Career
                   </Link>
-                  <Link className="hovertext-[#733e3d]" href="/training">
+                  <Link onClick={hamburger} className="hovertext-[#733e3d]" href="/training">
                     Training
                   </Link>
                   <Link
+                  onClick={hamburger}
                     href="/contact"
                     className="px-4 py-2 hover:bg-[#dc4c51] bg-[#733e3d] text-white rounded-3xl  hover:textblack"
                   >
