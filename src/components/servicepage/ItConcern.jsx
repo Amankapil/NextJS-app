@@ -10,7 +10,7 @@ const ItConcern = () => {
       <>
         <div className="serviepageappdevs">
           <div className="w-full h-full relative max-lg:h-full">
-            <div className="flex max-lg:flex-col  max-lg:justify-center  max-lg:items-center   max-w-7xl mx-auto justify-center gap-40">
+            <div className="flex max-lg:flex-wrap-reverse  max-lg:justify-center  max-lg:items-center   max-w-7xl mx-auto justify-center gap-40">
               <div>
                 <div className="w[359px]  max-md:w-full max-md:h-full  max-lg:w-[665px] max-lg:h-[800px] h-full left-[730px] mt[80px]  bg-inc-100 flex-col justify-center items-center inline-flex">
                   <Image src={img} width={700} hieght={400} alt="hero" />

@@ -33,8 +33,8 @@ const About = () => {
         </div>
       </div>
       <div className="container mx-auto px-4 py-8 ">
-        <section className="mb-8 flex justify-between items-center gap-20">
-          <div className="w-[50%]">
+        <section className="mb-8 flex justify-between items-center gap-20 max-lg:flex-wrap">
+          <div className="w-[50%] max-lg:w-full">
             <h2 className="text-2xl font-bold mb-4 text-[#733e3d]">
               Our Mission
             </h2>
@@ -65,11 +65,11 @@ const About = () => {
             <Image src={img} width={600} alt="hero" />
           </div>
         </section>
-        <section className="my-20 mt-20 flex justify-between items-center gap-20">
+        <section className="my-20 mt-20 flex justify-between items-center gap-20 max-lg:flex-wrap-reverse">
           <div className="left">
             <Image src={img2} width={600} alt="hero" />
           </div>
-          <div className="w-[50%]">
+          <div className="w-[50%] max-lg:w-full">
             <h2 className="text-2xl font-bold mb-4 text-[#733e3d]">
               What We Offer
             </h2>
@@ -124,7 +124,7 @@ const About = () => {
             <div className="bg-white rounded-lg shadow-md p-2">
               <Image src={img3} width={300} alt="hero" />
               <div className="flex justify-between items-center">
-                <h3 className="text-xl font-bold my-2">Tony Start</h3>
+                <h3 className="text-xl font-bold my-2">Tony Stark</h3>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"

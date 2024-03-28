@@ -41,7 +41,35 @@
   height: 110%;
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .hero-container::before {
+    z-index: -1;
+    top: -10%;
+    position: absolute;
+    content: "";
+    background-image: url("./assets/hero.jpg");
+    background-size: 150%;
+    background-repeat: no-repeat;
+    height: 110%;
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .hero-container::before {
+    z-index: -1;
+    top: -10%;
+    position: absolute;
+    content: "";
+    background-image: url("./assets/hero.jpg");
+    background-size: 232%;
+    background-repeat: no-repeat;
+    height: 110%;
+    width: 100%;
+  }
+}
 /* 
+
 .hero-video {
   position: absolute;
   top: -15%;

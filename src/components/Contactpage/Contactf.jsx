@@ -18,7 +18,7 @@ const Contactf = () => {
           Your browser does not support the video tag.
         </video>
         <div className="hero- flex justify-center items-center gap-0 py-40 h-full ">
-          <div className="left-description w-[50%]">
+          <div className="left-description w-[50%] max-lg:w-full max-md:p-3">
             {/* <span className="engage text-[#8AAAE5] text-lg font-bold mb-4">
               ENGAGED WITH STAFFING
             </span> */}

@@ -20,7 +20,7 @@ const Testimonials = () => {
   return (
     <>
       <div className="testiminilas max-w-7xl mx-auto mt-20">
-        <h2 className=" text-[#733e3d] text-3xl font-bold mb-4">
+        <h2 className=" text-[#733e3d] text-3xl font-bold mb-4 max-lg:text-center">
           Testimonials
         </h2>
       </div>
@@ -37,11 +37,31 @@ const Testimonials = () => {
           pagination={{
             clickable: true,
           }}
+          breakpoints={{
+            310: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            640: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 1,
+              spaceBetween: 40,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 50,
+            },
+          }}
           //   navigation={true}
           loop={true}
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper p-10 m-10 h-[500px]"
         >
+
+
           <SwiperSlide>
             <div className="bg-white rounded-lg overflow-hidden shadow-lg w-80 md:w-96">
               <div className="relative">
@@ -76,8 +96,10 @@ const Testimonials = () => {
               </p>
             </div>
           </SwiperSlide>
+
+
           <SwiperSlide>
-            <div className="bg-white rounded-lg overflow-hidden shadow-lg w-80 md:w-96">
+            <div className="bg-[#000]  rounded-lg overflow-hidden shadow-lg w-80 md:w-96">
               <div className="relative">
                 <Image
                   src={hero}
@@ -111,6 +133,9 @@ const Testimonials = () => {
               </p>
             </div>
           </SwiperSlide>
+
+
+
           <SwiperSlide>
             <div className="bg-white rounded-lg overflow-hidden shadow-lg w-80 md:w-96">
               <div className="relative">

@@ -8,13 +8,12 @@ const Web = () => {
     <>
       <div className="serviepageappdevs">
         <div className="w-full h-full relative max-lg:h-full">
-          <div className="flex max-lg:flex-col  max-lg:justify-center  max-lg:items-center   max-w-7xl mx-auto justify-center gap-40">
+          <div className="flex max-lg:flex-wrap-reverse  max-lg:justify-center  max-lg:items-center   max-w-7xl mx-auto justify-center gap-40">
             <div>
               <div className="w[359px]  max-md:w-full max-md:h-full  max-lg:w-[665px] max-lg:h-[800px] h-[434px] left-[730px] mt-[80px]  bg-zinc100 flex-col justify-center items-center inline-flex">
                 <Image src={img} width={600} alt="hero" />
               </div>
             </div>
-
             <div className="max-md:w-full">
               <div className="ml[80px] max-md:ml-0 mt-[80px]  flex-col justify-center items-start gap-[30px] inline-flex max-xl:ml-4">
                 <div className="flex-col justify-start items-start gap-[42px] flex">

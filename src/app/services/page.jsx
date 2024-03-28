@@ -8,10 +8,13 @@ const Services = () => {
   return (
     <>
       {/* <div>Services</div> */}
+      <div className="max-lg:px-4">
+
       <Servicepage/>
       <ItConcern/>
       <Hr/>
       <Web/>
+      </div>
     </>
   );
 };

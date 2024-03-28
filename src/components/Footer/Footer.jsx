@@ -5,12 +5,12 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer className="main-footer bg-color-1 bg-[#733e3d] ">
+      <footer className="main-footer bg-color-1 bg-[#733e3d] max-lg:p-4">
         <div className="pattern-layer"></div>
         <div className="auto-container max-w-6xl mx-auto">
           <div className="footer-top">
             <div className="widget-section">
-              <div className="flex clearfix">
+              <div className="flex clearfix max-md:flex-wrap">
                 <div className="col-lg-4 col-md-6 col-sm-12 footer-column">
                   <div className="footer-widget about-widget">
                     <div className="widget-title">

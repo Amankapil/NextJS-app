@@ -4,7 +4,17 @@ import { json } from "next";
 
 export async function POST(req, res) {
   if (req.method === "POST") {
-    const { name, email, resume } = req.body; // Parse JSON data directly
+    const {
+      name,
+      email,
+      resume,
+      number,
+      experience,
+      CTC,
+      ECTC,
+      location,
+      Notice,
+    } = req.body; // Parse JSON data directly
     let passedValue = await new Response(req.body).text();
     let bodyreq = JSON.parse(passedValue);
     console.log(bodyreq);
@@ -24,7 +34,7 @@ export async function POST(req, res) {
       from: email,
       to: "aman@hiringtech.in",
       subject: "New Resume Submission",
-      text: `Name: ${bodyreq.name}\nEmail: ${bodyreq.email}\nResume-Link: ${bodyreq.resume}`,
+      text: `Name: ${bodyreq.name}\nEmail: ${bodyreq.email}\nResume-Link: ${bodyreq.resume}\nConact: ${bodyreq.number}\nexperience: ${bodyreq.experience}\nCTC: ${bodyreq.CTC}\nECTC: ${bodyreq.ECTC}\nlocation: ${bodyreq.location}\nNotice-Period: ${bodyreq.Notice}`,
     };
 
     try {

@@ -9,7 +9,7 @@ import "./style.css";
 const Hero = () => {
   return (
     <>
-      <div className="hero-container h-[650px]">
+      <div className="hero-container h-[650px] max-lg:h-full">
         {/* <video
           controls
           preload="none"
@@ -26,7 +26,7 @@ const Hero = () => {
             {/* <span className="engage text-[#8AAAE5] text-lg font-bold mb-4">
               ENGAGED WITH STAFFING
             </span> */}
-            <h1 className="text-[102px] text-center text-[#000] font-bold leading-[120%] mt6">
+            <h1 className="text-[102px] max-sm:text-[50px] max-sm:p-1 text-center text-[#000] font-bold leading-[120%] mt6">
               Welcome to Hiring Tech
             </h1>
             {/* <p className="text-white font-medium text-[18px] mt-5">

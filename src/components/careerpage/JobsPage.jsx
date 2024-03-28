@@ -114,7 +114,13 @@ const JobsPage = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [resume, setResume] = useState("");
-  const [message, setMessage] = useState("");
+  const [number, setNumber] = useState("");
+  const [experience, setExperience] = useState("");
+  const [CTC, setCTC] = useState("");
+  const [ECTC, setECTC] = useState("");
+  const [location, setLocation] = useState("");
+  const [Notice, setNotice] = useState("");
+  // const [message, setMessage] = useState("");
 
   const handleFilterChange = (e) => {
     setFilter(e.target.value);
@@ -150,6 +156,12 @@ const JobsPage = () => {
         name: name,
         email: email,
         resume: resume,
+        number: number,
+        experience: experience,
+        CTC: CTC, 
+        ECTC: ECTC, 
+        location: location, 
+        Notice: Notice, 
       });
       alert(response.status);
       console.log(response.data.message);
@@ -195,7 +207,7 @@ const JobsPage = () => {
                   key={tag}
                   className="inline-block bg-[#733e3d] text-white px-2 py-1 rounded-md mr-2"
                 >
-                {tag}
+                  {tag}
                 </li>
               ))}
             </ul>
@@ -207,7 +219,7 @@ const JobsPage = () => {
           <div className="bg-white p-8 max-w-md rounded-lg">
             <div className="applyform">
               <div className="fixed w-full bsolute inset-0 flex justify-center overflow-croll items-center bg-white bg-opacity50  z-[99999999999999999999999999999999999999999]">
-                <div className="bg-white p-10 max-wxl rounded-lg overflowscroll  flex max-w-[1200px] gap-20 justify-center items-center">
+                <div className="bg-white p-10 max-wxl rounded-lg overflowscroll  flex max-w-[1200px] gap-20 justify-center items-center max-lg:flex-wrap">
                   <div className="job-discription max-w-xl overflow-y-scroll h-[500px] mt-20">
                     <h2 className="text-2xl font-semibold mb-4">
                       {selectedJob.title}
@@ -222,77 +234,128 @@ const JobsPage = () => {
                         key={tag}
                         className="lock list-disc text-black px-0 py-1 rounded-md mr-2"
                       >
-                      {tag}
+                        {tag}
                       </li>
                     ))}
                     <h2 className="text-2xl font-semibold mb-4">
                       Prerequisite
                     </h2>
                     {/* <ul className="list-outside list-disc p"> */}
-                      {selectedJob.Prerequisite.map((tag) => (
-                        <li
-                          key={tag}
-                          className="lock list-disc text-black px-0 py-1 rounded-md "
-                        >
+                    {selectedJob.Prerequisite.map((tag) => (
+                      <li
+                        key={tag}
+                        className="lock list-disc text-black px-0 py-1 rounded-md "
+                      >
                         {tag}
-                        </li>
-                      ))}
+                      </li>
+                    ))}
                     {/* </ul> */}
                   </div>
                   {/* <h2 className="text-2xl font-semibold mb-4">
                     {selectedJob.title}
                   </h2> */}
                   <div>
-                    <form onSubmit={handleSubmit}>
-                      <input
-                        type="text"
-                        name="name"
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                        placeholder="Your Name"
-                        className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
-                        required
-                      />
-                      <input
-                        type="email"
-                        name="email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        placeholder="Your Email"
-                        className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
-                        required
-                      />
-                      {/* <input
-                      type="text"
-                      name="position"
-                      value={position}
-                      onChange={handleInputChange}
-                      placeholder="Position Applied For"
-                      className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
-                      required
-                    /> */}
-                    <input
-                        type="text"
-                        name="resumelike"
-                        value={resume}
-                        onChange={(e) => setResume(e.target.value)}
-                        placeholder="Your Resume Link"
-                        className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
-                        required
-                      />
-                      {/* <input
-                        type="file"
-                        name="resume"
-                        accept=".pdf,.doc,.docx"
-                        onChange={handleFileChange}
-                        className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
-                        required
-                      /> */}
+                    <form
+                      onSubmit={handleSubmit}
+                      className="flx felx-wrap gap-20 h-full"
+                    >
+                      <div className="flex gap-4">
+                        <input
+                          type="text"
+                          name="name"
+                          value={name}
+                          onChange={(e) => setName(e.target.value)}
+                          placeholder="Your Name"
+                          className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
+                          required
+                        />
+                        <input
+                          type="email"
+                          name="email"
+                          value={email}
+                          onChange={(e) => setEmail(e.target.value)}
+                          placeholder="Your Email"
+                          className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
+                          required
+                        />
+                      </div>
+                      <div className="flex gap-4">
+                        <input
+                          type="text"
+                          name="number"
+                          value={number}
+                          onChange={(e) => setNumber(e.target.value)}
+                          placeholder="Your Number"
+                          className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
+                          required
+                        />
+                        <input
+                          type="number"
+                          name="exp"
+                          value={experience}
+                          onChange={(e) => setExperience(e.target.value)}
+                          placeholder="Experince you have"
+                          className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
+                          required
+                        />
+                      </div>
+
+                      <div className="flex gap-4">
+                        <input
+                          type="number"
+                          name="ctc"
+                          value={CTC}
+                          onChange={(e) => setCTC(e.target.value)}
+                          placeholder="Current CTC"
+                          className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
+                          required
+                        />
+                        <input
+                          type="number"
+                          name="ectc"
+                          value={ECTC}
+                          onChange={(e) => setECTC(e.target.value)}
+                          placeholder="Expected CTC"
+                          className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
+                          required
+                        />
+                      </div>
+                      <div className="flex gap-4">
+                        <input
+                          type="text"
+                          name="location"
+                          value={location}
+                          onChange={(e) => setLocation(e.target.value)}
+                          placeholder="Current location"
+                          className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
+                          required
+                        />
+                        <input
+                          type="number"
+                          name="notice"
+                          value={Notice}
+                          onChange={(e) => setNotice(e.target.value)}
+                          placeholder="Notice period "
+                          className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
+                          required
+                        />
+                      </div>
+                      <div className="flex gap-4">
+                        <input
+                          type="text"
+                          name="resume"
+                          value={resume} 
+                          onChange={(e) => setResume(e.target.value)}
+                          placeholder="paste resume link here"
+                          className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
+                          required
+                        />
+                      </div>
                       <button
                         type="submit"
-                        className="bg-blue-500 text-white py-2 px-4 rounded-md"
+                        className="hover:bg-[#dc4c51] bg-[#733e3d] text-white py-2 px-4 rounded-md w-full"
                       >
-                        Submit
+                        Apply Now
                       </button>
                     </form>
                     <div className="absolute right-20 top-20">

@@ -5,7 +5,7 @@ import Hero from "@/components/homepage/Hero";
 import Services from "@/components/homepage/Services";
 import Techstack from "@/components/homepage/Techstack";
 import Testimonials from "@/components/homepage/Testimonials";
-import Vision from "@/components/homepage/assets/Vision";
+import Vision from "@/components/homepage/Vision";
 // import Clients from "@/components/homepage/Clients";
 import Image from "next/image";
 
@@ -15,13 +15,14 @@ export default function Home() {
   return (
     <>
       {/* <Header /> */}
-
-      <Hero />
-      <Vision />
-      <About />
-      <Services />
-      <Techstack />
-      <Testimonials />
+      <div className="max-xlpx-3">
+        <Hero />
+        <Vision />
+        <About />
+        <Services />
+        <Techstack />
+        <Testimonials />
+      </div>
       {/* <Clients /> */}
       {/* <Footer/> */}
     </>
