@@ -7,8 +7,8 @@ const jobsData = [
   {
     id: 1,
     title: "Sr Java developer",
-    location: "Indore",
-    tags: ["Indore", "Indore", "Java Spring boot ", "Python"],
+    location: "Remote",
+    tags: ["Java Spring boot ", "Python"],
     description:
       "Advertisement technology or ad-tech is an $800 billion industry.  Brands rely on targeting consumers across digital ecosystem yet there are not unified solutions which simplify the complex. Tech leaders Google, Meta, even largest consumer tech companies like Amazon, Uber, Netflix rely on advertising revenue with an ever-evolving ecosystem, the problem statements are diverse, high velocity, and technically challenging for the advertisers. We’re a passionate team with experience that includes building a unicorn programmatic media company, & the development of many of the product & technologies used in scale ad targeting, measurement on digital platforms.",
     responsiblity: [
@@ -57,7 +57,7 @@ const jobsData = [
   {
     id: 3,
     title: "Backend Developer",
-    location: "Pune",
+    location: "Remote",
     tags: ["Node.js", "MongoDB"],
     description:
       "Advertisement technology or ad-tech is an $800 billion industry.  Brands rely on targeting consumers across digital ecosystem yet there are not unified solutions which simplify the complex. Tech leaders Google, Meta, even largest consumer tech companies like Amazon, Uber, Netflix rely on advertising revenue with an ever-evolving ecosystem, the problem statements are diverse, high velocity, and technically challenging for the advertisers. We’re a passionate team with experience that includes building a unicorn programmatic media company, & the development of many of the product & technologies used in scale ad targeting, measurement on digital platforms.",
@@ -82,7 +82,7 @@ const jobsData = [
   {
     id: 4,
     title: "Seo Specialist",
-    location: "Bhopal",
+    location: "Remote",
     tags: ["Google ads", "Seo Tool"],
     description:
       "Advertisement technology or ad-tech is an $800 billion industry.  Brands rely on targeting consumers across digital ecosystem yet there are not unified solutions which simplify the complex. Tech leaders Google, Meta, even largest consumer tech companies like Amazon, Uber, Netflix rely on advertising revenue with an ever-evolving ecosystem, the problem statements are diverse, high velocity, and technically challenging for the advertisers. We’re a passionate team with experience that includes building a unicorn programmatic media company, & the development of many of the product & technologies used in scale ad targeting, measurement on digital platforms.",
@@ -110,7 +110,6 @@ const JobsPage = () => {
   const [filter, setFilter] = useState("");
   const [filteredJobs, setFilteredJobs] = useState(jobsData);
   const [selectedJob, setSelectedJob] = useState(null);
-
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [resume, setResume] = useState("");
@@ -120,7 +119,7 @@ const JobsPage = () => {
   const [ECTC, setECTC] = useState("");
   const [location, setLocation] = useState("");
   const [Notice, setNotice] = useState("");
-  // const [message, setMessage] = useState("");
+  const [load, setLoad] = useState(false);
 
   const handleFilterChange = (e) => {
     setFilter(e.target.value);
@@ -148,26 +147,30 @@ const JobsPage = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(name);
-    console.log(email);
-    console.log(resume);
+
     try {
+      setLoad(true);
       const response = await axios.post("/api", {
         name: name,
         email: email,
         resume: resume,
         number: number,
         experience: experience,
-        CTC: CTC, 
-        ECTC: ECTC, 
-        location: location, 
-        Notice: Notice, 
+        CTC: CTC,
+        ECTC: ECTC,
+        location: location,
+        Notice: Notice,
       });
-      alert(response.status);
-      console.log(response.data.message);
+      if (response.status == 200) {
+        // setLoad(true);
+        alert("Mail sent successfully");
+      }
+      // console.log(response.data.message);
     } catch (error) {
       alert("Failed to send email");
       console.error("Error occurred while sending email:", error);
+    } finally {
+      setLoad(false); // Reset load state back to false after submission
     }
   };
 
@@ -344,7 +347,7 @@ const JobsPage = () => {
                         <input
                           type="text"
                           name="resume"
-                          value={resume} 
+                          value={resume}
                           onChange={(e) => setResume(e.target.value)}
                           placeholder="paste resume link here"
                           className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
@@ -354,8 +357,9 @@ const JobsPage = () => {
                       <button
                         type="submit"
                         className="hover:bg-[#dc4c51] bg-[#733e3d] text-white py-2 px-4 rounded-md w-full"
+                        disabled={load}
                       >
-                        Apply Now
+                        {load ? "loading" : "Apply Now"}
                       </button>
                     </form>
                     <div className="absolute right-20 top-20">
