@@ -28,6 +28,7 @@ export async function POST(req, res) {
       auth: {
         user: "amankapil60@gmail.com",
         pass: "czxrbthlorqlfxkt",
+        // hkhc iawp pvad mvyd
       },
     });
 
