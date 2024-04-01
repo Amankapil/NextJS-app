@@ -1,5 +1,6 @@
 .main-footer {
   position: relative;
+  z-index: 50;
 }
 
 .pattern-layer {

@@ -35,7 +35,7 @@ const Header = () => {
     <>
       {width <= 900 ? (
         <>
-          <header className="bg-[#733e3d] bg-opacity-50 backdrop-blur-[110.60px] p-4 w-full mx-auto sticky top-5 h[100px] rounded-full z-[999999999990]">
+          <header className="bg-[#733e3d] bg-opacity-50 backdrop-blur-[110.60px] p-4 w-full mx-auto sticky top-5 h[100px] rounded-full z-[9990]">
             <div className="header flex justify-between gap-20 max-w-7xl mx-auto items-center">
               <div className="logo">
                 <Link href="/">
@@ -75,7 +75,7 @@ const Header = () => {
               </button>
               {/* <nav className="flex gap-6 text-base font-medium text-white items-center "> */}
               <div
-                class={`lists flex items-center justify-between flex-col ${
+                className={`lists flex items-center justify-between flex-col ${
                   active ? "active " : ""
                 }`}
               >
@@ -123,7 +123,7 @@ const Header = () => {
         </>
       ) : (
         <>
-          <header className="bg-[#733e3d] bg-opacity-50 backdrop-blur-[110.60px] p-4 w-[90%] mx-auto sticky top-5 h[100px] rounded-full z-[999999999990]">
+          <header className="bg-[#733e3d] bg-opacity-50 backdrop-blur-[110.60px] p-4 w-[90%] mx-auto sticky top-5 h[100px] rounded-full z-[999990]">
             <div className="header flex justify-between gap-20 max-w-7xl mx-auto items-center">
               <div className="logo">
                 <Link href="/">

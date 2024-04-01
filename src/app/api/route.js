@@ -30,6 +30,8 @@ export async function POST(req, res) {
         pass: "czxrbthlorqlfxkt",
       },
     });
+
+    
     const mailData = {
       from: bodyreq.email,
       to: "hr@hiringtech.in",

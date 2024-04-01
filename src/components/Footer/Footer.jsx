@@ -5,7 +5,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer className="main-footer bg-color-1 bg-[#733e3d] max-lg:p-4">
+      <footer className="main-footer bg-color-1 bg-[#733e3d] max-lg:p-4 z-50">
         <div className="pattern-layer"></div>
         <div className="auto-container max-w-6xl mx-auto">
           <div className="footer-top">
@@ -23,9 +23,10 @@ const Footer = () => {
                         <i className="fas fa-arrow-up"></i>
                       </p>
                       <p>
-                       India<br />
-                        919 9th floor shekhar Central Indore  <br />
-                       MP 462010.
+                        India
+                        <br />
+                        919 9th floor shekhar Central Indore <br />
+                        MP 462010.
                       </p>
                     </div>
                     {/* <ul class="social-links clearfix">
@@ -105,7 +106,7 @@ const Footer = () => {
                           <Link href="tel:8004561234">+91 877-0161528</Link>
                         </li>
                         <li>
-                          <Link href="mailto:businesspartner@example.com">
+                          <Link href="mailto:hr@hiringtech.in">
                             hr@hiringtech.in
                           </Link>
                         </li>
@@ -120,7 +121,7 @@ const Footer = () => {
                           <Link href="tel:8004560123">+91 877-0161528</Link>
                         </li>
                         <li>
-                          <Link href="mailto:hr@hiringtech.in">
+                          <Link href="mailto:career@hiringtech.in">
                             career@hiringtech.in
                           </Link>
                         </li>

@@ -32,7 +32,6 @@
 .hero-container::before {
   z-index: -1;
   top: -10%;
-  /* position: relative; */
   position: absolute;
   content: "";
   background-image: url("./assets/hero.jpg");

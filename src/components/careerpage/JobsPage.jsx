@@ -174,17 +174,6 @@ const JobsPage = () => {
     }
   };
 
-  // const handleFileChange = (e) => {
-  //   const file = e.target.files[0];
-  //   if (file) {
-  //     const reader = new FileReader();
-  //     reader.readAsDataURL(file);
-  //     reader.onload = () => {
-  //       setResume(reader.result);
-  //     };
-  //   }
-  // };
-
   return (
     <div className="container mx-auto p-4 max-w-6xl mb-20">
       <h1 className="text-3xl font-bold mb-4">Job Listings</h1>
@@ -218,12 +207,12 @@ const JobsPage = () => {
         ))}
       </ul>
       {selectedJob && (
-        <div className="fixd inset-0 flex justify-center items-center bg-gray-900 bg-opacity-50">
+        <div className="fixd inset-0 flex justify-center items-center bg-gray-900 bg-opacity-50 z-[9999999999999999999999999999999999999999999999999]">
           <div className="bg-white p-8 max-w-md rounded-lg">
             <div className="applyform">
-              <div className="fixed w-full bsolute inset-0 flex justify-center overflow-croll items-center bg-white bg-opacity50  z-[99999999999999999999999999999999999999999]">
-                <div className="bg-white p-10 max-wxl rounded-lg overflowscroll  flex max-w-[1200px] gap-20 justify-center items-center max-lg:flex-wrap">
-                  <div className="job-discription max-w-xl overflow-y-scroll h-[500px] mt-20">
+              <div className="fixed w-full bsolute inset-0 flex justify-center overflow-croll items-center bg-white bg-opacity50  z-[9999999999999999999999999999999999999999999999999]">
+                <div className="bg-white p-10 max-wxl rounded-lg overflowscroll  flex max-w-[1200px] gap-20 max-sm:gap-4 justify-center items-center max-lg:flex-wrap">
+                  <div className="job-discription max-w-xl overflow-y-scroll h-[500px] mt-20 max-sm:h-[300px] max-sm:mt-4">
                     <h2 className="text-2xl font-semibold mb-4">
                       {selectedJob.title}
                     </h2>
@@ -362,7 +351,7 @@ const JobsPage = () => {
                         {load ? "loading" : "Apply Now"}
                       </button>
                     </form>
-                    <div className="absolute right-20 top-20">
+                    <div className="absolute right-20 top-20 max-sm:right-4  max-sm:top-4">
                       <button
                         type="reset"
                         className="bg-gray-300 text-gray-800 py-2 px-4 rounded-md ml-2"
