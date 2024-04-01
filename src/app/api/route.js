@@ -21,18 +21,16 @@ export async function POST(req, res) {
 
     // const pdfBase64 = bodyreq.resume.toString("base64");
     // const resumeContent = Buffer.from(resume, "base64");
-
     // Create a Nodemailer transporter using SMTP transport
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "amankapil60@gmail.com",
-        pass: "czxrbthlorqlfxkt",
+        user: "aman@hiringtech.in",
+        pass: "hkhciawppvadmvyd",
         // hkhc iawp pvad mvyd
       },
     });
 
-    
     const mailData = {
       from: bodyreq.email,
       to: "hr@hiringtech.in",
