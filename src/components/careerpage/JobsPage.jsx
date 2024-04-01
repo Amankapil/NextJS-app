@@ -352,7 +352,7 @@ const JobsPage = () => {
                         {load ? "loading" : "Apply Now"}
                       </button>
                     </form>
-                    <div className="absolute right-32 top-20 max-sm:right-4  max-sm:top-32">
+                    <div className="absolute right-20 top-32 max-sm:right-4  max-sm:top-32">
                       <button
                         type="reset"
                         className="bg-gray-300 text-gray-800 py-2 px-4 rounded-md ml-2"
