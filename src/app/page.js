@@ -3,6 +3,7 @@ import Header from "@/components/Header/Header";
 import About from "@/components/homepage/About";
 import Hero from "@/components/homepage/Hero";
 import Services from "@/components/homepage/Services";
+import Techno from "@/components/homepage/Techno";
 import Techstack from "@/components/homepage/Techstack";
 import Testimonials from "@/components/homepage/Testimonials";
 import Vision from "@/components/homepage/Vision";
@@ -21,6 +22,7 @@ export default function Home() {
         <About />
         <Services />
         <Techstack />
+        {/* <Techno /> */}
         <Testimonials />
       </div>
       {/* <Clients /> */}

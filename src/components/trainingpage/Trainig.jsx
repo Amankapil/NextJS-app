@@ -1,6 +1,70 @@
-import React from "react";
+"use client";
+import axios from "axios";
+import React, { useState } from "react";
 
 const Trainig = () => {
+  const [loading, setLoading] = useState(false);
+  const initializeRazorpay = () => {
+    return new Promise((resolve) => {
+      const script = document.createElement("script");
+      script.src = "https://checkout.razorpay.com/v1/checkout.js";
+
+      script.onload = () => {
+        resolve(true);
+      };
+      script.onerror = () => {
+        resolve(false);
+      };
+
+      document.body.appendChild(script);
+    });
+  };
+
+  const makePayment = async () => {
+    setLoading(true);
+    const res = await initializeRazorpay();
+
+    if (!res) {
+      alert("Razorpay SDK Failed to load");
+      setLoading(false);
+      return;
+    }
+
+    // Make API call to the serverless API
+    const data = await fetch("/api/razorpay", { method: "POST" }).then((t) =>
+      t.json()
+    );
+
+    // const data = await axios.post("/api/contact").then((t) => {
+    //   console.log(t);
+    // });
+    console.log(data);
+    var options = {
+      key: rzp_test_WjOtHCtWT76ZeX, // Enter the Key ID generated from the Dashboard
+      name: "Manu Arora Pvt Ltd",
+      currency: data.currency,
+      amount: data.amount,
+      order_id: data.id,
+      description: "Thankyou for your test donation",
+      image: "https://manuarora.in/logo.png",
+      handler: function (response) {
+        // Validate payment at server - using webhooks is a better idea.
+        alert(response.razorpay_payment_id);
+        alert(response.razorpay_order_id);
+        alert(response.razorpay_signature);
+        setLoading(false);
+      },
+      prefill: {
+        name: "Manu Arora",
+        email: "manuarorawork@gmail.com",
+        contact: "9999999999",
+      },
+    };
+
+    const paymentObject = new window.Razorpay(options);
+    paymentObject.open();
+  };
+
   return (
     <section className="w-full py-6 md:py-12">
       <div className="container px4 md:px6">
@@ -49,8 +113,19 @@ const Trainig = () => {
               </div>
             </div>
             <div className="flex justify-center py-6 w-full">
-              <button className="hover:bg-[#dc4c51] bg-[#733e3d] text-white p-4 rounded-full w-full">
-                Add to Cart
+              {/* <button
+                onClick={makePayment}
+                className="hover:bg-[#dc4c51] bg-[#733e3d] text-white p-4 rounded-full w-full"
+              >
+                Buy Now
+              </button> */}
+
+              <button
+                onClick={makePayment}
+                disabled={loading}
+                className="hover:bg-[#dc4c51] bg-[#733e3d] text-white p-4 rounded-full w-full"
+              >
+                {loading ? "Loading..." : "Add to Cart"}
               </button>
             </div>
           </div>
@@ -121,7 +196,7 @@ const Trainig = () => {
                 </p>
               </div>
               <div className="grid gap-4">
-              <div className="flex items-center space-x-2">
+                <div className="flex items-center space-x-2">
                   <CheckCircleIcon className="w-4 h-4 flex-shrink-0" />
                   <span>NODEJS, EXPRESSJS, MONGODB</span>
                 </div>

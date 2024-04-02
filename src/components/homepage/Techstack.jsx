@@ -9,50 +9,52 @@ import hero6 from "./assets/github.3b9e32903aa89111875d.png";
 import hero7 from "./assets/graphql.fc6b9451733c620ceb86.png";
 import hero8 from "./assets/tailwind.e47ac876b8d4d0bba47a.png";
 
+import "./style.css";
+
 const Techstack = () => {
   return (
     <>
-      <div className="techstack">
-        <div className="max-w-7xl mx-auto p-4 flex flex-col justify-center w-full h-full text-black">
+      <div className="techstack w-full overflow-hidden">
+          <p className=" text-[#733e3d] text-3xl mx-auto w-full max-w-7xl mb-4 font-bold border-b4 bordergray-500 p-2 flex max-lg:text-center">
+            Technology we serve
+          </p>
+        <div className="w-[150%]">
           {/* <div> */}
-            <p className=" text-[#733e3d] text-3xl mb-4 font-bold border-b4 bordergray-500 p-2 inline max-lg:text-center">
-              Technology we serve
-            </p>
-           {/* </div>  */}
-          <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
-            <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg ">
+          {/* </div>  */}
+          <div className="w-full flex  rid gridcols-2  gap-8 overflw-hidden text-center py-8 px12 sm:px-0  mytech">
+            <div className=" w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
               <Image src={hero} width={200} alt="" className="w-20 mx-auto" />
               <p className="mt-4">HTML</p>
             </div>
-            <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg ">
+            <div className="w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno ">
               <Image src={hero4} width={200} alt="" className="w-20 mx-auto" />
 
               <p className="mt-4">CSS</p>
             </div>
-            <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg ">
+            <div className=" w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
               <Image src={hero2} width={200} alt="" className="w-20 mx-auto" />
 
               <p className="mt-4">JavaScript</p>
             </div>
-            <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg ">
+            <div className=" w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
               <Image src={hero3} width={200} alt="" className="w-20 mx-auto" />
               <p className="mt-4">React</p>
             </div>
-            <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg ">
+            <div className=" w-[50%] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
               <Image src={hero8} width={200} alt="" className="w-20 mx-auto" />
 
               <p className="mt-4">Tailwind</p>
             </div>
-            <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg ">
+            <div className=" w-[50%] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
               <Image src={hero5} width={200} alt="" className="w-20 mx-auto" />
               <p className="mt-4">Next JS</p>
             </div>
-            <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg ">
+            <div className=" w-[50%] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
               <Image src={hero7} width={200} alt="" className="w-20 mx-auto" />
 
               <p className="mt-4">GraphQL</p>
             </div>
-            <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg ">
+            <div className=" w-[50%] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
               <svg
                 className="w-20 mx-auto"
                 xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +66,7 @@ const Techstack = () => {
 
               <p className="mt-4">GitHub</p>
             </div>
-            <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg ">
+            <div className=" w-[50%] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
               <svg
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"

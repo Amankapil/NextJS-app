@@ -34,7 +34,8 @@
   top: -10%;
   position: absolute;
   content: "";
-  background-image: url("./assets/hero.jpg");
+  /* background-image: url("./assets/hero.jpg"); */
+  background-image: url("./assets/herobg.avif");
   background-size: 100%;
   background-repeat: no-repeat;
   height: 110%;
@@ -86,3 +87,46 @@
   text-align: center;
   padding: 50px;
 } */
+
+/* .animate-slide-to-right {
+  animation: slide_to_right 50s linear infinite;
+} */
+.mytech {
+  animation: slide_to_right 60s linear infinite;
+}
+
+.techno {
+  width: 250px;
+  filter: grayscale(100%);
+}
+.techno:hover {
+  filter: grayscale(0%);
+}
+.animate-slide-to-right ul li {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 65px;
+  padding-right: 60px;
+  color: #05164d;
+  opacity: 0.2;
+  width: 100%;
+}
+
+.animate-slide-to-right a {
+  color: #212121;
+  text-decoration: none;
+  display: block;
+  /* width: 100%; */
+}
+@keyframes slide_to_right {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(-40%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}

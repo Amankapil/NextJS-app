@@ -26,9 +26,15 @@ const Hero = () => {
             {/* <span className="engage text-[#8AAAE5] text-lg font-bold mb-4">
               ENGAGED WITH STAFFING
             </span> */}
-            <h1 className="text-[102px] max-sm:text-[50px] max-sm:p-1 text-center text-[#000] font-bold leading-[120%] mt6">
-              Welcome to Hiring Tech
+            <h1 className="text-[50px] w-full max-w-6xl mx-auto max-sm:text-[25px] max-sm:p-1 text-center text-[#fff] font-bold leading-[120%] mt6">
+              Cultivating Innovation, Crafting Success: Pioneering Tech
+              Transformation Together
             </h1>
+            <p className="w-[50%] text-center max-lg:w-full mx-auto opacity-85 mt-8 text-[#fff] ">
+              Information Technology Consulting Services IT Consulting services
+              integrate new systems, ensure robust cybersecurity, or navigate
+              the rapid pace of tech advancements.
+            </p>
             {/* <p className="text-white font-medium text-[18px] mt-5">
               By way of us you can achieve what you want.
             </p> */}
