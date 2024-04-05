@@ -1,7 +1,12 @@
 import React from "react";
 import "./footer.css";
 import Link from "next/link";
+import Image from "next/image";
 
+import tweet from "./assets/Vector (2).svg";
+import tweet2 from "./assets/Vector (3).svg";
+import tweet3 from "./assets/Vector.svg";
+import tweet4 from "./assets/facebook-3-3 2.svg";
 const Footer = () => {
   return (
     <>
@@ -29,31 +34,19 @@ const Footer = () => {
                         MP 462010.
                       </p>
                     </div>
-                    {/* <ul class="social-links clearfix">
-                      <li>
-                        <h5>Connected:</h5>
-                      </li>
-                      <li>
-                        <a href="index.html">
-                          <i class="fab fa-facebook-f"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="index.html">
-                          <i class="fab fa-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="index.html">
-                          <i class="fab fa-google-plus-g"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="index.html">
-                          <i class="fab fa-youtube"></i>
-                        </a>
-                      </li>
-                    </ul> */}
+                    <div class="follow-us flex items-start justify-start mt-5 mb-10">
+                      <div class="follow mr-6 text-white">Follow us on</div>
+                      <div class="link-icon flex mr-5 gap-4 justify-center items-center ">
+                        <Link href="https://x.com/">
+                          <Image src={tweet2} alt="" />
+                        </Link>
+                        <Link href="https://x.com/">
+                          <Image src={tweet} alt="" />
+                        </Link>
+                        <Image src={tweet3} alt="" />
+                        <Image src={tweet4} alt="" />
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 footer-column">

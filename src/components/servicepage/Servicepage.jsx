@@ -6,8 +6,8 @@ import Image from "next/image";
 
 import img from "./assets/it.webp";
 import img2 from "./assets/trainin.jpg";
+import "./service.scss";
 const Servicepage = () => {
-  
   const [data, setData] = useState(0);
   const handleclick = () => {
     setData(data + 1);
@@ -18,13 +18,13 @@ const Servicepage = () => {
       {/* <button onClick={handleclick}>add</button>
       {data} */}
 
-      <div class="w-full max-w-7xl mx-auto ">
-        <div class="w-4px] text-400 text-black text-[87.74px]  font-normal font['Graphik'] leading-[108%] max-md:text-[50px] max-md:leading-[54px]  max-lg:text-[70px] max-lg:leading-[7px] text-center flex justify-center items-center h-[400px]">
+      <div class="w-full bggrayy">
+        <div class="w-4px] text-400 text-white text-[87.74px]  font-normal font['Graphik'] leading-[108%] max-md:text-[50px] max-md:leading-[54px] max-w-7xl mx-auto max-lg:text-[70px] max-lg:leading-[7px] text-center flex justify-center items-center h-[600px]">
           <div>We must continue to innovate, and re-innovate every day.</div>
         </div>
       </div>
       <>
-        <div className="serviepageappdevs">
+        <div className="serviepageappdevs  max-w-7xl mx-auto">
           <div className="w-full h-full relative max-lg:h-full">
             <div className="flex max-lg:flex-col  max-lg:justify-center  max-lg:items-center   max-w-7xl mx-auto justify-center">
               <div className="max-md:w-full">
@@ -41,7 +41,19 @@ const Servicepage = () => {
                         Tech training
                       </div>
                       <div className="w-[513.61px] max-md:w-full opacity80 text-black text-[18px] font-normal font[''] leading-normal">
-                      In our tech training consultancy, we provide comprehensive programs tailored to the ever-evolving tech landscape. Our courses cover a broad spectrum of topics, including programming languages, software development, data science, cybersecurity, and more. With experienced instructors and hands-on learning opportunities, we offer flexible formats such as online courses, workshops, and personalized coaching sessions. Whether you're a beginner or an experienced professional, our training equips you with the skills and knowledge to thrive in the tech industry. Stay ahead of the curve with our cutting-edge curriculum and unlock new opportunities in the dynamic world of technology.
+                        In our tech training consultancy, we provide
+                        comprehensive programs tailored to the ever-evolving
+                        tech landscape. Our courses cover a broad spectrum of
+                        topics, including programming languages, software
+                        development, data science, cybersecurity, and more. With
+                        experienced instructors and hands-on learning
+                        opportunities, we offer flexible formats such as online
+                        courses, workshops, and personalized coaching sessions.
+                        Whether you're a beginner or an experienced
+                        professional, our training equips you with the skills
+                        and knowledge to thrive in the tech industry. Stay ahead
+                        of the curve with our cutting-edge curriculum and unlock
+                        new opportunities in the dynamic world of technology.
                       </div>
                     </div>
                     {/* <button className="px-8 py-4 rounded-[31px] border border-black justify-center items-center gap-2 inline-flex hover:bg-yellow-400 transition-all  hover:border-yellow-400 max-sm:w-full">
@@ -73,7 +85,6 @@ const Servicepage = () => {
 
               <div>
                 <div className="w[359px]  max-md:w-full max-md:h-full  max-lg:w-[665px] max-lg:h-[800px] h-[434px] left-[730px] mt-[80px]  bg-inc-100 flex-col justify-center items-center inline-flex">
-                 
                   <Image src={img} width={700} alt="hero" />
                 </div>
               </div>

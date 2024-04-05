@@ -30,7 +30,7 @@ const Hero = () => {
               Cultivating Innovation, Crafting Success: Pioneering Tech
               Transformation Together
             </h1>
-            <p className="w-[50%] text-center max-lg:w-full mx-auto opacity-85 mt-8 text-[#fff] ">
+            <p className="w-[50%] text-center max-lg:w-full mx-auto opacity85 mt-8 text-[#fff] ">
               Information Technology Consulting Services IT Consulting services
               integrate new systems, ensure robust cybersecurity, or navigate
               the rapid pace of tech advancements.

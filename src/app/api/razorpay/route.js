@@ -21,19 +21,20 @@ export async function POST(req, res) {
       payment_capture,
     };
 
-    try {
-      const response = await razorpay.orders.create(options);
-      res.status(200).json({
-        id: response.id,
-        currency: response.currency,
-        amount: response.amount,
-      });
+    // try {
+    const response = await razorpay.orders.create(options);
+    res.status(200).json({
+      id: response.id,
+      currency: response.currency,
+      amount: response.amount,
+    });
+    // } catch (err) {
+    //   console.error("Error creating Razorpay order:");
+    //   // res.status(500).json({ message: "Error creating Razorpay order" });
+    //   // return "error in razorpay";
+    //   return NextResponse({ message: "Email sent successfully!" });
 
-      
-    } catch (err) {
-      console.log("Error occurred:");
-      // res.status(500).json({ message: "Error creating Razorpay order" });
-    }
+    // }
   } else {
     res.setHeader("Allow", ["POST"]);
     return res.status(405).end(`Method ${req.method} Not Allowed`);

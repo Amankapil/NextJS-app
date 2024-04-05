@@ -7,9 +7,12 @@ import img from "./asstes/s2.webp";
 // import img2 from "./asstes/offer.jpg";
 import img2 from "./asstes/offers.webp";
 import img3 from "./asstes/profil.jpg";
+import './about.scss'
 const About = () => {
+
+  
   return (
-    <div className="bggray-100 min-h-screen max-w-7xl mx-auto">
+    <div className=" min-hscreen ">
       <Head>
         <title>About Us</title>
         <meta
@@ -27,12 +30,16 @@ const About = () => {
         </div>
       </header> */}
 
-      <div class="w-full max-w-7xl mx-auto ">
-        <div class="w-4px] text-400 text-black text-[87.74px]  font-normal font['Graphik'] leading-[108%] max-md:text-[50px] max-md:leading-[54px]  max-lg:text-[70px] max-lg:leading-[7px] text-center flex justify-center items-center h-[400px]">
-          <div>Empowering Connections, Inspiring Futures.</div>
+      <div class="w-full h-[700px] max-w7xl mxauto bggray ">
+        <div class="w-4px] text-400 text-white text-[87.74px]  font-normal font['Graphik'] leading-[108%] max-md:text-[50px] max-md:leading-[54px] max-w-7xl mx-auto  max-lg:text-[70px] max-lg:leading-[7px] text-center flex justify-center items-center h-[500px]">
+          <h1>Empowering Connections, Inspiring Futures.</h1>
         </div>
       </div>
-      <div className="container mx-auto px-4 py-8 ">
+
+
+
+
+      <div className="container max-w-7xl mx-auto px-4 py-8 ">
         <section className="mb-8 flex justify-between items-center gap-20 max-lg:flex-wrap">
           <div className="w-[50%] max-lg:w-full">
             <h2 className="text-2xl font-bold mb-4 text-[#733e3d]">

@@ -17,6 +17,7 @@
     "razorpay": "^2.9.2",
     "react": "^18",
     "react-dom": "^18",
+    "react-dropzone": "^14.2.3",
     "sass": "^1.72.0",
     "shortid": "^2.2.16",
     "swiper": "^11.0.7"

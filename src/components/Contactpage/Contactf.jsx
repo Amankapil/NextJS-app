@@ -6,7 +6,7 @@ const Contactf = () => {
   return (
     <>
       <div className="hero-container">
-        <video
+        {/* <video
           controls
           preload="true"
           autoPlay
@@ -16,7 +16,7 @@ const Contactf = () => {
         >
           <source src={herok} type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
         <div className="hero- flex justify-center items-center gap-0 py-40 h-full ">
           <div className="left-description w-[50%] max-lg:w-full max-md:p-3">
             {/* <span className="engage text-[#8AAAE5] text-lg font-bold mb-4">

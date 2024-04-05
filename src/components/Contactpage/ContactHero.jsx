@@ -36,8 +36,8 @@ const ContactHero = () => {
           Got any queries? Feel free to connect with us!
         </h1>
 
-        <div className="flex justify-start gap-20 items-start max-lg:flex-wrap max-lg:justify-center">
-          <div className="contact-form">
+        <div className="flex justify-start mt-20 gap-20 items-start max-lg:flex-wrap max-lg:justify-center max-w-7xl mx-auto">
+          <div className="contact-form wfull">
             <div className="form">
               <div className="form-div">
                 <input
@@ -85,10 +85,10 @@ const ContactHero = () => {
             {/* <h1 className="address-head">Office</h1> */}
 
             <div>
-              <div className="mapouter w-[600px] h-[500px] max-md:w-full">
+              <div className="mapouter w-[500px] h-[500px] max-md:w-full">
                 <div className="gmap_canvas">
                   <iframe
-                    className="gmap_iframe w-[600px] h-[500px] max-md:w-full"
+                    className="gmap_iframe w-[500px] h-[500px] max-md:w-full"
                     frameborder="0"
                     scrolling="no"
                     marginheight="0"
