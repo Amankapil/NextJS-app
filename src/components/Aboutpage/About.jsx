@@ -42,7 +42,7 @@ const About = () => {
       <div className="container max-w-7xl mx-auto px-4 py-8 ">
         <section className="mb-8 flex justify-between items-center gap-20 max-lg:flex-wrap">
           <div className="w-[50%] max-lg:w-full">
-            <h2 className="text-2xl font-bold mb-4 text-[#733e3d]">
+            <h2 className="text-4xl font-bold mb-4 text-[#062b43]">
               Our Mission
             </h2>
             <p className="text-gray-700 text-[18px]">
@@ -77,7 +77,7 @@ const About = () => {
             <Image src={img2} width={600} alt="hero" />
           </div>
           <div className="w-[50%] max-lg:w-full">
-            <h2 className="text-2xl font-bold mb-4 text-[#733e3d]">
+            <h2 className="text-4xl font-bold mb-4 text-[#062b43]">
               What We Offer
             </h2>
             <p className="text-gray-700 text-[18px]">
@@ -107,7 +107,7 @@ const About = () => {
         </section>
 
         <section className="mb-28">
-          <h2 className="text-2xl font-bold mb-10 text-[#733e3d]">
+          <h2 className="text-4xl font-bold mb-10 text-[#062b43]">
             Meet Our Team
           </h2>
           <div className="flex gap-10 flex-wrap justify-center">

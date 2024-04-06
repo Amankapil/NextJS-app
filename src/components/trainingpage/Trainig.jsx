@@ -69,10 +69,10 @@ const Trainig = () => {
     <section className="w-full py-6 md:py-12">
       <div className="container px4 md:px6">
         <div className="flex flex-wrap justify-center items-center gap-10 ">
-          <div className="card border-1 shadow-2xl p-12 border-[#733e3d] max-w-[400px]">
+          <div className="card border-1 shadow-2xl p-12 border-[#062b43] max-w-[400px]">
             <div className="flex flex-col items-start py-3">
               <h3 className="text-3xl font-bold">FrontEnd Developer</h3>
-              <p className="text-[#733e3d] darkxt-gray-400 mt-3">
+              <p className="text-[#062b43] darkxt-gray-400 mt-3">
                 <span className="text-3xl">6000rs</span>
                 {/* <span>/m0</span> */}
               </p>
@@ -115,7 +115,7 @@ const Trainig = () => {
             <div className="flex justify-center py-6 w-full">
               {/* <button
                 onClick={makePayment}
-                className="hover:bg-[#dc4c51] bg-[#733e3d] text-white p-4 rounded-full w-full"
+                className="hover:bg-[#dc4c51] bg-[#062b43] text-white p-4 rounded-full w-full"
               >
                 Buy Now
               </button> */}
@@ -123,17 +123,17 @@ const Trainig = () => {
               <button
                 onClick={makePayment}
                 disabled={loading}
-                className="hover:bg-[#dc4c51] bg-[#733e3d] text-white p-4 rounded-full w-full"
+                className="hover:bg-[#000] bg-[#062b43] text-white p-4 rounded-full w-full"
               >
                 {loading ? "Loading..." : "Add to Cart"}
               </button>
             </div>
           </div>
 
-          <div className="card border-1 shadow-2xl p-12 border-[#733e3d] max-w-[410px]">
+          <div className="card border-1 shadow-2xl p-12 border-[#062b43] max-w-[410px]">
             <div className="flex flex-col items-start py-3">
               <h3 className="text-3xl font-bold">Application Developer</h3>
-              <p className="text-[#733e3d] darkxt-gray-400 mt-3">
+              <p className="text-[#062b43] darkxt-gray-400 mt-3">
                 <span className="text-3xl">6000rs</span>
                 {/* <span>/m0</span> */}
               </p>
@@ -174,16 +174,16 @@ const Trainig = () => {
               </div>
             </div>
             <div className="flex justify-center py-6 w-full">
-              <button className="hover:bg-[#dc4c51] bg-[#733e3d] text-white p-4 rounded-full w-full">
+              <button className="hover:bg-[#000] bg-[#062b43] text-white p-4 rounded-full w-full">
                 Add to Cart
               </button>
             </div>
           </div>
 
-          <div className="card border-1 shadow-2xl p-12 border-[#733e3d]  max-w-[400px]">
+          <div className="card border-1 shadow-2xl p-12 border-[#062b43]  max-w-[400px]">
             <div className="flex flex-col items-start py-3">
               <h3 className="text-3xl font-bold">Backend developer</h3>
-              <p className="text-[#733e3d] darkxt-gray-400 mt-3">
+              <p className="text-[#062b43] darkxt-gray-400 mt-3">
                 <span className="text-3xl">6000rs</span>
                 {/* <span>/m0</span> */}
               </p>
@@ -224,7 +224,7 @@ const Trainig = () => {
               </div>
             </div>
             <div className="flex justify-center py-6 w-full">
-              <button className="hover:bg-[#dc4c51] bg-[#733e3d] text-white p-4 rounded-full w-full">
+              <button className="hover:bg-[#000] bg-[#062b43] text-white p-4 rounded-full w-full">
                 Add to Cart
               </button>
             </div>

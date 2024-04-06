@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 // import Link from "next/link";
 import hero from "./assets/prime.png";
-import "./style.css";
+import "./style.scss";
 
 const Clients = () => {
   return (

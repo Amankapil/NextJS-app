@@ -9,3 +9,9 @@
 }
 
 
+::selection {
+  background-color: #062b43;
+  color: #fff; /* Optional: Change the text color */
+}
+
+

@@ -13,13 +13,13 @@ const Services = () => {
     <>
       <div className="home-service mx-auto max-w-7xl max-lg:h-full">
         <div className="servidc">
-          <h2 className=" text-[#733e3d] text-3xl font-bold mb-4 max-lg:text-center">
+          <h2 className=" text-[#062b43] text-3xl font-bold mb-4 max-lg:text-center">
             Our Services
           </h2>
         </div>
         <div className="flex justify-start items-center gap-4 flex-wrap max-lg:justify-center max-lg:h-full max-md:flex-col">
           <a
-            class="mb-[17px] service-cards w-[32.451%] h-[392px] pl-[30px] pr-[30px] py-[45px] bgwhite flex-col items-start gap-[46.12px] inline-flex  transitionall text-black group  hover:bg-[#733e3d] hover:shadow-xl transition-all hovertext-white hover:text-white max-md:w-full " 
+            class="mb-[17px] service-cards w-[32.451%] h-[392px] pl-[30px] pr-[30px] py-[45px] bgwhite flex-col items-start gap-[46.12px] inline-flex  transitionall text-black group  hover:bg-[#062b43] hover:shadow-xl transition-all hovertext-white hover:text-white max-md:w-full " 
             href="/services"
           >
             <div class="justify-center items-center inline-flex">
@@ -86,7 +86,7 @@ const Services = () => {
             </div>
           </a>
           <a
-            class="mb-[17px] service-cards w-[32.451%] h-[392px] pl-[30px] pr-[30px] py-[45px] bgwhite flex-col items-start gap-[46.12px] inline-flex hover:text-white  transitionall text-black group hover:bg-[#733e3d] hover:shadow-md transition-all max-md:w-full"
+            class="mb-[17px] service-cards w-[32.451%] h-[392px] pl-[30px] pr-[30px] py-[45px] bgwhite flex-col items-start gap-[46.12px] inline-flex hover:text-white  transitionall text-black group hover:bg-[#062b43] hover:shadow-md transition-all max-md:w-full"
             href="/services"
           >
             <div class="justify-center items-center inline-flex">
@@ -148,7 +148,7 @@ const Services = () => {
             </div>
           </a>
           <a
-            class="mb-[17px] service-cards w-[32.451%] h-[392px] pl-[30px] pr-[30px] py-[45px] bgwhite flex-col items-start gap-[46.12px] inline-flex hover:text-white transitionall text-black group  hover:bg-[#733e3d] hover:shadow-md transition-all max-md:w-full"
+            class="mb-[17px] service-cards w-[32.451%] h-[392px] pl-[30px] pr-[30px] py-[45px] bgwhite flex-col items-start gap-[46.12px] inline-flex hover:text-white transitionall text-black group  hover:bg-[#062b43] hover:shadow-md transition-all max-md:w-full"
             href="/services"
           >
             <div class="justify-center items-center inline-flex">
@@ -210,7 +210,7 @@ const Services = () => {
             </div>
           </a>
           <a
-            class="mb-[17px] service-cards w-[32.451%] h-[392px] pl-[30px] pr-[30px] py-[45px] bgwhite flex-col items-start gap-[46.12px] inline-flex hover:text-white transitionall text-black group hover:bg-[#733e3d] hover:shadow-md transition-all max-md:w-full"
+            class="mb-[17px] service-cards w-[32.451%] h-[392px] pl-[30px] pr-[30px] py-[45px] bgwhite flex-col items-start gap-[46.12px] inline-flex hover:text-white transitionall text-black group hover:bg-[#062b43] hover:shadow-md transition-all max-md:w-full"
             href="/services"
           >
             <div class="justify-center items-center inline-flex">

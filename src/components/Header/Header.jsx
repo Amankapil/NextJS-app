@@ -35,7 +35,7 @@ const Header = () => {
     <>
       {width <= 900 ? (
         <>
-          <header className="bg-[#733e3d] bg-opacity-50 backdrop-blur-[110.60px] p-4 w-full mx-auto sticky top-5 h[100px] rounded-full z-[9990]">
+          <header className="bg-[#062b43] bg-opacity-50 backdrop-blur-[110.60px] p-4 w-full mx-auto sticky top-5 h[100px] rounded-full z-[9990]">
             <div className="header flex justify-between gap-20 max-w-7xl mx-auto items-center">
               <div className="logo">
                 <Link href="/">
@@ -139,7 +139,7 @@ const Header = () => {
         </>
       ) : (
         <>
-          <header className="bg-[#733e3d] bg-opacity-50 backdrop-blur-[110.60px] p-4 w-[90%] mx-auto sticky top-5 h[100px] rounded-full z-[999990]">
+          <header className="bg[#733e3d] bg-[#062b43] bg-opacity50 backdropblur-[10.60px] p-4 w-[90%] mx-auto sticky top-5 h[100px] rounded-full z-[999990]">
             <div className="header flex justify-between gap-20 max-w-7xl mx-auto items-center">
               <div className="logo">
                 <Link href="/">
@@ -168,7 +168,7 @@ const Header = () => {
                 </Link>
                 <Link
                   href="/contact"
-                  className="px-4 py-2 hover:bg-[#dc4c51] bg-[#733e3d] text-white rounded-3xl  hover:textblack"
+                  className="px-4 py-2 hover:bg-[#fff] hover:text-black bg-[#24475e] text-white rounded-3xl  hover:textblack"
                 >
                   Lets Talk
                 </Link>

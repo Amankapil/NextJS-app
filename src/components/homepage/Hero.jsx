@@ -4,7 +4,7 @@ import hero from "./assets/hero1.png";
 // import herok from "./assets/1094546947preview.mp4";
 // import herok from "./assets/1097384643preview.mp4";
 import herok from "./assets/hero.jpg";
-import "./style.css";
+import "./style.scss";
 
 const Hero = () => {
   return (

@@ -37,7 +37,7 @@ const Servicepage = () => {
                   </div>
                   <div className="flex-col justify-start items-start gap-[42px] flex">
                     <div className="flex-col justify-start items-start gap-[22px] flex">
-                      <div className="w-[631.03px] max-md:w-full text-black text-[49.20px] font-normal font[''] leading-[59.04px] max-sm:text-[40px]">
+                      <div className="w-[631.03px] max-md:w-full text-[#062b43] text-[49.20px] font-normal font[''] leading-[59.04px] max-sm:text-[40px]">
                         Tech training
                       </div>
                       <div className="w-[513.61px] max-md:w-full opacity80 text-black text-[18px] font-normal font[''] leading-normal">

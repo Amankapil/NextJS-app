@@ -9,7 +9,7 @@ import hero6 from "./assets/github.3b9e32903aa89111875d.png";
 import hero7 from "./assets/graphql.fc6b9451733c620ceb86.png";
 import hero8 from "./assets/tailwind.e47ac876b8d4d0bba47a.png";
 
-import "./style.css";
+import "./style.scss";
 
 const Techstack = () => {
   return (

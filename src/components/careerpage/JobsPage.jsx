@@ -6,6 +6,35 @@ import axios from "axios";
 const jobsData = [
   {
     id: 1,
+    title: "US IT Recruiter",
+    location: "Indore, Madhya Pradesh (Work from Office)",
+    tags: [
+      "Comfortable with Evening/ Night Shift ",
+      "Excellent written and verbal Communication Skills in English",
+    ],
+    description:
+      " Empower Professionals is a privately-owned, certified Minority Owned Business Enterprise (MBE), national business and technology consulting firm focused on efficiently and reliably providing flexible solutions for team building across all 50 states. Whether your organization needs a single resource, a niche team of resources, or a complete outsourced solution.",
+    responsiblity: [
+      "Understanding the Clients need through the job description provided and sourcing candidates through job portals and other social websites accordingly.",
+      "Identify and Search Professionals in the US Market through different Sources",
+      "Sourcing, screening and evaluating and recruiting candidates through a structured recruitment process",
+      "Shortlist and Interview candidates according to the job requirement",
+      "Take care of Clients Requirements and place Software professionals",
+      "Negotiate on Salary aspects and close the position",
+      "Assist Account Manager (s)/Team Lead with urgent technical requirements",
+      "Update the Resourcing Application System routinely",
+    ],
+    Prerequisite: [
+      "0 - 6 months years of professional experience",
+      "Professional experience using Java in production quality code.",
+      "Excellent written and verbal English communication skills",
+      "Strong design skills (HLD and LLD)",
+      "Agile and comfortable working in a fast-paced startup environment.",
+      "Focus on collaboration and making progress everyday over excellence. ",
+    ],
+  },
+  {
+    id: 1,
     title: "Sr Java developer",
     location: "Remote",
     tags: ["Java Spring boot ", "Python"],
@@ -146,7 +175,6 @@ const JobsPage = () => {
   };
 
   const handleSubmit = async (e) => {
-
     e.preventDefault();
 
     try {
@@ -177,7 +205,7 @@ const JobsPage = () => {
 
   return (
     <div className="container mx-auto p-4 max-w-6xl mb-20">
-      <h1 className="text-3xl font-bold mb-4">Job Listings</h1>
+      <h1 className="text-4xl font-bold mb-4 text-[#062b43]">Job Listings</h1>
       <input
         type="text"
         placeholder="Filter by title, location, or tag"
@@ -194,11 +222,11 @@ const JobsPage = () => {
           >
             <h2 className="text-xl font-semibold">{job.title}</h2>
             <p className="text-gray-600">{job.location}</p>
-            <ul className="mt-2">
+            <ul className="mt-2 flex flex-wrap gap-2">
               {job.tags.map((tag) => (
                 <li
                   key={tag}
-                  className="inline-block bg-[#733e3d] text-white px-2 py-1 rounded-md mr-2"
+                  className="inline-block bg-[#062b43] text-white px-2 py-1 rounded-md mr-2"
                 >
                   {tag}
                 </li>
@@ -346,7 +374,7 @@ const JobsPage = () => {
                       </div>
                       <button
                         type="submit"
-                        className="hover:bg-[#dc4c51] bg-[#733e3d] text-white py-2 px-4 rounded-md w-full"
+                        className="hover:bg-[#dc4c51] bg-[#062b43] text-white py-2 px-4 rounded-md w-full"
                         disabled={load}
                       >
                         {load ? "loading" : "Apply Now"}
