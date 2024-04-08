@@ -43,7 +43,10 @@ const Footer = () => {
                         >
                           <Image src={tweet2} alt="" />
                         </Link>
-                        <Link target="_blank" href="https://x.com/">
+                        <Link
+                          target="_blank"
+                          href="https://twitter.com/HiringTech1"
+                        >
                           <Image src={tweet3} alt="" />
                         </Link>
                         <Link

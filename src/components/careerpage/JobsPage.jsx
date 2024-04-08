@@ -149,6 +149,7 @@ const JobsPage = () => {
   const [location, setLocation] = useState("");
   const [Notice, setNotice] = useState("");
   const [load, setLoad] = useState(false);
+  const [position, setPosition] = useState(false);
 
   const handleFilterChange = (e) => {
     setFilter(e.target.value);
@@ -189,6 +190,7 @@ const JobsPage = () => {
         ECTC: ECTC,
         location: location,
         Notice: Notice,
+        position: position,
       });
       if (response.status == 200) {
         // setLoad(true);
@@ -371,6 +373,22 @@ const JobsPage = () => {
                           className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
                           required
                         />
+                      </div>
+                      <div className="flex gap-4">
+                        <select
+                          value={position}
+                          onChange={(e) => setPosition(e.target.value)}
+                          className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
+                        >
+                          <option value="">Select Job Position</option>
+                          <option value="React dev">React dev</option>
+                          <option value="React Native">React Native</option>
+                          <option value="Java dev">Java dev</option>
+                          <option value="Us It  Recruiter ">
+                            Us It Recruiter
+                          </option>
+                          {/* Add more options as needed */}
+                        </select>
                       </div>
                       <button
                         type="submit"

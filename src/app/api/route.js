@@ -14,6 +14,7 @@ export async function POST(req, res) {
       ECTC,
       location,
       Notice,
+      position,
     } = req.body; // Parse JSON data directly
     let passedValue = await new Response(req.body).text();
     let bodyreq = JSON.parse(passedValue);
@@ -35,7 +36,7 @@ export async function POST(req, res) {
       from: bodyreq.email,
       to: "hr@hiringtech.in",
       subject: "New Massage from website caerre page ",
-      text: `Name: ${bodyreq.name}\nEmail: ${bodyreq.email}\nResume-Link: ${bodyreq.resume}\nConact: ${bodyreq.number}\nexperience: ${bodyreq.experience}\nCTC: ${bodyreq.CTC}\nECTC: ${bodyreq.ECTC}\nlocation: ${bodyreq.location}\nNotice-Period: ${bodyreq.Notice}`,
+      text: `Name: ${bodyreq.name}\nEmail: ${bodyreq.email}\nResume-Link: ${bodyreq.resume}\nConact: ${bodyreq.number}\nexperience: ${bodyreq.experience}\nCTC: ${bodyreq.CTC}\nECTC: ${bodyreq.ECTC}\nlocation: ${bodyreq.location}\nNotice-Period: ${bodyreq.Notice}\nPosition:${bodyreq.position}`,
     };
 
     try {
