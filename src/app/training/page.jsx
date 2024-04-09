@@ -12,6 +12,7 @@
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
 
+import Meeting from "@/components/trainingpage/Meeting";
 import Trainig from "@/components/trainingpage/Trainig";
 import TrainingHero from "@/components/trainingpage/TrainingHero";
 
@@ -21,11 +22,11 @@ import TrainingHero from "@/components/trainingpage/TrainingHero";
 const page = () => {
   return (
     <>
-    <div className="max-w-8xl mx-auto">
-
-      <TrainingHero />
-      <Trainig />
-    </div>
+      <div className="max-w-8xl mx-auto">
+        <TrainingHero />
+        <Trainig />
+        <Meeting />
+      </div>
     </>
   );
 };

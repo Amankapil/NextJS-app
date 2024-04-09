@@ -30,8 +30,8 @@ const Footer = () => {
                       <p>
                         India
                         <br />
-                        919 9th floor shekhar Central Indore <br />
-                        MP 462010.
+                        919 9th floor shekhar Central Indore, <br />
+                        MP 452001.
                       </p>
                     </div>
                     <div class="follow-us flex items-start justify-start mt-5 mb-10">
