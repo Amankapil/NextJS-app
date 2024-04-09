@@ -12,7 +12,7 @@ export async function POST(req, res) {
 
     // Create an order -> generate the OrderID -> Send it to the Front-end
     const payment_capture = 1;
-    const amount = 499;
+    const amount = 6000;
     const currency = "INR";
     const options = {
       amount: (amount * 100).toString(),
@@ -23,7 +23,7 @@ export async function POST(req, res) {
 
     // try {
     const response = await razorpay.orders.create(options);
-    res.status(200).json({
+    return NextResponse.json({
       id: response.id,
       currency: response.currency,
       amount: response.amount,

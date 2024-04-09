@@ -40,8 +40,8 @@ const Trainig = () => {
     // });
     console.log(data);
     var options = {
-      key: rzp_test_WjOtHCtWT76ZeX, // Enter the Key ID generated from the Dashboard
-      name: "Manu Arora Pvt Ltd",
+      key: "rzp_test_WjOtHCtWT76ZeX", // Enter the Key ID generated from the Dashboard
+      name: "Name",
       currency: data.currency,
       amount: data.amount,
       order_id: data.id,
@@ -55,9 +55,9 @@ const Trainig = () => {
         setLoading(false);
       },
       prefill: {
-        name: "Manu Arora",
-        email: "manuarorawork@gmail.com",
-        contact: "9999999999",
+        name: "Aman Kapil",
+        email: "amankapil60@gmail.com",
+        contact: "8103075691",
       },
     };
 
@@ -125,7 +125,7 @@ const Trainig = () => {
                 disabled={loading}
                 className="hover:bg-[#000] bg-[#062b43] text-white p-4 rounded-full w-full"
               >
-                {loading ? "Loading..." : "Add to Cart"}
+                {loading ? "Loading..." : "Make payment"}
               </button>
             </div>
           </div>
