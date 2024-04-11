@@ -9,7 +9,7 @@
 
 .footer-top {
   position: relative;
-  padding: 124px 0px 80px 0px;
+  padding: 30px 0px 80px 0px;
 }
 
 .footer-top .footer-widget .widget-title {
@@ -276,4 +276,18 @@
   to {
     background-position: 1920px 0;
   }
+}
+
+
+
+
+
+.logobg {
+  background-image: url("./logo.svg");
+  width: 155px;
+  /* margin-top: -28px; */
+  height: 65px;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position-y: 50%;
 }

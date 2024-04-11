@@ -1,4 +1,5 @@
 import nodemailer from "nodemailer";
+
 import { NextResponse } from "next/server";
 import { json } from "next";
 
@@ -15,10 +16,12 @@ export async function POST(req, res) {
       location,
       Notice,
       position,
-    } = req.body; // Parse JSON data directly
+    } = req.body;  // Parse JSON data directly
     let passedValue = await new Response(req.body).text();
     let bodyreq = JSON.parse(passedValue);
     console.log(bodyreq);
+
+
 
     // const pdfBase64 = bodyreq.resume.toString("base64");
     // const resumeContent = Buffer.from(resume, "base64");

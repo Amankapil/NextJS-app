@@ -42,6 +42,7 @@
   width: 100%;
 }
 
+
 @media (max-width: 768px) {
   .hero-container::before {
     z-index: -1;
@@ -49,7 +50,7 @@
     position: absolute;
     content: "";
     background-image: url("./assets/hero.jpg");
-    background-size: 150%;
+    background-size: 450%;
     background-repeat: no-repeat;
     height: 110%;
     width: 100%;
@@ -61,8 +62,9 @@
     top: -10%;
     position: absolute;
     content: "";
-    background-image: url("./assets/hero.jpg");
-    background-size: 232%;
+    /* background-image: url("./assets/hero.jpg"); */
+    background-image: url("./assets/herobg.avif");
+    background-size: 400%;
     background-repeat: no-repeat;
     height: 110%;
     width: 100%;

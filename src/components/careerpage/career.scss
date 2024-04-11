@@ -1,11 +1,40 @@
 .careerher::before {
-    content: "";
-    position: absolute;
-    background-image: url("./bg2.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 115vh;
-    top: -15%;
-    z-index: -1;
-    width: 100%;
-  }
+  content: "";
+  position: absolute;
+  background-image: url("./Border.png");
+  background-repeat: no-repeat;
+  background-size: 130%;
+  height: 115vh;
+  top: -15%;
+  z-index: -1;
+  width: 100%;
+}
+.careerher::after {
+  content: "";
+  position: absolute;
+  // background-image: url("./Border.png");
+  background-color: #15559f5f;
+  background-repeat: no-repeat;
+  // background-size: 130%;
+  // height: 00px;
+  height: 115vh;
+
+  top: -15%;
+  z-index: -1;
+  width: 100%;
+}
+
+.bg-career {
+  background: linear-gradient(
+    30.42deg,
+    #abe1f8 20.58%,
+    #f9f9f9 38.51%,
+    #abe1f8 87.75%
+  );
+}
+
+
+
+.box-content{
+  background-color: #15559f5f;
+}

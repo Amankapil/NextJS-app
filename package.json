@@ -23,6 +23,7 @@
     "react-dom": "^18",
     "react-dropzone": "^14.2.3",
     "sass": "^1.72.0",
+    "sharp": "^0.33.3",
     "shortid": "^2.2.16",
     "swiper": "^11.0.7"
   },

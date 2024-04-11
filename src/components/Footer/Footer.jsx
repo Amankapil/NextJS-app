@@ -12,7 +12,14 @@ const Footer = () => {
     <>
       <footer className="main-footer bg-color-1 bg-[#062b43] max-lg:p-4 z-50">
         <div className="pattern-layer"></div>
+
         <div className="auto-container max-w-6xl mx-auto">
+          <div className="pt-10">
+            <Link  href="/">
+              <div className="logobg"></div>
+            </Link>
+          </div>
+
           <div className="footer-top">
             <div className="widget-section">
               <div className="flex clearfix max-md:flex-wrap">
@@ -92,6 +99,9 @@ const Footer = () => {
                         <Link href="/services">Services</Link>
                       </li>
                       <li>
+                        <Link href="/expert">Industry Expert</Link>
+                      </li>
+                      <li>
                         <Link href="/training">Our Solutions</Link>
                       </li>
                       <li>
@@ -106,6 +116,7 @@ const Footer = () => {
                       <li>
                         <Link href="/career">Job Seekers</Link>
                       </li>
+
                       {/* <li>
                         <Link href="/">Industries</Link>
                       </li> */}

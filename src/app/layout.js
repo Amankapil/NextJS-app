@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header/Header";
+import Header2 from "@/components/Header/Header2";
 import Footer from "@/components/Footer/Footer";
 import Link from "next/link";
 
@@ -15,7 +16,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
+        {/* <Header /> */}
+        <Header2 />
         <main className="max-w7xl mx-auto er">{children}</main>
         <Footer />
 

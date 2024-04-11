@@ -12,7 +12,7 @@ export async function POST(req, res) {
 
     // Create an order -> generate the OrderID -> Send it to the Front-end
     const payment_capture = 1;
-    const amount = 6000;
+    const amount = 10;
     const currency = "INR";
     const options = {
       amount: (amount * 100).toString(),

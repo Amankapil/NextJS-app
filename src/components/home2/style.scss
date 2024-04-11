@@ -1,0 +1,66 @@
+.home-container::before {
+  z-index: -1;
+  top: -15%;
+  position: absolute;
+  content: "";
+  background-image: url("./assets/new.jpeg");
+  //   background-image: url("./assets/herobg.avif");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 120%;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .home-container::before {
+    z-index: -1;
+    top: -15%;
+    position: absolute;
+    content: "";
+    /* background-image: url("./assets/hero.jpg"); */
+    background-image: url("./assets/new.jpeg");
+    background-size: 400%;
+    background-repeat: no-repeat;
+    height: 120%;
+    width: 100%;
+  }
+}
+
+.vision-bg {
+  background: linear-gradient(
+    45.42deg,
+    #abe1f8 20.58%,
+    #f9f9f9 38.51%,
+    #abe1f8 87.75%
+  );
+}
+.vision-bg-j {
+  background: linear-gradient(
+    45.42deg,
+    #abe1f8 20.58%,
+    #f9f9f9 38.51%,
+    #abe1f8 87.75%
+  );
+}
+
+.about-bg {
+  // background: u
+  background-image: url("./assets/download\ \(5\)\ 1.png");
+  background-color: rgba(1, 1, 1, 0.301);
+  background-size: 120%;
+  background-repeat: no-repeat;
+  height: 100%;
+  // backdrop-filter: blur(20px);
+  // background-opacity: 0.5;
+  z-index: 2;
+  height: 700px;
+}
+
+.about-bg::before {
+  content: "";
+  background-color: #09171db7;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
