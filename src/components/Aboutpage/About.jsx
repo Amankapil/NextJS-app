@@ -10,7 +10,7 @@ import img3 from "./asstes/profil.jpg";
 import devesh from "./team/devesh.jpg";
 import shruti from "./team/shruti.jpg";
 import abhi from "./team/abhidutt.jpg";
-import amn from "./team/amnp.jpg";
+import amn from "./team/amnp.JPG";
 import sonam from "./team/sonam.jpg";
 import dev from "./team/dev.jpg";
 import "./about.scss";
