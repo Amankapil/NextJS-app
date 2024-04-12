@@ -29,8 +29,7 @@ const Service2 = () => {
               <div className="content hidden group-hover:block">
                 <p className="text-white ">
                   In our tech training consultancy, we provide comprehensive
-                  programs tailored to the ever-evolving tech landscape. Our
-                  courses cover a broad spectrum of topics.
+                  programs tailored to the ever-evolving tech landscape. 
                 </p>
                 <button className="text-white underline mt-3 ">
                   read more

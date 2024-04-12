@@ -166,7 +166,7 @@ const Header2 = () => {
           </Link>
           <div className="flex gap-5 justify-between self-stretch my-auto max-md:flex-wrap">
             <div className="flex flex-col justify-center">
-              <div className="justify-center px-6 py-4 rounded-2xl border border-solid border-white hover:bg-black  hoverborder-black max-md:px-5">
+              <div className="justify-center px-6 py-4 rounded-2xl border border-solid border-white hoverbg-black  hoverborder-black max-md:px-5">
                 <Link
                   // onClick={hamburger}
                   className="hovertext-[#733e3d]"

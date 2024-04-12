@@ -9,3 +9,17 @@
   z-index: -1;
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .bggray::before {
+    content: "";
+    position: absolute;
+    background-image: url("./asstes/bg1.png");
+    background-repeat: no-repeat;
+    background-size: 400%;
+    height: 115vh;
+    top: -15%;
+    z-index: -1;
+    width: 100%;
+  }
+}

@@ -6,7 +6,7 @@ const Whyus = () => {
   return (
     <>
       <div className="whyeis py-20 bg-career">
-        <div className="max-w-6xl mx-auto flex justify-center items-center gap-20 max-md:flex-wrap ">
+        <div className="max-w-6xl mx-auto flex justify-center items-center gap-20 max-md:flex-wrap max-md:p-4">
           <div className="flex flex-col w-[50%] max-md:w-full">
             <h1 className="text-[36px]">
               Why you Should Join Our Awesome Team
@@ -16,8 +16,8 @@ const Whyus = () => {
               curated a great set of benefits for you.
             </p>
           </div>
-          <div className="flex gap-8 items-start justify-center w-[60%]">
-            <div className="cardone flex flex-col gap-4">
+          <div className="flex gap-8 items-start justify-center w-[60%] max-md:flex-wrap">
+            <div className="cardone flex flex-col gap-4 max-md:items-center">
               {/* <Image src={img} alt="k" /> */}
               <div className="bg-[#FFEEED] p-4  w-[74px]">
                 <svg
@@ -36,7 +36,7 @@ const Whyus = () => {
 
               <h1 className="text-[16px] font-bold">Team work</h1>
             </div>
-            <div className="cardone flex flex-col gap-4">
+            <div className="cardone flex flex-col gap-4 max-md:items-center">
               <div className="bg-[#F1F7E8] p-4 w-[74px]">
                 <svg
                   width="38"
@@ -61,7 +61,7 @@ const Whyus = () => {
               </div>
               <h1 className="text-[16px] font-bold">Upgrate Skills</h1>
             </div>
-            <div className="cardone flex flex-col gap-4">
+            <div className="cardone flex flex-col gap-4 max-md:items-center">
               <div className="bg-[#EFF2F5] p-4 w-[74px]">
                 <svg
                   width="38"
@@ -86,7 +86,7 @@ const Whyus = () => {
               </div>
               <h1 className="text-[16px] font-bold ">Secured Future</h1>
             </div>
-            <div className="cardone flex flex-col gap-4">
+            <div className="cardone flex flex-col gap-4 max-md:justify-center  max-md:items-center">
               <div className="bg-[#E7F2FF] p-4 w-[90px]">
                 <svg
                   width="58"

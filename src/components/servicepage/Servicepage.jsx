@@ -18,13 +18,13 @@ const Servicepage = () => {
       {/* <button onClick={handleclick}>add</button>
       {data} */}
 
-      <div class="w-full bggrayy">
+      <div class="w-full bggrayy max-lgpx-4">
         <div class="w-4px] text-400 text-white text-[87.74px]  font-normal font['Graphik'] leading-[108%] max-md:text-[50px] max-md:leading-[54px] max-w-7xl mx-auto max-lg:text-[70px] max-lg:leading-[7px] text-center flex justify-center items-center h-[600px]">
           <div>We must continue to innovate, and re-innovate every day.</div>
         </div>
       </div>
       <>
-        <div className="serviepageappdevs  max-w-7xl mx-auto">
+        <div className="serviepageappdevs  max-w-7xl mx-auto max-lg:px-4">
           <div className="w-full h-full relative max-lg:h-full">
             <div className="flex max-lg:flex-col  max-lg:justify-center  max-lg:items-center   max-w-7xl mx-auto justify-center">
               <div className="max-md:w-full">

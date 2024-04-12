@@ -255,7 +255,7 @@ const JobsPage = () => {
                 <div className="applyform">
                   <div className="fixed w-full bsolute inset-0 flex justify-center overflow-croll items-center bg-white bg-opacity50  z-[9999999999999999999999999999999999999999999999999]">
                     <div className="bg-white p-10 max-wxl rounded-lg overflowscroll  flex max-w-[1200px] gap-20 max-sm:gap-4 justify-center items-center max-lg:flex-wrap">
-                      <div className="job-discription max-w-6xl overflow-y-scroll h-[600px] mt-20 max-sm:h-[300px] max-sm:mt-4">
+                      <div className="job-discription max-w-6xl overflow-y-scroll h-[600px] mt-20 max-sm:h-[600px] max-sm:mt-4">
                         <h2 className="text-2xl font-semibold mb-4">
                           {selectedJob.title}
                         </h2>

@@ -5,7 +5,7 @@ import img from "./assets/hre.webp";
 const Hr = () => {
   return (
     <>
-      <div className="serviepageappdevs">
+      <div className="serviepageappdevs max-lg:px-4">
         <div className="w-full h-full relative max-lg:h-full">
           <div className="flex max-lg:flex-col  max-lg:justify-center  max-lg:items-center   max-w-7xl mx-auto justify-center">
             <div className="max-md:w-full">
