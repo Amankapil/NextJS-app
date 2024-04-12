@@ -113,13 +113,6 @@ const Trainig = () => {
               </div>
             </div>
             <div className="flex justify-center py-6 w-full">
-              {/* <button
-                onClick={makePayment}
-                className="hover:bg-[#dc4c51] bg-[#062b43] text-white p-4 rounded-full w-full"
-              >
-                Buy Now
-              </button> */}
-
               <button
                 onClick={makePayment}
                 disabled={loading}
@@ -174,8 +167,12 @@ const Trainig = () => {
               </div>
             </div>
             <div className="flex justify-center py-6 w-full">
-              <button className="hover:bg-[#000] bg-[#062b43] text-white p-4 rounded-full w-full">
-                Add to Cart
+              <button
+                onClick={makePayment}
+                disabled={loading}
+                className="hover:bg-[#000] bg-[#062b43] text-white p-4 rounded-full w-full"
+              >
+                {loading ? "Loading..." : "Make payment"}
               </button>
             </div>
           </div>
@@ -185,7 +182,6 @@ const Trainig = () => {
               <h3 className="text-3xl font-bold">Backend developer</h3>
               <p className="text-[#062b43] darkxt-gray-400 mt-3">
                 <span className="text-3xl">6000rs</span>
-                {/* <span>/m0</span> */}
               </p>
             </div>
             <div className="grid gap-4 py-6 card-content">
@@ -224,8 +220,12 @@ const Trainig = () => {
               </div>
             </div>
             <div className="flex justify-center py-6 w-full">
-              <button className="hover:bg-[#000] bg-[#062b43] text-white p-4 rounded-full w-full">
-                Add to Cart
+              <button
+                onClick={makePayment}
+                disabled={loading}
+                className="hover:bg-[#000] bg-[#062b43] text-white p-4 rounded-full w-full"
+              >
+                {loading ? "Loading..." : "Make payment"}
               </button>
             </div>
           </div>

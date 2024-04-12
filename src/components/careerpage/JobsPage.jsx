@@ -8,7 +8,7 @@ const jobsData = [
   {
     id: 1,
     title: "US IT Recruiter",
-    location: "Indore, Madhya Pradesh (Work from Office)",
+    location: "Indore",
     tags: [" Evening/ Night Shift ", " verbal Communication Skills in English"],
     description:
       " Empower Professionals is a privately-owned, certified Minority Owned Business Enterprise (MBE), national business and technology consulting firm focused on efficiently and reliably providing flexible solutions for team building across all 50 states. Whether your organization needs a single resource, a niche team of resources, or a complete outsourced solution.",
@@ -230,11 +230,11 @@ const JobsPage = () => {
             {filteredJobs.map((job) => (
               <li
                 key={job.id}
-                className="mb-4 p-4 bg-[#fff] rounded-md cursor-pointer max-w-5xl  w-[1000px] flex justify-between"
+                className="mb-4 p-4 bg-[#fff] rounded-md cursor-pointer max-w-5xl  w-[1000px] flex justify-between max-md:flex-wrap max-md:" 
                 onClick={() => handleJobClick(job)}
               >
-                <h2 className="text-xl font-semibold">{job.title}</h2>
-                <ul className="mt-2 flex flex-wrap gap-2">
+                <h2 className="text-xl font-semibold w-[200px]">{job.title}</h2>
+                <ul className="mt-2 flex flex-wrap gap-2 w-[200px]">
                   <div>skills:</div>
                   {job.tags.map((tag) => (
                     <li
@@ -245,7 +245,7 @@ const JobsPage = () => {
                     </li>
                   ))}
                 </ul>
-                <p className="text-[#001833]">{job.location}</p>
+                <p className="text-[#001833] w-[150px] max-md:w-[100px]">{job.location}</p>
               </li>
             ))}
           </ul>
@@ -331,7 +331,7 @@ const JobsPage = () => {
                                 required
                               />
                               <input
-                                type="number"
+                                type="text"
                                 name="exp"
                                 value={experience}
                                 onChange={(e) => setExperience(e.target.value)}

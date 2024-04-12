@@ -48,7 +48,7 @@
   background-color: #09171db7;
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 700px;
   z-index: 1;
 }
 
@@ -60,7 +60,9 @@
     content: "";
     /* background-image: url("./assets/hero.jpg"); */
     background-image: url("./assets/new.jpeg");
-    background-size: 400%;
+    background-size: 500%;
+    background-position: 50% 40%;
+
     background-repeat: no-repeat;
     height: 120%;
     width: 100%;

@@ -55,28 +55,28 @@ const Header2 = () => {
                   width="65"
                   height="42"
                   viewBox="0 0 65 42"
-                  fill="none"
+                  fill="#fff"
                 >
                   <line
                     x1="13.4353"
                     y1="12.1875"
                     x2="51.5647"
                     y2="12.1875"
-                    stroke="black"
+                    stroke="white"
                   />
                   <line
                     x1="13.4353"
                     y1="20.3594"
                     x2="51.5647"
                     y2="20.3594"
-                    stroke="black"
+                    stroke="white"
                   />
                   <line
                     x1="13.4353"
                     y1="28.813"
                     x2="51.5647"
                     y2="28.813"
-                    stroke="black"
+                    stroke="white"
                   />
                 </svg>
               </button>
@@ -90,7 +90,7 @@ const Header2 = () => {
                   <Link
                     onClick={hamburger}
                     className="hovertext-[#733e3d] text-white"
-                    href="/aboutus" 
+                    href="/aboutus"
                   >
                     About Us
                   </Link>
@@ -149,13 +149,13 @@ const Header2 = () => {
                       width="24"
                       height="24"
                       viewBox="0 0 24 24"
+                      fill="#fff"
                     >
                       <path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z" />
                     </svg>
                   </button>
                 </div>
               </div>
-              {/* </nav> */}
             </div>
           </header>
         </>
@@ -165,52 +165,48 @@ const Header2 = () => {
             <div className="logobg"></div>
           </Link>
           <div className="flex gap-5 justify-between self-stretch my-auto max-md:flex-wrap">
-            <div className="flex flex-col justify-center">
-              <div className="justify-center px-6 py-4 rounded-2xl border border-solid border-white hoverbg-black  hoverborder-black max-md:px-5">
-                <Link
-                  // onClick={hamburger}
-                  className="hovertext-[#733e3d]"
-                  href="/aboutus"
-                >
+            <Link className="hovertext-[#733e3d]" href="/aboutus">
+              <div className="flex flex-col justify-center">
+                <div className="justify-center px-6 py-4 rounded-2xl border border-solid border-white hoverbg-black  hoverborder-black max-md:px-5">
                   About Us
-                </Link>
+                </div>
               </div>
-            </div>
-            <div className="flex flex-col justify-center whitespace-nowrap">
-              <div className="justify-center px-8 py-4 rounded-2xl border border-solid border-white  max-md:px-5">
-                <Link className="hovertext-[#733e3d]" href="/services">
+            </Link>
+            <Link className="hovertext-[#733e3d]" href="/services">
+              <div className="flex flex-col justify-center whitespace-nowrap">
+                <div className="justify-center px-8 py-4 rounded-2xl border border-solid border-white  max-md:px-5">
                   Service
-                </Link>
+                </div>
               </div>
-            </div>
-            <div className="flex flex-col justify-center whitespace-nowrap">
-              <div className="justify-center px-8 py-4 rounded-2xl border border-solid border-white  max-md:px-5">
-                <Link className="hovertext-[#733e3d]" href="/career">
+            </Link>
+            <Link className="hovertext-[#733e3d]" href="/career">
+              <div className="flex flex-col justify-center whitespace-nowrap">
+                <div className="justify-center px-8 py-4 rounded-2xl border border-solid border-white  max-md:px-5">
                   Career
-                </Link>
+                </div>
               </div>
-            </div>
-            <div className="flex flex-col justify-center whitespace-nowrap">
-              <div className="justify-center px-7 py-3.5 rounded-2xl border border-solid border-white  max-md:px-5">
-                <Link className="hovertext-[#733e3d]" href="/training">
+            </Link>
+            <Link className="hovertext-[#733e3d]" href="/training">
+              <div className="flex flex-col justify-center whitespace-nowrap">
+                <div className="justify-center px-7 py-3.5 rounded-2xl border border-solid border-white  max-md:px-5">
                   Training
-                </Link>
+                </div>
               </div>
-            </div>
-            <div className="flex flex-col justify-center whitespace-nowrap">
-              <div className="justify-center px-7 py-3.5 rounded-2xl border border-solid border-white  max-md:px-5">
-                <Link className="hovertext-[#733e3d]" href="/blog">
+            </Link>
+            <Link className="hovertext-[#733e3d]" href="/blog">
+              <div className="flex flex-col justify-center whitespace-nowrap">
+                <div className="justify-center px-7 py-3.5 rounded-2xl border border-solid border-white  max-md:px-5">
                   Insights
-                </Link>
+                </div>
               </div>
-            </div>
-            <div className="flex flex-col justify-center whitespace-nowrap">
+            </Link>
+            {/* <div className="flex flex-col justify-center whitespace-nowrap">
               <div className="justify-center px-7 py-4 rounded-2xl border border-solid border-white max-md:px-5">
                 <Link className="hovertext-[#733e3d]" href="/drop-resume">
                   Resume
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="flex flex-col justify-center self-stretch my-auto">
             <div className="justify-center px-9 py-4 rounded border-white border-solid border-[0.5px] max-md:px-5 lettal">

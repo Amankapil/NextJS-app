@@ -8,7 +8,7 @@ const About2 = () => {
           <div className="self-center text-4xl font-bold leading-[51.2px]">
             About Us
           </div>
-          <div className="mt-16 text-2xl font-semibold tracking-tight text-justify max-md:mt-10 max-md:max-w-full max-lg:h-full">
+          <div className="mt-16 text-2xl font-semibold tracking-tight text-center max-md:mt-10 max-md:max-w-full max-lg:h-full">
             Hiring Tech is a name that is counted amongst the trustworthy
             placement agencies in Indore (Madhya Pradesh, India). Our company is
             actively involved in rendering dependable solutions for facilitating

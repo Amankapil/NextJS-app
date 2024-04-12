@@ -36,7 +36,7 @@ const ContactHero = () => {
           Got any queries? Feel free to connect with us!
         </h1>
 
-        <div className="flex justify-start mt-20 gap-20 items-start max-lg:flex-wrap max-lg:justify-center max-w-7xl mx-auto">
+        <div className="flex justify-start mt-40 gap-20 items-start max-lg:flex-wrap max-lg:justify-center max-w-7xl mx-auto">
           <div className="contact-form wfull">
             <div className="form">
               <div className="form-div">

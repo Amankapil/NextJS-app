@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 import img from "./assets/Group 104.svg";
+import Link from "next/link";
 // Image
 
 const Service2 = () => {
@@ -29,11 +30,11 @@ const Service2 = () => {
               <div className="content hidden group-hover:block">
                 <p className="text-white ">
                   In our tech training consultancy, we provide comprehensive
-                  programs tailored to the ever-evolving tech landscape. 
+                  programs tailored to the ever-evolving tech landscape.
                 </p>
-                <button className="text-white underline mt-3 ">
+                <Link href="/services" className="text-white underline mt-3 ">
                   read more
-                </button>
+                </Link>
               </div>
             </div>
             <div className="cardone p-7 bg-[#175574] w-[265px] h-[140px] rounded-tl-[0px] rounded-tr-[4px] rounded-br-[4px] rounded-bl-[88px] hover:w-[350px] hover:h-[273px] group transition-all hover:rounded-tl-[4px] hover:rounded-br-[4px] hover:rounded-bl-[44px] hover:rounded-tr-[44px] hover:bg-blue-900 hover:bg-gradient-to-b hover:from-blue-900 hover:to-blue-300 duration-300">
@@ -51,9 +52,9 @@ const Service2 = () => {
                   Hiring tech service is working as placement consultant service
                   company serving the needs of the client.
                 </p>
-                <button className="text-white underline mt-3 ">
+                <Link href="/services" className="text-white underline mt-3 ">
                   read more
-                </button>
+                </Link>
               </div>
             </div>
             <div className="cardone p-7 bg-[#175574] w-[265px] h-[140px] rounded-tl-[0px] rounded-tr-[4px] rounded-br-[4px] rounded-bl-[88px] hover:w-[350px] hover:h-[273px] group transition-all hover:rounded-tl-[4px] hover:rounded-br-[4px] hover:rounded-bl-[44px] hover:rounded-tr-[44px] hover:bg-blue-900 hover:bg-gradient-to-b hover:from-blue-900 hover:to-blue-300 duration-300">
@@ -71,9 +72,9 @@ const Service2 = () => {
                   programs tailored to empower professionals in human resources
                   management.
                 </p>
-                <button className="text-white underline mt-3 ">
+                <Link href="/services" className="text-white underline mt-3 ">
                   read more
-                </button>
+                </Link>
               </div>
             </div>
             <div className="cardone p-7 bg-[#175574] w-[265px] h-[140px] rounded-tl-[0px] rounded-tr-[4px] rounded-br-[4px] rounded-bl-[88px] hover:w-[350px] hover:h-[273px] group transition-all hover:rounded-tl-[4px] hover:rounded-br-[4px] hover:rounded-bl-[44px] hover:rounded-tr-[44px] hover:bg-blue-900 hover:bg-gradient-to-b hover:from-blue-900 hover:to-blue-300 duration-300">
@@ -92,9 +93,9 @@ const Service2 = () => {
                   comprehensive programs designed to equip individuals with the
                   skills
                 </p>
-                <button className="text-white underline mt-3 ">
+                <Link href="/services" className="text-white underline mt-3 ">
                   read more
-                </button>
+                </Link>
               </div>
             </div>
           </div>

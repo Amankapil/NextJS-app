@@ -3,9 +3,9 @@ import Image from "next/image";
 import "./style.scss";
 const Home2hero = () => {
   return (
-    <div className="flex overflowhidden relative flex-col justify-center py16 w-full rounded-lg min-h[577px] max-md:max-w-full home-container h-[700px]">
+    <div className="flex overflowhidden relative flex-col justify-center py16 w-full rounded-lg min-h[577px] max-md:max-w-full home-container h-[700px] ">
       <div className="flex relative flex-col px-20 mb56 w-full max-md:px-5 max-md:mb-10 max-md:max-w-full">
-        <div className="self-start mt-0 ml-12 text-5xl font-bold bg-clip-text leading-[64px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[60px] text-white max-md:text-center max-md:text-[30px]">
+        <div className="self-start mt-0 ml-12 text-5xl font-bold bg-clip-text leading-[64px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[60px] text-white max-md:text-center max-md:text-[30px] max-md:ml-0">
           Cultivating Innovation, Crafting Success Pioneering Tech
           Transformation Together
         </div>
