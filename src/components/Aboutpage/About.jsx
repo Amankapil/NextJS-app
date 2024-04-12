@@ -170,7 +170,7 @@ const About = () => {
                   <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
                 </svg>
               </div>
-              <p className="text-gray-700">Hr Specialist</p>
+              <p className="text-gray-700">talent Acquisition</p>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-2">
@@ -194,13 +194,13 @@ const About = () => {
                   </svg>
                 </Link>
               </div>
-              <p className="text-gray-700">Sr Developer</p>
+              <p className="text-gray-700">Sr Full Stack Developer</p>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-2">
               <Image src={sonam} width={300} alt="hero" />
               <div className="flex justify-between items-center">
-                <h3 className="text-xl font-bold my-2">Aman Kapil</h3>
+                <h3 className="text-xl font-bold my-2">Sonam Kasaliwal</h3>
                 <Link
                   href="https://www.linkedin.com/in/sonam-kasliwal-a1b82110a"
                   target="_blank"
@@ -229,7 +229,7 @@ const About = () => {
                 alt="hero"
               />
               <div className="flex justify-between items-center">
-                <h3 className="text-xl font-bold my-2">Devyani</h3>
+                <h3 className="text-xl font-bold my-2">Devyani Deshmukh</h3>
                 <Link
                   href="http://linkedin.com/in/devayani-deshmukh-a29451297"
                   target="_blank"
@@ -247,7 +247,7 @@ const About = () => {
                   </svg>
                 </Link>
               </div>
-              <p className="text-gray-700">IUI/UX specialist</p>
+              <p className="text-gray-700">UI/UX specialist</p>
             </div>
             {/* <div className="bg-white rounded-lg shadow-md p-2">
               <Image src={img3} width={300} alt="hero" />
