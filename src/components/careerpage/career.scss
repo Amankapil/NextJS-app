@@ -38,3 +38,18 @@
 .box-content{
   background-color: #15559f5f;
 }
+
+
+@media (max-width: 500px){
+  .careerher::before {
+    content: "";
+    position: absolute;
+    background-image: url("./Border.png");
+    background-repeat: no-repeat;
+    background-size: 430%;
+    height: 115vh;
+    top: -15%;
+    z-index: -1;
+    width: 100%;
+  }
+}

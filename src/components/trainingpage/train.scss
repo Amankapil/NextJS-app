@@ -9,3 +9,20 @@
     z-index: -1;
     width: 100%;
   }
+
+
+
+@media (max-width: 500px){
+  .bggrayy::before {
+    content: "";
+    position: absolute;
+    background-image: url("./bg4.png");
+    background-repeat: no-repeat;
+    background-size: 400%;
+    height: 115vh;
+    top: -15%;
+    z-index: -1;
+    width: 100%;
+  }
+
+}

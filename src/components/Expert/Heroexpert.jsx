@@ -107,7 +107,7 @@ const Heroexpert = () => {
           </section>
 
           <section className="w-full py-12">
-            <div className="container grid max-[1fr_900px] items-center gap-12 px-4 md:px-6 lg:grid-cols-2 xl:gap-20">
+            <div className="container grid max-[1fr_900px] items-center gap-12 px-4 md:px-6 lg:grid-cols-2 xl:gap-20 ">
               <Image
                 alt="Dr. Susan Smith"
                 className="mx-auto rounded-full aspect-square object-top"

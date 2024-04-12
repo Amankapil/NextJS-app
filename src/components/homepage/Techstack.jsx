@@ -21,10 +21,10 @@ const Techstack = () => {
           <div className="max-w-6xl mx-auto">
             <div className="flex flex-col self-end mt-10 max-md:mt-10 max-md:max-w-full">
               <div className="flex gap-5 self-start text-xl leading-9 text-sky-500 uppercase mt-10">
-                <div className="flex-auto ">Start now</div>
+                <div className="flex-auto  max-md:pl-6">Start now</div>
                 <div className="shrink-0 my-auto w-24 h-0.5 bg-sky-500 border-2 border-sky-500 border-solid" />
               </div>
-              <div className="mt-16 text-5xl text-white leading-[61.44px] max-md:mt-10 max-md:max-w-full max-md:text-4xl">
+              <div className="mt-16 max-md:pl-8 text-5xl text-white leading-[61.44px] max-md:mt-10 max-md:max-w-full max-md:text-4xl">
                 Technology we served..
               </div>
             </div>
@@ -36,7 +36,7 @@ const Techstack = () => {
               <div className="w-[150%] ">
                 {/* <div> */}
                 {/* </div>  */}
-                <div className="w-full flex  rid gridcols-2  gap-8 overflw-hidden text-center py-8 px12 sm:px-0  mytech">
+                <div className="w-full max-sm:w-[200%] flex  rid gridcols-2  gap-8 overflw-hidden text-center py-8 px12 sm:px-0  mytech">
                   <div className=" w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
                     <Image
                       src={hero}
@@ -75,7 +75,7 @@ const Techstack = () => {
                     />
                     <p className="mt-4">React</p>
                   </div>
-                  <div className=" w-[50%] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
+                  <div className="  w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
                     <Image
                       src={hero8}
                       width={200}
@@ -85,7 +85,7 @@ const Techstack = () => {
 
                     <p className="mt-4">Tailwind</p>
                   </div>
-                  <div className=" w-[50%] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
+                  <div className="  w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
                     <Image
                       src={hero5}
                       width={200}
@@ -94,7 +94,7 @@ const Techstack = () => {
                     />
                     <p className="mt-4">Next JS</p>
                   </div>
-                  <div className=" w-[50%] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
+                  <div className="  w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
                     <Image
                       src={hero7}
                       width={200}
@@ -104,7 +104,7 @@ const Techstack = () => {
 
                     <p className="mt-4">GraphQL</p>
                   </div>
-                  <div className=" w-[50%] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
+                  <div className=" w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
                     <svg
                       className="w-20 mx-auto"
                       xmlns="http://www.w3.org/2000/svg"
@@ -116,7 +116,7 @@ const Techstack = () => {
 
                     <p className="mt-4">GitHub</p>
                   </div>
-                  <div className=" w-[50%] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
+                  <div className=" w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
                     <svg
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"

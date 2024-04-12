@@ -6,8 +6,8 @@ const Whyus = () => {
   return (
     <>
       <div className="whyeis py-20 bg-career">
-        <div className="max-w-6xl mx-auto flex justify-center items-center gap-20">
-          <div className="flex flex-col w-[50%]">
+        <div className="max-w-6xl mx-auto flex justify-center items-center gap-20 max-md:flex-wrap ">
+          <div className="flex flex-col w-[50%] max-md:w-full">
             <h1 className="text-[36px]">
               Why you Should Join Our Awesome Team
             </h1>

@@ -226,7 +226,7 @@ const JobsPage = () => {
             onChange={handleFilterChange}
             className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
           />
-          <ul className="flex flex-wrap gap-10 max-w-5xl mx-auto mt-10">
+          <ul className="flex flex-wrap gap-5 max-w-5xl mx-auto mt-10">
             {filteredJobs.map((job) => (
               <li
                 key={job.id}
@@ -295,7 +295,7 @@ const JobsPage = () => {
                       </div>
 
                       {apply && (
-                        <div className="fixed w-full bsolute inset-0 flex justify-center overflow-croll items-center bg-white bg-opacity50  z-[9999999999999999999999999999999999999999999999999999]">
+                        <div className="fixed w-full bsolute inset-0 flex justify-center overflow-croll items-center bg-white bg-opacity50  z-[9999999999999999999999999999999999999999999999999999] max-md:p-10">
                           <form
                             onSubmit={handleSubmit}
                             className="flx felx-wrap gap-20 h-full mt-52"
@@ -418,7 +418,7 @@ const JobsPage = () => {
                               {load ? "loading" : "Apply Now"}
                             </button>
                           </form>
-                          <div className="absolute right-20 top-32 max-sm:right-4  max-sm:top-32">
+                          <div className="absolute right-20 top-32 max-sm:right-4  max-sm:top-10">
                             <button
                               type="reset"
                               className="bg-gray-300 text-gray-800 py-2 px-4 rounded-md ml-2"

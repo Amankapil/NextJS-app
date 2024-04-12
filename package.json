@@ -12,7 +12,9 @@
     "@nestjs-modules/mailer": "^1.11.2",
     "axios": "^1.6.8",
     "body-parser": "^1.20.2",
+    "clsx": "^2.1.0",
     "formidable": "^3.5.1",
+    "framer-motion": "^11.0.28",
     "google-auth-library": "^9.7.0",
     "googleapis": "^134.0.0",
     "multer": "^1.4.5-lts.1",
@@ -25,7 +27,8 @@
     "sass": "^1.72.0",
     "sharp": "^0.33.3",
     "shortid": "^2.2.16",
-    "swiper": "^11.0.7"
+    "swiper": "^11.0.7",
+    "tailwind-merge": "^2.2.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
