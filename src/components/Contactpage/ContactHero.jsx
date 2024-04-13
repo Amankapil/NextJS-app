@@ -31,7 +31,7 @@ const ContactHero = () => {
 
   return (
     <>
-      <section className="contact-hero">
+      <section className="contact-hero ">
         <h1 className="contact-hero-h1">
           Got any queries? Feel free to connect with us!
         </h1>

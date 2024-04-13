@@ -67,7 +67,7 @@ const Trainig = () => {
 
   return (
     <section className="w-full py-6 md:py-12">
-      <div className="container px4 md:px6">
+      <div className="contaner px4 md:px6">
         <div className="flex flex-wrap justify-center items-center gap-10 ">
           <div className="card border-1 shadow-2xl p-12 border-[#062b43] max-w-[400px]">
             <div className="flex flex-col items-start py-3">

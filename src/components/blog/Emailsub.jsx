@@ -26,8 +26,8 @@ const Emailsub = () => {
         <div className="letter flex items-center justify-center flex-col">
           <h1>Subscribe to our newsletter</h1>
           <p className="pt-1 pb-8 max-md:w-full">
-            Lorem ipsum dolor sit amet consectetur. Congue arcu in vel pretium
-            et ac in suspendisse.
+            It is a long established fact that a reader will distracted by the
+            readable ...
           </p>
 
           <>
@@ -54,8 +54,17 @@ const Emailsub = () => {
                 placeholder="enter your email"
                 required
               />
-              <button onClick={handleSubmit} className="subscribe ml-2 hover:bg-[#dc4c51] bg-[#733e3d] text-white">
+              {/* <button
+                onClick={handleSubmit}
+                className="subscribe ml-2 hover:bg-[#dc4c51] bg-[#733e3d] text-white"
+              >
                 Subscribe
+              </button> */}
+
+              <button className="flex flex-col justify-center self-stretch my-auto">
+                <div className="justify-center px-9 py-4 rounded text-white border-white border-solid border-[0.5px] max-md:px-5 lettal">
+                  Subscribe
+                </div>
               </button>
             </div>
           </>

@@ -167,35 +167,35 @@ const Header2 = () => {
           <div className="flex gap-5 justify-between self-stretch my-auto max-md:flex-wrap">
             <Link className="hovertext-[#733e3d]" href="/aboutus">
               <div className="flex flex-col justify-center">
-                <div className="justify-center px-6 py-4 rounded-2xl border border-solid border-white hoverbg-black  hoverborder-black max-md:px-5">
+                <div className="justify-center px-6 py-4 rounded-2xl border border-solid border-white hoverbg-black  hoverborder-black max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]">
                   About Us
                 </div>
               </div>
             </Link>
             <Link className="hovertext-[#733e3d]" href="/services">
               <div className="flex flex-col justify-center whitespace-nowrap">
-                <div className="justify-center px-8 py-4 rounded-2xl border border-solid border-white  max-md:px-5">
+                <div className="justify-center px-8 py-4 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]">
                   Service
                 </div>
               </div>
             </Link>
             <Link className="hovertext-[#733e3d]" href="/career">
               <div className="flex flex-col justify-center whitespace-nowrap">
-                <div className="justify-center px-8 py-4 rounded-2xl border border-solid border-white  max-md:px-5">
+                <div className="justify-center px-8 py-4 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]">
                   Career
                 </div>
               </div>
             </Link>
             <Link className="hovertext-[#733e3d]" href="/training">
               <div className="flex flex-col justify-center whitespace-nowrap">
-                <div className="justify-center px-7 py-3.5 rounded-2xl border border-solid border-white  max-md:px-5">
+                <div className="justify-center px-7 py-3.5 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]">
                   Training
                 </div>
               </div>
             </Link>
             <Link className="hovertext-[#733e3d]" href="/blog">
               <div className="flex flex-col justify-center whitespace-nowrap">
-                <div className="justify-center px-7 py-3.5 rounded-2xl border border-solid border-white  max-md:px-5">
+                <div className="justify-center px-7 py-3.5 rounded-2xl border border-solid border-white  max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]">
                   Insights
                 </div>
               </div>
@@ -209,7 +209,7 @@ const Header2 = () => {
             </div> */}
           </div>
           <div className="flex flex-col justify-center self-stretch my-auto">
-            <div className="justify-center px-9 py-4 rounded border-white border-solid border-[0.5px] max-md:px-5 lettal">
+            <div className="justify-center px-9 py-4 rounded border-white border-solid border-[0.5px] max-md:px-5 lettal hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]">
               <Link href="/contact">Lets Talk</Link>
             </div>
           </div>

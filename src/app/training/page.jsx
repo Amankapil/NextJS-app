@@ -25,7 +25,7 @@ const page = () => {
       <div className="max-w-8xl mx-auto">
         <TrainingHero />
         <Trainig />
-        <Meeting />
+        {/* <Meeting /> */}
       </div>
     </>
   );

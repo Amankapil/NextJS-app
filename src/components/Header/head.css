@@ -31,17 +31,18 @@
 .lettal {
   background: linear-gradient(90deg, #336a8e 0%, #002839 100%);
 }
+.lettal:hover {
+  background: #e3f5fe;
+}
 
 .anchor {
   border: 1px solid;
-
   border-color: linear-gradient(
     45deg,
     #666666 26%,
     #ffffff 12.5%,
     #666666 10.5%
   );
-
   border-image-source: linear-gradient(
     45deg,
     #666666 26%,
