@@ -123,13 +123,13 @@ const Header2 = () => {
                   >
                     Insights
                   </Link>
-                  <Link
+                  {/* <Link
                     onClick={hamburger}
                     className="hovertext-[#733e3d] text-white"
                     href="/drop-resume"
                   >
                     Resume
-                  </Link>
+                  </Link> */}
                   <Link
                     onClick={hamburger}
                     href="/contact"
@@ -201,7 +201,7 @@ const Header2 = () => {
               </div>
             </Link>
             {/* <div className="flex flex-col justify-center whitespace-nowrap">
-              <div className="justify-center px-7 py-4 rounded-2xl border border-solid border-white max-md:px-5">
+              <div className="justify-center px-7 py-4 rounded-2xl border border-solid border-white max-md:px-5 hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE] ">
                 <Link className="hovertext-[#733e3d]" href="/drop-resume">
                   Resume
                 </Link>

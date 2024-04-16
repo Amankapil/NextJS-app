@@ -230,12 +230,13 @@ const JobsPage = () => {
             {filteredJobs.map((job) => (
               <li
                 key={job.id}
-                className="mb-4 p-4 bg-[#fff] rounded-md cursor-pointer max-w-5xl  w-[1000px] flex justify-between max-md:flex-wrap max-md:" 
+                className="mb-4 p-4 bg-[#fff] rounded-md cursor-pointer max-w-5xl  w-[1000px] flex justify-between max-md:flex-wrap max-md:"
                 onClick={() => handleJobClick(job)}
               >
                 <h2 className="text-xl font-semibold w-[200px]">{job.title}</h2>
-                <ul className="mt-2 flex flex-wrap gap-2 w-[200px]">
-                  <div>skills:</div>
+                <ul className="mt-2 flx flex-wrap gap-2 w-[200px]">
+                  <li>skills:</li>
+                  {/* <br /> */}
                   {job.tags.map((tag) => (
                     <li
                       key={tag}
@@ -245,7 +246,9 @@ const JobsPage = () => {
                     </li>
                   ))}
                 </ul>
-                <p className="text-[#001833] w-[150px] max-md:w-[100px]">{job.location}</p>
+                <p className="text-[#001833] w-[150px] max-md:w-[100px]">
+                  {job.location}
+                </p>
               </li>
             ))}
           </ul>
@@ -383,7 +386,7 @@ const JobsPage = () => {
                             </div>
                             <div className="flex gap-4">
                               <input
-                                type="text"
+                                type="file"
                                 name="resume"
                                 value={resume}
                                 onChange={(e) => setResume(e.target.value)}

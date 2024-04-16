@@ -36,18 +36,20 @@ const ContactHero = () => {
           Got any queries? Feel free to connect with us!
         </h1>
 
-        <div className="flex justify-start mt-40 gap-20 items-start max-lg:flex-wrap max-lg:justify-center max-w-7xl mx-auto">
+        <div className="flex justify-start mt-20 gap-20 items-start max-lg:flex-wrap max-lg:justify-center max-w-7xl mx-auto">
           <div className="contact-form wfull">
             <div className="form">
               <div className="form-div">
-                <input
-                  type="text"
-                  id="fname"
-                  name="firstname"
-                  placeholder="Enter your first name"
-                  className="name"
-                  onChange={(e) => setName(e.target.value)}
-                />
+                <div>
+                  <input
+                    type="text"
+                    id="fname"
+                    name="firstname"
+                    placeholder="Enter your first name"
+                    className="name"
+                    onChange={(e) => setName(e.target.value)}
+                  />
+                </div>
                 <input
                   type="text"
                   id="lname"
@@ -59,7 +61,7 @@ const ContactHero = () => {
               </div>
               <input
                 type="text"
-                id="lname"
+                id="lnamee"
                 name="lastname"
                 placeholder="Enter your email"
                 className="email"
@@ -73,56 +75,63 @@ const ContactHero = () => {
                 onChange={(e) => setMessage(e.target.value)}
               ></textarea>
             </div>
-            <button
-              onClick={handleSubmit}
+            {/* <button
+          
               className="hover:bg-[#dc4c51] bg-[#733e3d] text-white hovertext-black"
             >
+              
+            </button> */}
+
+            <div
+              onClick={handleSubmit}
+              className="justify-center px-9 py-4 rounded border-white border-solid border-[0.5px] max-md:px-5 lettal hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE] cursor-pointer text-white"
+            >
               Submit
-            </button>
+            </div>
           </div>
 
-          <div className="address-div2">
+          <div className="address-div2  w-[40%]">
             {/* <h1 className="address-head">Office</h1> */}
 
-            <div>
-              <div className="mapouter w-[500px] h-[500px] max-md:w-full">
-                <div className="gmap_canvas">
-                  <iframe
-                    className="gmap_iframe w-[500px] h-[500px] max-md:w-full"
-                    frameborder="0"
-                    scrolling="no"
-                    marginheight="0"
-                    marginwidth="0"
-                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=indore&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                  ></iframe>
-
-                  {/* <a href="https://strandsgame.net/">Strands Game</a> */}
+            <section className="our-contact ">
+              <div className="contacts-info justify-end items-end">
+                <h1 className="contact-head"> Contact Us</h1>
+                <div className="contact-details flex-col justify-end items-end" >
+                  <div>
+                    <h1>Call us</h1>
+                    <p>+91 877-0161528</p>
+                  </div>
+                  <div>
+                    <h1>Write to us</h1>
+                    <p>info@hiringtech.in</p>
+                  </div>
+                  <div>
+                    <h1>Career inquiry </h1>
+                    <p>hr@hiringtech.in</p>
+                  </div>
                 </div>
               </div>
-            </div>
+            </section>
           </div>
         </div>
       </section>
 
-      <section className="our-contact">
-        <div className="contacts-info">
-          <h1 className="contact-head"> Contact Us</h1>
-          <div className="contact-details">
-            <div>
-              <h1>Call us</h1>
-              <p>+91 877-0161528</p>
-            </div>
-            <div>
-              <h1>Write to us</h1>
-              <p>info@hiringtech.in</p>
-            </div>
-            <div>
-              <h1>Career inquiry </h1>
-              <p>hr@hiringtech.in</p>
-            </div>
+      <div className="max-w-7xl pb-20 mx-auto">
+        <div className="mapouter  w-full w[500px] h-[600px] max-md:w-full">
+          <div className="gmap_canvas">
+            <iframe
+              className="gmap_iframe w-[100%] h-[600px] max-md:w-full"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+              src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=indore&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            ></iframe>
+
+            {/* <a href="https://strandsgame.net/">Strands Game</a> */}
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };

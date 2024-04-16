@@ -56,20 +56,20 @@ const Blog = () => {
 
           <div className="all-blogs flex items-center justify-center flex-wrap pt-12">
             <div className="blog-box">
-              <Link href="/blog/Tech-chronicles" className="in-box">
+              <Link href="/blog/Tech-chronicles" className="in-box max-md:text-center">
                 <Image src={img2} alt="" />
 
-                <p className="pt-4 pb-0">
+                <p className="pt-4 pb-0 max-md:text-center">
                   Tech Chronicles: Exploring the Digital Frontier
                 </p>
                 <span className="date p4">02/04/2024</span>
                 <div className="pt-2">
-                  <Link href="/Tech-chronicles">Read More</Link>
+                  <Link href="/blog/Tech-chronicles">Read More</Link>
                 </div>
               </Link>
             </div>
             <div className="blog-box">
-              <Link href="/blog/Tech-Odyssey" className="in-box">
+              <Link href="/blog/Tech-Odyssey" className="in-box max-md:text-center">
                 <Image src={img3} alt="" />
 
                 <p className="pt-4 pb-0">
@@ -82,7 +82,7 @@ const Blog = () => {
               </Link>
             </div>
             <div className="blog-box">
-              <Link href="/blog/Digital-Frontiers" className="in-box">
+              <Link href="/blog/Digital-Frontiers" className="in-box max-md:text-center">
                 <Image src={img4} alt="" />
                 <p className="pt-4 pb-0">
                   Digital Frontiers: Exploring the Ever-Evolving Landscape of
@@ -90,12 +90,12 @@ const Blog = () => {
                 </p>
                 <span className="date p4">12/12/2012</span>
                 <div className="pt-2">
-                  <Link href=".">Read More</Link>
+                  <Link href="/blog/Digital-Frontiers">Read More</Link>
                 </div>
               </Link>
             </div>
             <div className="blog-box">
-              <div className="in-box">
+              <div className="in-box max-md:text-center">
                 <Image src={img} alt="" />
 
                 <p className="pt-4 pb-0">Lorem ipsum dolor sit amet consectetur.</p>
@@ -106,7 +106,7 @@ const Blog = () => {
               </div>
             </div>
             <div className="blog-box">
-              <div className="in-box">
+              <div className="in-box max-md:text-center">
                 <Image src={img} alt="" />
 
                 <p className="pt-4 pb-0">Lorem ipsum dolor sit amet consectetur.</p>

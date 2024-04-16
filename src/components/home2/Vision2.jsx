@@ -15,7 +15,7 @@ const Vision2 = () => {
               <h1 className="text-4xl font-bold text-amber-600 leading-[51.2px] max-md:max-w-full max-md:text-center">
                 Our Vision
               </h1>
-              <div className="mt-8 text-3xl tracking-tight text-slate-900 max-md:max-w-full max-md:text-center">
+              <div className="mt-8 text-3xl max-sm:text-[20px] tracking-tight text-slate-900 max-md:max-w-full max-md:text-center">
                 Our vision is to empower individuals
                 <br />
                 worldwide through accessible <br />
@@ -48,7 +48,7 @@ const Vision2 = () => {
                 <h1 className="self-end max-md:text-center text-end mt-16 text-4xl font-bold text-amber-600 leading-[51.2px] max-md:mt-10">
                   Our Mission
                 </h1>
-                <div className="self-end mt-0 mb-2.5 text-3xl tracking-tight text-right text-slate-900 max-md:mt-0 max-md:max-w-full max-md:self-start max-md:text-center">
+                <div className="self-end mt-0 mb-2.5 text-3xl tracking-tight text-right text-slate-900 max-md:mt-0 max-md:max-w-full max-md:self-start max-md:text-center max-sm:text-[20px]">
                   Our mission is to be the leading provider of transformative
                   education
                   <br />

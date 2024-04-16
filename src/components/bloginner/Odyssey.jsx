@@ -9,19 +9,18 @@ const Odyssey = () => {
   return (
     <>
       <div className="w-full h-[2526px] relative bg-white">
-        <div className="w-[771.24px] h-[138.09px] left-[153.76px] top-[205.80px] absolute text-neutral-800 text-[46px] font-semibold font['Poppins'] leading-[69px]">
+      <div className="w-[771.24px] h-[138.09px] max-lg:h-[400px] left-[153.76px] top-[205.80px] absolute text-neutral-800 text-[46px] font-semibold font['Poppins'] leading-[69px] max-lg:w-full max-lg:left-2">
           Tech Odyssey: Navigating the Digital Seas of Innovation
         </div>
         <Image
-          className="w-[50%] h-[490.08px] left-[150.62px] top-[456.12px] absolute rounded-[21.75px]"
+          className="w-[50%] max-lg:w-full max-lg: max-lg:left-2 h-[490.08px] left-[150.62px] top-[456.12px] absolute rounded-[21.75px]"
           src={img}
           alt=""
         />
-        <div className="left-[154px] top-[350.77px] absolute text-gray-800 text-base font-normal font['Poppins']">
-          12/04/2024
+          <div className="left-[154px] max-lg:hidden top-[350.77px] absolute text-gray-800 text-base font-normal font['Poppins']">   12/04/2024
         </div>
-        <div className="h-[2158px] left-[154px] top-[1033.50px] absolute flex-col justify-start items-start gap-[35px] inline-flex">
-          <div className="w-[744px] text-neutral-900 text-base font-normal font['Poppins'] leading-normal">
+        <div className="h-[1958px] left-[154px] max-lg:left-2 max-lg:h-full max-lg:mb-8 top-[1033.50px] absolute flex-col justify-start items-start gap-[35px] inline-flex">
+          <div className="w-[744px] text-neutral-900 text-base font-normal font['Poppins'] leading-normal max-lg:w-full">
             In the vast expanse of the digital universe, where bytes dance and
             algorithms whisper secrets, we embark on a voyage of discovery
             through the realms of technological innovation. Join us as we chart
@@ -29,7 +28,7 @@ const Odyssey = () => {
             exploring the untold tales of creativity and ingenuity that shape
             our digital world.
           </div>
-          <div className="w-[744px] text-neutral-900 text-base font-normal font['Poppins'] leading-normal">
+          <div className="w-[744px] text-neutral-900 text-base font-normal font['Poppins'] leading-normal max-lg:w-full">
             1. Retail: Crafting Experiences in the Digital Marketplace In the
             bustling bazaars of retail, where commerce and culture collide,
             technology emerges as the architect of a new consumer journey.
@@ -99,7 +98,7 @@ const Odyssey = () => {
             adventure, every memory a treasure to be cherished for a lifetime.
             <br />
           </div>
-          <div className="w-[744px] text-neutral-900 text-base font-normal font['Poppins'] leading-normal">
+          <div className="w-[744px] text-neutral-900 text-base font-normal font['Poppins'] leading-normal max-lg:w-full">
             As we journey through the digital seas of innovation, let us embrace
             the transformative power of technology to shape our world and
             redefine what is possible. For in the boundless expanse of the
@@ -108,7 +107,7 @@ const Odyssey = () => {
           </div>
         </div>
 
-        <div className="left-[1064.25px] top-[1275px] absolute flex-col justify-start items-start gap-9 inline-flex">
+        <div className="left-[1064.25px]  max-md:hidden top-[1275px] absolute flex-col justify-start items-start gap-9 inline-flex">
           <div className="text-neutral-800 text-[42px] font-semibold font['Poppins'] leading-[63px]">
             Similar articles
           </div>

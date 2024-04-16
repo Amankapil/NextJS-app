@@ -1,42 +1,47 @@
-import multer from "multer";
 import nodemailer from "nodemailer";
-// import { json } from 'next/dist/server/response';
 
-const upload = multer({ dest: "uploads/" });
+import { NextResponse } from "next/server";
+import { json } from "next";
 
 export async function POST(req, res) {
-  console.log(req.file);
-  console.log(req.body);
-  upload.single("file")(req, res, async (err) => {
-    const { path: filePath, originalname } = req.file;
+  if (req.method === "POST") {
+    const { email } = req.body;
+    const { resume } = req.file;
 
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
         user: "aman@hiringtech.in",
         pass: "hkhciawppvadmvyd",
+        // hkhc iawp pvad mvyd
       },
     });
 
-    const mailData = {
+    const mailOptions = {
       from: "aman@hiringtech.in",
       to: "amankapil60@gmail.com",
-      subject: "New Message from website career page",
+      subject: "New Resume Submission",
+      text: "Please find attached the resume.",
       attachments: [
         {
-          filename: originalname,
-          path: filePath,
+          filename: resume,
+          content: resume.data,
+          contentType: "application/pdf", // Set the content type
+          encoding: "base64",
         },
       ],
     };
 
     try {
-      // Send the email
-      await transporter.sendMail(mailData);
-      return res.status(200).json({ message: "Email sent successfully!" });
+      await transporter.sendMail(mailOptions);
+      return NextResponse.json({ success: true });
     } catch (error) {
       console.error("Error sending email:", error);
-      return res.status(500).json({ message: "Error sending email." });
+      res
+        .status(500)
+        .json({ error: "An error occurred while sending the email." });
     }
-  });
+  } else {
+    res.status(405).json({ error: "Method Not Allowed" });
+  }
 }

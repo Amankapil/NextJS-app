@@ -9,7 +9,7 @@ const Web = () => {
     <> 
       <div className="serviepageappdevs max-lg:px-4  bg-service">
         <div className="w-full h-full relative max-lg:h-full">
-          <div className="flex max-lg:flex-wrap-reverse  max-lg:justify-center  max-lg:items-center   max-w-7xl mx-auto justify-center gap-40">
+          <div className="flex max-lg:flex-wrap-reverse  max-lg:justify-center  max-lg:items-center   max-w-7xl mx-auto justify-center gap-40 max-md:gap-10">
             <div>
               <div className="w[359px]  max-md:w-full max-md:h-full  max-lg:w-[665px] max-lg:h-[800px] h-[434px] left-[730px] mt-[80px]  bg-zinc100 flex-col justify-center items-center inline-flex">
                 <Image src={img} width={600} alt="hero" />

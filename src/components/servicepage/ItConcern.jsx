@@ -4,8 +4,7 @@ import Image from "next/image";
 
 import img from "./assets/hree.webp";
 
-import './service.scss'
-
+import "./service.scss";
 
 const ItConcern = () => {
   return (
@@ -13,11 +12,9 @@ const ItConcern = () => {
       <>
         <div className="serviepageappdevs max-lg:px-4 bg-service pb-10">
           <div className="w-full h-full relative max-lg:h-full">
-            <div className="flex max-lg:flex-wrap-reverse  max-lg:justify-center  max-lg:items-center   max-w-7xl mx-auto justify-center gap-40">
-              <div>
-                <div className="w[359px]  max-md:w-full max-md:h-full  max-lg:w-[665px] max-lg:h-[800px] h-full left-[730px] mt[80px]  bg-inc-100 flex-col justify-center items-center inline-flex">
-                  <Image src={img} width={700} hieght={400} alt="hero" />
-                </div>
+            <div className="flex max-lg:flex-wrap-reverse  max-lg:justify-center  max-lg:items-center   max-w-7xl mx-auto justify-center gap-40 items-center">
+              <div className="w[359px]  max-md:w-full max-md:h-full  max-lg:w-[665px] max-lg:h-[800px] h-full left-[730px] mt[80px]  bg-inc-100 flex-col justify-center items-center inline-flex">
+                <Image src={img} width={700} hieght={400} alt="hero" />
               </div>
 
               <div className="max-md:w-full">

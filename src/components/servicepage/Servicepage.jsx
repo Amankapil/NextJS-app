@@ -19,23 +19,18 @@ const Servicepage = () => {
       {data} */}
 
       <div class="w-full bggrayy max-lgpx-4">
-        <div class="w-4px] text-400 text-white text-[87.74px]  font-normal font['Graphik'] leading-[108%] max-md:text-[50px] max-md:leading-[54px] max-w-7xl mx-auto max-lg:text-[70px] max-lg:leading-[7px] text-center flex justify-center items-center h-[700px]">
+        <div class="w-4px] text-400 text-white text-[87.74px]  font-normal font['Graphik'] leading-[108%] max-md:text-[50px] max-md:leading-[54px] max-w-7xl mx-auto max-lg:text-[70px] max-lg:leading-[7px] text-center flex justify-center items-center h-[650px] max-md:h-[500px]">
           <div>We must continue to innovate, and re-innovate every day.</div>
         </div>
       </div>
-      <>
+      {/* <>
         <div className="bg-service pb-10">
           <div className="serviepageappdevs  max-w-7xl mx-auto max-lg:px-4 ">
             <div className="w-full h-full relative max-lg:h-full">
               <div className="flex max-lg:flex-col  max-lg:justify-center  max-lg:items-center   max-w-7xl mx-auto justify-center">
                 <div className="max-md:w-full">
                   <div className="ml[80px] max-md:ml-0 mt-[80px]  flex-col justify-center items-start gap-[30px] inline-flex max-xl:ml-4">
-                    <div className="w-[521.42px] max-md:w-full justify-start items-center gap-[13.42px] inline-flex">
-                      {/* <div className="opacity-60 text-black text-sm font-normal font['Archivo'] uppercase leading-snug">
-                      our services
-                    </div>
-                    <div className="grow shrink basis-0 h-[0px] opacity-60 border border-black"></div> */}
-                    </div>
+                    <div className="w-[521.42px] max-md:w-full justify-start items-center gap-[13.42px] inline-flex"></div>
                     <div className="flex-col justify-start items-start gap-[42px] flex">
                       <div className="flex-col justify-start items-start gap-[22px] flex">
                         <div className="w-[631.03px] max-md:w-full text-[#062b43] text-[49.20px] font-normal font[''] leading-[59.04px] max-sm:text-[40px]">
@@ -58,31 +53,8 @@ const Servicepage = () => {
                           technology.
                         </div>
                       </div>
-                      {/* <button className="px-8 py-4 rounded-[31px] border border-black justify-center items-center gap-2 inline-flex hover:bg-yellow-400 transition-all  hover:border-yellow-400 max-sm:w-full">
-                      <div className="text-black text-base font-normal font[''] capitalize leading-normal">
-                        Learn more
-                      </div>
-                    </button> */}
                     </div>
                   </div>
-
-                  {/* <div className="flex ml[80px] max-md:ml-0 mt-16 gap-10 w-[621px] flex-wrap max-md:w-full text-[18px] ">
-                  <div className="w-[167.11px] left-[80px] top-[496px]  opacity-80 text-black tet-base font-normal font[''] leading-normal max-sm:w-[30%]">
-                    lorem
-                  </div>
-                  <div className="w-[167.04px] left-[298px] top-[496px]  opacity-80 text-black textbase font-normal font[''] leading-normal max-sm:w-[50%]">
-                    lorem
-                  </div>
-                  <div className="w-[166.55px] left-[513px] top-[496px]  opacity-80 text-black textbase font-normal font[''] leading-normal max-sm:w-[30%]">
-                    lorem
-                  </div>
-                  <div className="w-[166px] left-[80px] top-[570.33px]  opacity-80 text-black textbase font-normal font[''] leading-normal max-md:w-full max-sm:w-[50%]">
-                    lorem
-                  </div>
-                  <div className="w-[125.06px] left-[298.11px] top-[570.33px]  opacity-80 text-black textbase font-normal font[''] leading-normal max-sm:w-[100%]">
-                    lorem
-                  </div>
-                </div> */}
                 </div>
 
                 <div>
@@ -94,7 +66,7 @@ const Servicepage = () => {
             </div>
           </div>
         </div>
-      </>
+      </> */}
     </>
   );
 };

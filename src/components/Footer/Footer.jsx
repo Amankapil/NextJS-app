@@ -29,11 +29,11 @@ const Footer = () => {
                       <h3>Office</h3>
                     </div>
                     <div className="text">
-                      <p>
+                      {/* <p>
                         It is a long established fact that a reader will
                         distracted by the readable ...{" "}
                         <i className="fas fa-arrow-up"></i>
-                      </p>
+                      </p> */}
                       <p>
                         India
                         <br />

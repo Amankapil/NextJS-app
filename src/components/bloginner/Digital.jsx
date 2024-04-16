@@ -9,23 +9,29 @@ const Digital = () => {
   return (
     <>
       <div className="w-full h-[2526px] relative bg-white">
-        <div className="w-[771.24px] h-[138.09px] left-[153.76px] top-[205.80px] absolute text-neutral-800 text-[46px] font-semibold font['Poppins'] leading-[69px]">
+        <div className="w-[771.24px] h-[138.09px] max-lg:h-[400px] left-[153.76px] top-[205.80px] absolute text-neutral-800 text-[46px] font-semibold font['Poppins'] leading-[69px] max-lg:w-full max-lg:left-2">
           Tech Odyssey: Navigating the Digital Seas of Innovation
         </div>
         <Image
-          className="w-[60%] h-[490.08px] left-[150.62px] top-[456.12px] absolute rounded-[21.75px]"
+          className="w-[50%] max-lg:w-full max-lg: max-lg:left-2 h-[490.08px] left-[150.62px] top-[456.12px] absolute rounded-[21.75px]"
           src={img}
           alt=""
         />
-        <div className="left-[154px] top-[350.77px] absolute text-gray-800 text-base font-normal font['Poppins']">
+        <div className="left-[154px] max-lg:hidden top-[350.77px] absolute text-gray-800 text-base font-normal font['Poppins']">
+          {" "}
           10/01/2024
         </div>
-        <div className="h-[2158px] left-[154px] top-[1033.50px] absolute flex-col justify-start items-start gap-[35px] inline-flex">
-          <div className="w-[744px] text-neutral-900 text-base font-normal font['Poppins'] leading-normal">
-          Embark on a journey through the digital frontiers where innovation reigns supreme and possibilities are boundless. In this series of blogs, we delve into the myriad ways technology is reshaping industries and transforming the way we live, work, and interact. Join us as we explore the latest trends, emerging technologies, and groundbreaking ideas that are shaping the future of our digital world.
-
+        <div className="h-[1958px] left-[154px] top-[1033.50px] absolute flex-col justify-start items-start gap-[35px] inline-flex">
+          <div className="w-[744px] text-neutral-900 text-base font-normal font['Poppins'] leading-normal max-lg:w-full">
+            Embark on a journey through the digital frontiers where innovation
+            reigns supreme and possibilities are boundless. In this series of
+            blogs, we delve into the myriad ways technology is reshaping
+            industries and transforming the way we live, work, and interact.
+            Join us as we explore the latest trends, emerging technologies, and
+            groundbreaking ideas that are shaping the future of our digital
+            world.
           </div>
-          <div className="w-[744px] text-neutral-900 text-base font-normal font['Poppins'] leading-normal">
+          <div className="w-[744px] text-neutral-900 text-base font-normal font['Poppins'] leading-normal max-lg:w-full">
             1. AI: Your Personal Shopping Buddy Ever felt like the internet
             knows you better than you know yourself? That's the magic of AI!
             Imagine browsing an online store, and suddenly, it's like the
@@ -88,7 +94,7 @@ const Digital = () => {
             see exactly how many points you have and what you can do with them.
             No more wondering if your rewards are real or not!
           </div>
-          <div className="w-[744px] text-neutral-900 text-base font-normal font['Poppins'] leading-normal">
+          <div className="w-[744px] text-neutral-900 text-base font-normal font['Poppins'] leading-normal max-lg:w-full">
             Conclusion: In the world of web marketing, technology is like a
             magic wand that can make things awesome. By keeping it simple and
             using cool tech in creative ways, marketers can make shopping online
@@ -99,7 +105,7 @@ const Digital = () => {
           </div>
         </div>
 
-        <div className="left-[1064.25px] top-[1275px] absolute flex-col justify-start items-start gap-9 inline-flex">
+        <div className="left-[1064.25px] top-[1275px] max-md:hidden absolute flex-col justify-start items-start gap-9 inline-flex">
           <div className="text-neutral-800 text-[42px] font-semibold font['Poppins'] leading-[63px]">
             Similar articles
           </div>
