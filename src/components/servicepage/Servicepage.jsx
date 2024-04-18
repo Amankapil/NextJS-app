@@ -18,8 +18,8 @@ const Servicepage = () => {
       {/* <button onClick={handleclick}>add</button>
       {data} */}
 
-      <div class="w-full bggrayy max-lgpx-4">
-        <div class="w-4px] text-400 text-white text-[87.74px]  font-normal font['Graphik'] leading-[108%] max-md:text-[50px] max-md:leading-[54px] max-w-7xl mx-auto max-lg:text-[70px] max-lg:leading-[7px] text-center flex justify-center items-center h-[650px] max-md:h-[500px]">
+      <div className="w-full bggrayy max-lgpx-4">
+        <div className="w-4px] text-400 text-white text-[87.74px]  font-normal font['Graphik'] leading-[108%] max-md:text-[50px] max-md:leading-[54px] max-w-7xl mx-auto max-lg:text-[70px] max-lg:leading-[7px] text-center flex justify-center items-center h-[650px] max-md:h-[500px]">
           <div>We must continue to innovate, and re-innovate every day.</div>
         </div>
       </div>

@@ -84,7 +84,7 @@ const ContactHero = () => {
 
             <div
               onClick={handleSubmit}
-              className="justify-center px-9 py-4 rounded border-white border-solid border-[0.5px] max-md:px-5 lettal hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE] cursor-pointer text-white"
+              className="justify-center px-9 py-4 rounded border-white border-solid border-[0.5px] max-md:px-5 lettal hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE] cursor-pointer text-white w-full text-center"
             >
               Submit
             </div>
@@ -94,16 +94,16 @@ const ContactHero = () => {
             {/* <h1 className="address-head">Office</h1> */}
 
             <section className="our-contact ">
-              <div className="contacts-info justify-end items-end">
+              <div className="contacts-info justify-start items-start">
                 <h1 className="contact-head"> Contact Us</h1>
-                <div className="contact-details flex-col justify-end items-end" >
+                <div className="contact-details flex-col justify-start items-start">
                   <div>
                     <h1>Call us</h1>
                     <p>+91 877-0161528</p>
                   </div>
                   <div>
                     <h1>Write to us</h1>
-                    <p>info@hiringtech.in</p>
+                    <p>career@hiringtech.in</p>
                   </div>
                   <div>
                     <h1>Career inquiry </h1>

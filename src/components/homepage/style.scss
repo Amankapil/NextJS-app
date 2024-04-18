@@ -93,9 +93,7 @@
 /* .animate-slide-to-right {
   animation: slide_to_right 50s linear infinite;
 } */
-.mytech {
-  animation: slide_to_right 60s linear infinite;
-}
+
 
 .techno {
   width: 250px;
@@ -120,12 +118,15 @@
   display: block;
   /* width: 100%; */
 }
+.mytech {
+  animation: slide_to_right 45s linear infinite;
+}
 @keyframes slide_to_right {
   0% {
     transform: translateX(0%);
   }
   50% {
-    transform: translateX(-40%);
+    transform: translateX(-60%);
   }
 
   100% {

@@ -65,6 +65,94 @@ const Trainig = () => {
     paymentObject.open();
   };
 
+  const makePayment2 = async () => {
+    setLoading(true);
+    const res = await initializeRazorpay();
+
+    if (!res) {
+      alert("Razorpay SDK Failed to load");
+      setLoading(false);
+      return;
+    }
+
+    // Make API call to the serverless API
+    const data = await fetch("/api/razorpay", { method: "POST" }).then((t) =>
+      t.json()
+    );
+
+    // const data = await axios.post("/api/contact").then((t) => {
+    //   console.log(t);
+    // });
+    console.log(data);
+    var options = {
+      key: "rzp_test_WjOtHCtWT76ZeX", // Enter the Key ID generated from the Dashboard
+      name: "Name",
+      currency: data.currency,
+      amount: data.amount,
+      order_id: data.id,
+      description: "Thankyou for your test donation",
+      image: "https://manuarora.in/logo.png",
+      handler: function (response) {
+        // Validate payment at server - using webhooks is a better idea.
+        alert(response.razorpay_payment_id);
+        alert(response.razorpay_order_id);
+        alert(response.razorpay_signature);
+        setLoading(false);
+      },
+      prefill: {
+        name: "Aman Kapil",
+        email: "amankapil60@gmail.com",
+        contact: "8103075691",
+      },
+    };
+
+    const paymentObject = new window.Razorpay(options);
+    paymentObject.open();
+  };
+  const makePayment3 = async () => {
+    setLoading(true);
+    const res = await initializeRazorpay();
+
+    if (!res) {
+      alert("Razorpay SDK Failed to load");
+      setLoading(false);
+      return;
+    }
+
+    // Make API call to the serverless API
+    const data = await fetch("/api/razorpay", { method: "POST" }).then((t) =>
+      t.json()
+    );
+
+    // const data = await axios.post("/api/contact").then((t) => {
+    //   console.log(t);
+    // });
+    console.log(data);
+    var options = {
+      key: "rzp_test_WjOtHCtWT76ZeX", // Enter the Key ID generated from the Dashboard
+      name: "Name",
+      currency: data.currency,
+      amount: data.amount,
+      order_id: data.id,
+      description: "Thankyou for your test donation",
+      image: "https://manuarora.in/logo.png",
+      handler: function (response) {
+        // Validate payment at server - using webhooks is a better idea.
+        alert(response.razorpay_payment_id);
+        alert(response.razorpay_order_id);
+        alert(response.razorpay_signature);
+        setLoading(false);
+      },
+      prefill: {
+        name: "Aman Kapil",
+        email: "amankapil60@gmail.com",
+        contact: "8103075691",
+      },
+    };
+
+    const paymentObject = new window.Razorpay(options);
+    paymentObject.open();
+  };
   return (
     <>
       <section className="main-training py-28">
@@ -208,7 +296,7 @@ const Trainig = () => {
                 </p>
                 <div className="flex justify-center py-6 w-full">
                   <button
-                    onClick={makePayment}
+                    onClick={makePayment2}
                     disabled={loading}
                     className="lettal hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE] text-white p-4 rounded-full w-full font-bold"
                   >
@@ -271,7 +359,7 @@ const Trainig = () => {
                 </p>
                 <div className="flex justify-center py-6 w-full">
                   <button
-                    onClick={makePayment}
+                    onClick={makePayment3}
                     disabled={loading}
                     className="lettal hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE] text-white p-4 rounded-full w-full font-bold"
                   >

@@ -14,6 +14,8 @@ import Vision from "@/components/homepage/Vision";
 import Image from "next/image";
 import Service2 from "@/components/home2/service2";
 import Testimonials2 from "@/components/home2/Testimonials2";
+import Trail from "@/components/home2/Trial";
+import ScrollingAnimation from "@/components/homepage/Animation";
 
 export default function Home() {
   // const [showdata, setShowdat] = useState(false);
@@ -32,12 +34,18 @@ export default function Home() {
       </div> */}
 
       <Home2hero />
-      <Vision2 />
+      {/* <Vision2 /> */}
+      <Trail />
       <About2 />
       <Service2 />
+
+      {/* <ScrollingAnimation /> */}
       {/* <Testimonials2 /> */}
-      <Testimonials />
-      <Techstack />
+
+      <section className="relative">
+        <Testimonials />
+        <Techstack />
+      </section>
 
       {/* <Clients /> */}
       {/* <Footer/> */}

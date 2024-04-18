@@ -208,11 +208,13 @@ const Header2 = () => {
               </div>
             </div> */}
           </div>
-          <div className="flex flex-col justify-center self-stretch my-auto">
-            <div className="justify-center px-9 py-4 rounded border-white border-solid border-[0.5px] max-md:px-5 lettal hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]">
-              <Link href="/contact">Lets Talk</Link>
+          <Link href="/contact">
+            <div className="flex flex-col justify-center self-stretch my-auto">
+              <div className="justify-center px-9 py-4 rounded border-white border-solid border-[0.5px] max-md:px-5 lettal hover:border-[#00557E] hover:text-[#00557E] hover:bg-[#E3F5FE]">
+                Lets Talk
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
       )}
     </>

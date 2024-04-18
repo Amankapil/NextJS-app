@@ -29,13 +29,12 @@ const ServiceUpdate = () => (
           </div>
           <div className="right-div relative">
             <p className="someone -mt-32 text-[450px]">01</p>
-            {/* <div className="img-sert"> */}
+            
             <Image
               src={img}
               alt="lj"
               className="absolute bottom-10 max-md:relative"
             />
-            {/* </div> */}
           </div>
         </div>
       </section>
@@ -43,13 +42,12 @@ const ServiceUpdate = () => (
         <div className="main flex max-w-7xl h[500px] mx-auto gap-10 items-center justify-center max-md:flex-wrap-reverse">
           <div className="right-div relative">
             <p className="someone -mt-32 text-[450px]">02</p>
-            {/* <div className="img-sert"> */}
+
             <Image
               src={img3}
               alt="lj"
               className="absolute bottom-10 max-md:relative"
             />
-            {/* </div> */}
           </div>
 
           <div className="left-section">
@@ -97,13 +95,11 @@ const ServiceUpdate = () => (
           </div>
           <div className="right-div relative">
             <p className="someone -mt-32 text-[450px]">03</p>
-            {/* <div className="img-sert"> */}
             <Image
               src={img4}
               alt="lj"
               className="absolute bottom-0 max-md:relative"
             />
-            {/* </div> */}
           </div>
         </div>
       </section>
@@ -113,13 +109,12 @@ const ServiceUpdate = () => (
             <p className="someone -mt-32 text-[450px] max-md:text-[200px] ">
               04
             </p>
-            {/* <div className="img-sert"> */}
+
             <Image
               src={img2}
               alt="lj"
               className="absolute bottom-10 max-md:relative"
             />
-            {/* </div> */}
           </div>
           <div className="left-section">
             <h1 className="text-[48px] text-[#082494]">Web Development</h1>

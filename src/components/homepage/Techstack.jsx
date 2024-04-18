@@ -9,6 +9,11 @@ import hero6 from "./assets/github.3b9e32903aa89111875d.png";
 import hero7 from "./assets/graphql.fc6b9451733c620ceb86.png";
 import hero8 from "./assets/tailwind.e47ac876b8d4d0bba47a.png";
 import imgte from "./assets/Group 129.png";
+import java from "./assets/javaa.png";
+import net from "./assets/net.png";
+import py from "./assets/pythn.jpeg";
+import vp from "./assets/vps.png";
+import aws from "./assets/aws.jpeg";
 
 import "./style.scss";
 
@@ -17,7 +22,11 @@ const Techstack = () => {
     <>
       <div className="w-full vision-bg py-20">
         <div className="techstack w-full relative  bg-cyan-800 rounded-[35px_2px] my10 max-w-7xl mx-auto">
-          <Image className="absolute right-0 -top-20 z-[999999] max-md:hidden" src={imgte} alt="k" />
+          <Image
+            className="absolute right-0 -top-20 z-[999999] max-md:hidden"
+            src={imgte}
+            alt="k"
+          />
           <div className="max-w-6xl mx-auto">
             <div className="flex flex-col self-end mt-10 max-md:mt-10 max-md:max-w-full">
               <div className="flex gap-5 self-start text-xl leading-9 text-sky-500 uppercase mt-10">
@@ -33,7 +42,7 @@ const Techstack = () => {
             </p> */}
 
             <div className="max-w-7xl overflow-hidden">
-              <div className="w-[150%] ">
+              <div className="w-[250%] ">
                 {/* <div> */}
                 {/* </div>  */}
                 <div className="w-full max-sm:w-[200%] flex  rid gridcols-2  gap-8 overflw-hidden text-center py-8 px12 sm:px-0  mytech">
@@ -127,6 +136,55 @@ const Techstack = () => {
                     </svg>
 
                     <p className="mt-4">SQL</p>
+                  </div>
+                  <div className=" w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
+                  <Image
+                      src={java}
+                      width={200}
+                      alt=""
+                      className="w-20 mx-auto"
+                    />
+
+                    <p className="mt-4">Java</p>
+                  </div>
+                  <div className=" w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
+                  <Image
+                      src={py}
+                      width={200}
+                      alt=""
+                      className="w-20 mx-auto"
+                    />
+                    <p className="mt-4">Python</p>
+                  </div>
+                  <div className=" w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
+                  <Image
+                      src={net}
+                      width={200}
+                      alt=""
+                      className="w-20 mx-auto"
+                    />
+
+                    <p className="mt-4">DotNet</p>
+                  </div>
+                  <div className=" w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
+                  <Image
+                      src={aws}
+                      width={200}
+                      alt=""
+                      className="w-20 mx-auto"
+                    />
+
+                    <p className="mt-4">AWS</p>
+                  </div>
+                  <div className=" w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno">
+                  <Image
+                      src={vp}
+                      width={200}
+                      alt=""
+                      className="w-20 mx-auto"
+                    />
+
+                    <p className="mt-4">VPS</p>
                   </div>
                 </div>
               </div>

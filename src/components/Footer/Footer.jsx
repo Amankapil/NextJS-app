@@ -10,12 +10,12 @@ import tweet4 from "./assets/facebook-3-3 2.svg";
 const Footer = () => {
   return (
     <>
-      <footer className="main-footer bg-color-1 bg-[#062b43] max-lg:p-4 z-50">
+      <footer className="main-footer footer-bg bg[#062b43] max-lg:p-4 z-50">
         <div className="pattern-layer"></div>
 
         <div className="auto-container max-w-6xl mx-auto">
           <div className="pt-10">
-            <Link  href="/">
+            <Link href="/">
               <div className="logobg"></div>
             </Link>
           </div>
@@ -41,9 +41,9 @@ const Footer = () => {
                         MP 452001.
                       </p>
                     </div>
-                    <div class="follow-us flex items-start justify-start mt-5 mb-10">
-                      <div class="follow mr-6 text-white">Follow us on</div>
-                      <div class="link-icon flex mr-5 gap-4 justify-center items-center ">
+                    <div className="follow-us flex items-start justify-start mt-5 mb-10">
+                      <div className="follow mr-6 text-white">Follow us on</div>
+                      <div className="link-icon flex mr-5 gap-4 justify-center items-center ">
                         <Link
                           target="_blank"
                           href="https://www.linkedin.com/company/hiring-tech/"
@@ -116,6 +116,9 @@ const Footer = () => {
                       <li>
                         <Link href="/career">Job Seekers</Link>
                       </li>
+                      {/* <li>
+                        <Link href="/Industries">Industries</Link>
+                      </li> */}
 
                       {/* <li>
                         <Link href="/">Industries</Link>

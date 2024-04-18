@@ -15,6 +15,8 @@ import sonam from "./team/sonam.jpg";
 import dev from "./team/dev.jpg";
 import "./about.scss";
 import Link from "next/link";
+import Offer from "./offer";
+import Mission from "./Mission";
 const About = () => {
   return (
     <div className=" min-hscreen ">
@@ -35,14 +37,14 @@ const About = () => {
         </div>
       </header> */}
 
-      <div class="w-full h-[700px] max-w7xl mxauto bggray ">
-        <div class="w-4px] text-400 text-white text-[87.74px]  font-normal font['Graphik'] leading-[108%] max-md:text-[50px] max-md:leading-[54px] max-w-7xl mx-auto  max-lg:text-[70px] max-lg:leading-[7px] text-center flex justify-center items-center h-[500px]">
+      <div className="w-full h-[435px] max-w7xl mxauto bggray ">
+        <div className="w-4px] text-400 text-white text-[87.74px]  font-normal font['Graphik'] leading-[108%] max-md:text-[50px] max-md:leading-[54px] max-w-7xl mx-auto  max-lg:text-[70px] max-lg:leading-[7px] text-center flex justify-center items-center h-[500px]">
           <h1>Empowering Connections, Inspiring Futures.</h1>
         </div>
       </div>
 
       <div className="container max-w-7xl mx-auto px-4 py-8 ">
-        <section className="mb-8 flex justify-between items-center gap-20 max-lg:flex-wrap">
+        {/* <section className="mb-8 flex justify-between items-center gap-20 max-lg:flex-wrap">
           <div className="w-[50%] max-lg:w-full">
             <h2 className="text-4xl font-bold mb-4 text-[#062b43]">
               Our Mission
@@ -73,12 +75,13 @@ const About = () => {
           <div className="rightimg">
             <Image src={img} width={600} alt="hero" />
           </div>
-        </section>
+        </section> */}
+        {/* <Mission/> */}
         <section className="my-20 mt-20 flex justify-between items-center gap-20 max-lg:flex-wrap-reverse">
-          <div className="left">
+          {/* <div className="left">
             <Image src={img2} width={600} alt="hero" />
-          </div>
-          <div className="w-[50%] max-lg:w-full">
+          </div> */}
+          {/* <div className="w-[50%] max-lg:w-full">
             <h2 className="text-4xl font-bold mb-4 text-[#062b43]">
               What We Offer
             </h2>
@@ -105,171 +108,15 @@ const About = () => {
               courses, workshops, and personalized coaching to help you reach
               your full potential as a web developer.
             </p>
-          </div>
+          </div> */}
+
+          {/* <Offer/> */}
         </section>
 
-        <section className="mb-28">
-          <h2 className="text-4xl font-bold mb-10 text-[#062b43]">
-            Meet Our Team
-          </h2>
-          <div className="flex gap-10 flex-wrap justify-center items-center max-md:justify-center max-md:items-center ">
-            <div className="bg-white rounded-lg shadow-md p-2">
-              <Image src={abhi} width={300} height={300} alt="hero" />
-              <div className="flex justify-between items-center">
-                <h3 className="text-xl font-bold my-2">Abhidutt Sharma </h3>
-
-                <Link
-                  target="_blanck"
-                  href="http://linkedin.com/in/abhidatt-sharma"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    x="0px"
-                    y="0px"
-                    width="30"
-                    height="30"
-                    viewBox="0 0 50 50"
-                  >
-                    <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
-                  </svg>
-                </Link>
-              </div>
-              <p className="text-gray-700">Lead Instructor</p>
-            </div>
-            <div className="bg-white rounded-lg shadow-md p-2">
-              <Image
-                src={devesh}
-                width={300}
-                height={300}
-                className="h-[370px]"
-                alt="hero"
-              />
-              <div className="flex justify-between items-center">
-                <h3 className="text-xl font-bold my-2">Devesh Kumar</h3>
-                <Link href="https://www.linkedin.com/in/devesh-kumar-shukla-ba98ba245">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    x="0px"
-                    y="0px"
-                    width="30"
-                    height="30"
-                    viewBox="0 0 50 50"
-                  >
-                    <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
-                  </svg>
-                </Link>
-              </div>
-              <p className="text-gray-700">Senior Manager</p>
-            </div>
-            <div className="bg-white rounded-lg shadow-md p-2">
-              <Image
-                src={shruti}
-                width={300}
-                className="h-[370px]"
-                alt="hero"
-              />
-              <div className="flex justify-between items-center">
-                <h3 className="text-xl font-bold my-2">Shruti Dixit</h3>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  x="0px"
-                  y="0px"
-                  width="30"
-                  height="30"
-                  viewBox="0 0 50 50"
-                >
-                  <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
-                </svg>
-              </div>
-              <p className="text-gray-700">Talent Acquisition</p>
-            </div>
-
-            <div className="bg-white rounded-lg shadow-md p-2">
-              <Image src={amn} width={300} alt="hero" />
-              <div className="flex justify-between items-center">
-                <h3 className="text-xl font-bold my-2">Aman Kapil</h3>
-                <Link
-                  target="_blank"
-                  rel="noopener"
-                  href="www.linkedin.com/in/aman-kapil-750640200"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    x="0px"
-                    y="0px"
-                    width="30"
-                    height="30"
-                    viewBox="0 0 50 50"
-                  >
-                    <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
-                  </svg>
-                </Link>
-              </div>
-              <p className="text-gray-700">Sr Full Stack Developer</p>
-            </div>
-
-            <div className="bg-white rounded-lg shadow-md p-2">
-              <Image src={sonam} width={300} alt="hero" />
-              <div className="flex justify-between items-center">
-                <h3 className="text-xl font-bold my-2">Sonam kasliwal</h3>
-                
-                <Link
-                  href="https://www.linkedin.com/in/sonam-kasliwal-a1b82110a"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    x="0px"
-                    y="0px"
-                    width="30"
-                    height="30"
-                    viewBox="0 0 50 50"
-                  >
-                    <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
-                  </svg>
-                </Link>
 
 
-              </div>
-              <p className="text-gray-700">Marketing Specialist</p>
-            </div>
-            <div className="bg-white rounded-lg shadow-md p-2">
-              <Image
-                src={dev}
-                width={300}
-                height={300}
-                className="h-[330px]"
-                alt="hero"
-              />
-              <div className="flex justify-between items-center">
-                <h3 className="text-xl font-bold my-2">Devyani Deshmukh</h3>
-                <Link
-                  href="http://linkedin.com/in/devayani-deshmukh-a29451297"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    x="0px"
-                    y="0px"
-                    width="30"
-                    height="30"
-                    viewBox="0 0 50 50"
-                  >
-                    <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
-                  </svg>
-                </Link>
-              </div>
-              <p className="text-gray-700">UI/UX specialist</p>
-            </div>
-            {/* <div className="bg-white rounded-lg shadow-md p-2">
-              <Image src={img3} width={300} alt="hero" />
-              <h3 className="text-xl font-bold my-2">Aman Johnson</h3>
-              <p className="text-gray-700">NEXTJS Specialist</p>
-            </div> */}
-          </div>
-        </section>
+
+       
       </div>
     </div>
   );
