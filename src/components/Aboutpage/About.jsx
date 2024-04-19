@@ -15,8 +15,7 @@ import sonam from "./team/sonam.jpg";
 import dev from "./team/dev.jpg";
 import "./about.scss";
 import Link from "next/link";
-import Offer from "./offer";
-import Mission from "./Mission";
+
 const About = () => {
   return (
     <div className=" min-hscreen ">
