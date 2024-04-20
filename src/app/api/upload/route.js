@@ -3,10 +3,20 @@ import nodemailer from "nodemailer";
 import { NextResponse } from "next/server";
 import { json } from "next";
 
+
+// const upload = multer({ dest: 'uploads/' });
+
 export async function POST(req, res) {
   if (req.method === "POST") {
-    const { email } = req.body;
-    const { resume } = req.file;
+    // const { email,resume } = req.body;
+    const file = req.body;
+    console.log(file);
+
+    if (!req.body || !req.body.emailData) {
+      return NextResponse.json({
+        message: "Missing email data in request body",
+      });
+    }
 
     const transporter = nodemailer.createTransport({
       service: "gmail",
@@ -18,16 +28,15 @@ export async function POST(req, res) {
     });
 
     const mailOptions = {
-      from: "aman@hiringtech.in",
-      to: "amankapil60@gmail.com",
-      subject: "New Resume Submission",
-      text: "Please find attached the resume.",
+      from: emailData.from,
+      to: emailData.to,
+      subject: emailData.subject,
+      text: emailData.text || "", // Optional email body content
       attachments: [
         {
-          filename: resume,
-          content: resume.data,
-          contentType: "application/pdf", // Set the content type
-          encoding: "base64",
+          filename: emailData.attachments[0].filename,
+          content: emailData.attachments[0].content, // Base64 encoded resume content
+          contentType: emailData.attachments[0].contentType,
         },
       ],
     };
@@ -45,3 +54,8 @@ export async function POST(req, res) {
     res.status(405).json({ error: "Method Not Allowed" });
   }
 }
+
+
+
+
+

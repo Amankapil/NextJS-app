@@ -11,7 +11,7 @@ const Home2hero = () => {
         Your browser does not support the video tag.
       </video> */}
 
-      <div className="flex relative flex-col z-[9999999999999] px-20 mb56 w-full max-md:px-5 max-md:mb-10 max-md:max-w-full">
+      <div className="flex relative flex-col z-[9999] px-20 mb56 w-full max-md:px-5 max-md:mb-10 max-md:max-w-full">
         <div className="self-start mt-0 ml-12 text-5xl font-bold bg-clip-text leading-[64px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[60px] text-white max-md:text-center max-md:text-[30px] max-md:ml-0">
           Cultivating Innovation, Crafting Success Pioneering Tech
           Transformation Together

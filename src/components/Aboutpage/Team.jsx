@@ -48,8 +48,9 @@ const Team = () => {
             </div>
             <p className="text-gray-700 font-medium">Lead Instructor</p>
             <p className="text-[16px] text-[#6B7280]">
-              lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              vulputate libero et velit interdum, ac aliquet odio mattis.
+              Grooving through the rhythms of expertise, our lead instructor
+              orchestrates learning with finesse, turning every beat into a step
+              towards mastery.
             </p>
           </div>
 
@@ -70,8 +71,9 @@ const Team = () => {
             </div>
             <p className="text-gray-700 font-medium">Talent Acquisition</p>
             <p className="text-[16px] text-[#6B7280]">
-              lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              vulputate libero et velit interdum, ac aliquet odio mattis.
+              Channeling the pulse of potential, our talent acquisition maestro
+              orchestrates the rhythm of recruitment, harmonizing skills and
+              passion to compose the perfect ensemble of talent.
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-md p-2  max-w-[300px]">
@@ -99,8 +101,9 @@ const Team = () => {
             </div>
             <p className="text-gray-700 font-medium">Senior Manager</p>
             <p className="text-[16px] text-[#6B7280]">
-              lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              vulputate libero et velit interdum, ac aliquet odio mattis.
+              Steering the ship of strategy with seasoned expertise, our senior
+              manager navigates the waves of challenge, anchoring our team in a
+              harbor of success.
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-md p-2  max-w-[300px]">
@@ -127,8 +130,9 @@ const Team = () => {
             </div>
             <p className="text-gray-700 font-medium">Marketing Specialist</p>
             <p className="text-[16px] text-[#6B7280]">
-              lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              vulputate libero et velit interdum, ac aliquet odio mattis.
+              Mastering the art of persuasion with flair, our marketing sales
+              virtuoso conducts the symphony of consumer engagement,
+              transforming leads into loyal fans with each captivating note.
             </p>
           </div>
 
@@ -155,8 +159,9 @@ const Team = () => {
             </div>
             <p className="text-gray-700 font-medium">Sr Full Stack Developer</p>
             <p className="text-[16px] text-[#6B7280]">
-              lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              vulputate libero et velit interdum, ac aliquet odio mattis.
+              the digital theater of innovation, our Full stack developer takes
+              center stage, choreographing code with precision to deliver
+              captivating user experiences that steal the spotlight.
             </p>
           </div>
 
@@ -189,8 +194,10 @@ const Team = () => {
             </div>
             <p className="text-gray-700 font-medium">UI/UX specialist</p>
             <p className="text-[16px] text-[#6B7280]">
-              lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              vulputate libero et velit interdum, ac aliquet odio mattis.
+              In the realm where creativity meets functionality, our UI/UX
+              designer choreographs digital experiences with flair, crafting
+              seamless journeys that dance effortlessly between user delight and
+              innovation.
             </p>
           </div>
 
@@ -223,8 +230,10 @@ const Team = () => {
             </div>
             <p className="text-gray-700 font-medium">Trainee</p>
             <p className="text-[16px] text-[#6B7280]">
-              lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              vulputate libero et velit interdum, ac aliquet odio mattis.
+              At the frontier of digital creation, our application developer
+              orchestrates innovation with finesse, crafting code that
+              harmonizes functionality and user experience into a seamless and
+              captivating composition.
             </p>
           </div>
         </div>
