@@ -10,7 +10,7 @@ const Vision2 = () => {
     <div className="bg[#20AFED] flex flex-col self-center p-10 pb-20 mt28 w-full max--[1021px] max-md:mt-10 max-md:max-w-full mx-auto backdrop-blur-[110.60px] vision-bg">
       <div className="max-w-[1021px] mx-auto">
         <div className="flex flex-col self-end max-w-full w[287px]">
-          <div className="flex max-lg:flex-col max-md:items-center max-md:justify-center">
+          <div className="flex max-lg:flex-col max-md:items-center max-md:justify-center flex-wrap">
             <div className="flex z-10 flex-col mt-0 max-w-full w-[561px] max-md:mt-0 max-lg:w-full">
               <h1 className="text-4xl font-bold text-amber-600 leading-[51.2px] max-md:max-w-full max-md:text-center">
                 Our Vision

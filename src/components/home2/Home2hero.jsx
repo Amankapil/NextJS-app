@@ -5,7 +5,7 @@ import "./style.scss";
 import herok from "./assets/h.mp4";
 const Home2hero = () => {
   return (
-    <div className="flex overflowhidden relative flex-col justify-center py16 w-full rounded-lg min-h[577px] max-md:max-w-full home-container h-[700px] backgrounvideo">
+    <div className="flex overflowhidden relative flex-col justify-center py16 w-full rounded-lg min-h[577px] max-md:max-w-full home-container h-[700px] backgrounvideo z-[100]">
       {/* <video controls preload="none" autoPlay loop muted className=" absolute top-20 w-full -z-1">
         <source src={herok} type="video/mp4" />
         Your browser does not support the video tag.

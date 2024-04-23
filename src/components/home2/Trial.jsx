@@ -59,7 +59,7 @@ const Trail = () => {
       <div className="max-w-[1021px] mx-auto">
         <div className="flex flex-col self-end max-w-full max-md:flex-wrap">
           {/* Vision Section */}
-          <div className="flex">
+          <div className="flex max-md:flex-wrap max-lg:before:justify-center max-lg:items-center">
             <div className="flex z-10 flex-col mt-0 max-w-full w-[561px] max-md:mt-0 max-lg:w-full">
               <h1 className="text-4xl font-bold text-amber-600 leading-[51.2px] max-md:max-w-full max-md:text-center gs_reveal">
                 Our Vision
