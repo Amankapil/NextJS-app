@@ -23,9 +23,7 @@ export default function RootLayout({ children }) {
           {/* <Header /> */}
           <main className="max-w7xl mx-auto er">
             {/* <TransitionComponent> */}
-              
               {children}
-              
               {/* </TransitionComponent> */}
           </main>
           <Footer />

@@ -106,11 +106,10 @@ const Team = () => {
               harbor of success.
             </p>
           </div>
-          <div className="bg-white rounded-lg shadow-md p-2  max-w-[300px]">
+          {/* <div className="bg-white rounded-lg shadow-md p-2  max-w-[300px]">
             <Image src={sonam} width={300} className="h-[350px]" alt="hero" />
             <div className="flex justify-between items-center">
               <h3 className="text-xl font-bold my-2">Sonam kasliwal</h3>
-
               <Link
                 href="https://www.linkedin.com/in/sonam-kasliwal-a1b82110a"
                 target="_blank"
@@ -134,7 +133,7 @@ const Team = () => {
               virtuoso conducts the symphony of consumer engagement,
               transforming leads into loyal fans with each captivating note.
             </p>
-          </div>
+          </div> */}
 
           <div className="bg-white rounded-lg shadow-md p-2  max-w-[300px]">
             <Image src={amn} width={300} className="h-[330px]" alt="hero" />
