@@ -80,7 +80,7 @@ const Header2 = () => {
                   />
                 </svg>
               </button>
-              {/* <nav className="flex gap-6 text-base font-medium text-white items-center "> */}
+             
               <div
                 className={`lists flex items-center justify-between flex-col ${
                   active ? "active " : ""

@@ -6,7 +6,43 @@ import "./career.scss";
 
 const jobsData = [
   {
-    id: 1,
+    id: 6,
+    title: "Java Developer",
+    location: "Remote",
+    tags: [
+      "Java serverless Lambda/ Fuctional service,",
+      "writing functions as a service,",
+      "springboot or soap,",
+      "python,",
+      "mondodb,",
+      "Aggregation pipline,",
+      "API building,",
+      "React,",
+    ],
+    description:
+      " Empower Professionals is a privately-owned, certified Minority Owned Business Enterprise (MBE), national business and technology consulting firm focused on efficiently and reliably providing flexible solutions for team building across all 50 states. Whether your organization needs a single resource, a niche team of resources, or a complete outsourced solution.",
+    responsiblity: [
+      "Understanding the Clients need through the job description provided and sourcing candidates through job portals and other social websites accordingly.",
+      "Identify and Search Professionals in the US Market through different Sources",
+      "Sourcing, screening and evaluating and recruiting candidates through a structured recruitment process",
+      "Shortlist and Interview candidates according to the job requirement",
+      "Take care of Clients Requirements and place Software professionals",
+      "Negotiate on Salary aspects and close the position",
+      "Assist Account Manager (s)/Team Lead with urgent technical requirements",
+      "Update the Resourcing Application System routinely",
+    ],
+    Prerequisite: [
+      "8 years of professional experience",
+      "Budget: upto 45lpa",
+      "Professional experience using Java in production quality code.",
+      "Excellent written and verbal English communication skills",
+      "Strong design skills (HLD and LLD)",
+      "Agile and comfortable working in a fast-paced startup environment.",
+      "Focus on collaboration and making progress everyday over excellence. ",
+    ],
+  },
+  {
+    id: 5,
     title: "US IT Recruiter",
     location: "Indore",
     tags: [" Evening/ Night Shift ", " verbal Communication Skills in English"],
@@ -234,7 +270,7 @@ const JobsPage = () => {
                 onClick={() => handleJobClick(job)}
               >
                 <h2 className="text-xl font-semibold w-[200px]">{job.title}</h2>
-                <ul className="mt-2 flx flex-wrap gap-2 w-[200px]">
+                <ul className="mt-2 flx flex-wrap gap-2 w-[500px] max-md:w-full">
                   <li>skills:</li>
                   {/* <br /> */}
                   {job.tags.map((tag) => (
