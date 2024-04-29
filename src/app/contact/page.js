@@ -5,9 +5,8 @@ import React from "react";
 const page = () => {
   return (
     <>
-      {/* <div>Contact page</div> */}
-      <Contactf/>
-      <ContactHero/>
+      <Contactf />
+      <ContactHero />
     </>
   );
 };
