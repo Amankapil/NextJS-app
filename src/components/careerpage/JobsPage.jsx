@@ -291,6 +291,8 @@ const JobsPage = () => {
     }
   };
 
+
+
   const handelApply = async () => {
     setApply(!apply);
   };
@@ -476,7 +478,7 @@ const JobsPage = () => {
                                 name="resume"
                                 value={resume}
                                 onChange={(e) => setResume(e.target.value)}
-                                placeholder="paste resume link here"
+                                placeholder="paste only Google Drive Link here"
                                 className="w-full p-2 rounded-md mb-4 border border-gray-300 focus:outline-none focus:border-blue-500"
                                 required
                               />
