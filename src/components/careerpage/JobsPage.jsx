@@ -474,7 +474,7 @@ const JobsPage = () => {
                             </div>
                             <div className="flex gap-4">
                               <input
-                                type="file"
+                                type="text"
                                 name="resume"
                                 value={resume}
                                 onChange={(e) => setResume(e.target.value)}
