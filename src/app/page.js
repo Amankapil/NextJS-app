@@ -18,37 +18,17 @@ import Trail from "@/components/home2/Trial";
 import ScrollingAnimation from "@/components/homepage/Animation";
 
 export default function Home() {
-  // const [showdata, setShowdat] = useState(false);
-
   return (
     <>
-      {/* <Header /> */}
-      {/* <div className="max-xlpx-3">
-        <Hero />
-        <Vision />
-        <About />
-        <Services />
-        <Techstack />
-
-        <Testimonials />
-      </div> */}
-
       <Home2hero />
-      {/* <Vision2 /> */}
       <Trail />
       <About2 />
       <Service2 />
-
-      {/* <ScrollingAnimation /> */}
-      {/* <Testimonials2 /> */}
 
       <section className="relative">
         <Testimonials />
         <Techstack />
       </section>
-
-      {/* <Clients /> */}
-      {/* <Footer/> */}
     </>
   );
 }

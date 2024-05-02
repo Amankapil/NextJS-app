@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./career.scss";
 
+
+
 const jobsData = [
   {
     id: 6,
@@ -290,8 +292,6 @@ const JobsPage = () => {
       setLoad(false); // Reset load state back to false after submission
     }
   };
-
-
 
   const handelApply = async () => {
     setApply(!apply);

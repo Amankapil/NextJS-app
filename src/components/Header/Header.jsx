@@ -10,6 +10,7 @@ const Header = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
   let [width, setWidth] = useState(0);
 
+
   useEffect(() => {
     const updateWidth = () => {
       setWidth(window.innerWidth);
@@ -19,7 +20,10 @@ const Header = () => {
     return () => {
       window.removeEventListener("resize", updateWidth);
     };
-  }, []);
+  }, 
+  
+  []
+);
 
   const toggleDropdown = () => {
     setDropdownOpen(!isDropdownOpen);
@@ -73,7 +77,6 @@ const Header = () => {
                   />
                 </svg>
               </button>
-              {/* <nav className="flex gap-6 text-base font-medium text-white items-center "> */}
               <div
                 className={`lists flex items-center justify-between flex-col ${
                   active ? "active " : ""
@@ -133,7 +136,7 @@ const Header = () => {
                   </button>
                 </div>
               </div>
-              {/* </nav> */}
+          
             </div>
           </header>
         </>
@@ -144,7 +147,6 @@ const Header = () => {
               <div className="logo">
                 <Link href="/">
                   <div className="logobg"></div>
-                  {/* <Image src={logo} width={80} height={50} alt="Logo" /> */}
                 </Link>
               </div>
               <nav className="flex gap-6 text-base font-medium text-white items-center ">
