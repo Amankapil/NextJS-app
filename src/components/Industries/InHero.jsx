@@ -22,6 +22,7 @@ const InHero = () => {
           </div>
         </div>
       </div>
+      div
     </>
   );
 };
