@@ -2,11 +2,7 @@ import React from 'react'
 // import './css/insight.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import firstbox from './assets/firstbox.png'
-import secbox from './assets/secbox.png'
-import thirdbox from './assets/thirdBox.png'
-import fourthbox from './assets/fourthBox.png'
-import fifthbox from './assets/FifthBox.png'
+
 import Emailsub from './Emailsub'
 
 import bgl from './assets/bl1.png'
