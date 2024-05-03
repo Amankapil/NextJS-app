@@ -1,26 +1,26 @@
-import React from "react";
-import img from "./assets/2716353.jpg";
-import img2 from "./assets/2716353.jpg";
+import React from 'react'
+import img from './assets/2716353.jpg'
+import img2 from './assets/2716353.jpg'
 
-import Link from "next/link";
-import Image from "next/image";
+import Link from 'next/link'
+import Image from 'next/image'
 
 const Techf = () => {
   return (
     <>
-      <div className="w-full h-[2526px] relative bg-white">
+      <div className='w-full h-[2526px] relative bg-white  max-md:h-[3200px]'>
         <div className="w-[771.24px] h-[138.09px] max-lg:h-[400px] left-[153.76px] top-[205.80px] absolute text-neutral-800 text-[46px] font-semibold font['Poppins'] leading-[69px] max-lg:w-full max-lg:left-2">
           Magic Touch: Transforming Web Marketing with Tech Wonders
         </div>
         <Image
-          className="w-[50%] max-lg:w-full max-lg: max-lg:left-2 h-[490.08px] left-[150.62px] top-[456.12px] absolute rounded-[21.75px]"
+          className='w-[50%] max-lg:w-full max-lg: max-lg:left-2 h-[490.08px] left-[150.62px] top-[456.12px] absolute rounded-[21.75px] max-md:mt-20'
           src={img}
-          alt=""
+          alt=''
         />
         <div className="left-[154px] max-lg:hidden top-[350.77px] absolute text-gray-800 text-base font-normal font['Poppins']">
           12/04/2024
         </div>
-        <div className="h-[1958px] max-lg:left-2 left-[154px] top-[1033.50px] absolute flex-col justify-start items-start gap-[35px] inline-flex">
+        <div className='h-[1958px] max-lg:left-2 left-[154px] top-[1033.50px] absolute flex-col justify-start items-start gap-[35px] inline-flex'>
           <div className="w-[744px] text-neutral-900 text-base font-normal font['Poppins'] leading-normal max-lg:w-full">
             In the world of web marketing, staying ahead isn't just about
             keeping up. It's about using cool tech stuff in a way that's easy to
@@ -102,18 +102,18 @@ const Techf = () => {
           </div>
         </div>
 
-        <div className="left-[1064.25px]  max-md:hidden top-[1275px] absolute flex-col justify-start items-start gap-9 inline-flex">
+        <div className='left-[1064.25px]  max-md:hidden top-[1275px] absolute flex-col justify-start items-start gap-9 inline-flex'>
           <div className="text-neutral-800 text-[42px] font-semibold font['Poppins'] leading-[63px]">
             Similar articles
           </div>
-          <div className="flex-col justify-start items-start gap-[25.50px] flex">
-            <div className="h-[343.52px]  w-[295px] px-[29.29px] py-[31.82px] bg-white rounded-[22.22px] shadow flex-col justify-start items-start gap-1 flex">
-              <div className="self-stretch h-[279.88px] flex-col justify-end items-start gap-[27.27px] flex">
-                <div className="rounded-[7.07px] justify-end items-center inline-flex">
+          <div className='flex-col justify-start items-start gap-[25.50px] flex'>
+            <div className='h-[343.52px]  w-[295px] px-[29.29px] py-[31.82px] bg-white rounded-[22.22px] shadow flex-col justify-start items-start gap-1 flex'>
+              <div className='self-stretch h-[279.88px] flex-col justify-end items-start gap-[27.27px] flex'>
+                <div className='rounded-[7.07px] justify-end items-center inline-flex'>
                   {/* <img className="w-[274.77px] h-[194.67px]" src={img} alt="" /> */}
                 </div>
-                <div className="self-stretch h-[116.74px] flex-col justify-start items-start gap-[15.66px] flex">
-                  <div className="self-stretch h-[86.08px] flex-col justify-start items-start gap-[8.08px] flex">
+                <div className='self-stretch h-[116.74px] flex-col justify-start items-start gap-[15.66px] flex'>
+                  <div className='self-stretch h-[86.08px] flex-col justify-start items-start gap-[8.08px] flex'>
                     <div className="self-stretch text-gray-800 text-xl font-bold font['Poppins']">
                       Lorem ipsum dolor sit amet consectetur.
                     </div>
@@ -127,13 +127,13 @@ const Techf = () => {
                 </div>
               </div>
             </div>
-            <div className="h-[343.52px] w-[295px] px-[29.29px] py-[31.82px] bg-white rounded-[22.22px] shadow flex-col justify-start items-start gap-1 flex">
-              <div className="self-stretch h-[279.88px] flex-col justify-end items-start gap-[27.27px] flex">
-                <div className="rounded-[7.07px] justify-end items-center inline-flex">
+            <div className='h-[343.52px] w-[295px] px-[29.29px] py-[31.82px] bg-white rounded-[22.22px] shadow flex-col justify-start items-start gap-1 flex'>
+              <div className='self-stretch h-[279.88px] flex-col justify-end items-start gap-[27.27px] flex'>
+                <div className='rounded-[7.07px] justify-end items-center inline-flex'>
                   {/* <img className="w-[274.77px] h-[194.67px]" src={img} alt="" /> */}
                 </div>
-                <div className="self-stretch h-[116.74px] flex-col justify-start items-start gap-[15.66px] flex">
-                  <div className="self-stretch h-[86.08px] flex-col justify-start items-start gap-[8.08px] flex">
+                <div className='self-stretch h-[116.74px] flex-col justify-start items-start gap-[15.66px] flex'>
+                  <div className='self-stretch h-[86.08px] flex-col justify-start items-start gap-[8.08px] flex'>
                     <div className="self-stretch text-gray-800 text-xl font-bold font['Poppins']">
                       Lorem ipsum dolor sit amet consectetur.
                     </div>
@@ -147,13 +147,13 @@ const Techf = () => {
                 </div>
               </div>
             </div>
-            <div className="h-[343.52px] w-[295px] px-[29.29px] py-[31.82px] bg-white rounded-[22.22px] shadow flex-col justify-start items-start gap-1 flex">
-              <div className="self-stretch h-[279.88px] flex-col justify-end items-start gap-[27.27px] flex">
-                <div className="rounded-[7.07px] justify-end items-center inline-flex">
+            <div className='h-[343.52px] w-[295px] px-[29.29px] py-[31.82px] bg-white rounded-[22.22px] shadow flex-col justify-start items-start gap-1 flex'>
+              <div className='self-stretch h-[279.88px] flex-col justify-end items-start gap-[27.27px] flex'>
+                <div className='rounded-[7.07px] justify-end items-center inline-flex'>
                   {/* <img className="w-[274.77px] h-[194.67px]" src={img} alt="" /> */}
                 </div>
-                <div className="self-stretch h-[116.74px] flex-col justify-start items-start gap-[15.66px] flex">
-                  <div className="self-stretch h-[86.08px] flex-col justify-start items-start gap-[8.08px] flex">
+                <div className='self-stretch h-[116.74px] flex-col justify-start items-start gap-[15.66px] flex'>
+                  <div className='self-stretch h-[86.08px] flex-col justify-start items-start gap-[8.08px] flex'>
                     <div className="self-stretch text-gray-800 text-xl font-bold fon']">
                       Lorem ipsum dolor sit amet consectetur.
                     </div>
@@ -171,7 +171,7 @@ const Techf = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Techf;
+export default Techf

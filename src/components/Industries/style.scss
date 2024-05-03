@@ -1,62 +1,65 @@
 .industrie::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(6, 6, 6, 0.897);
+  background-image: url("./assets/bg4.png");
+  background-repeat: no-repeat;
+  background-size: 110%;
+  height: 850px;
+  top: -15%;
+  z-index: -1;
+  width: 100%;
+}
+
+.industrie::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(6, 6, 6, 0.801);
+  // background-image: url("./asstes/bg3.png");
+  background-repeat: no-repeat;
+  background-size: 110%;
+  height: 850px;
+  top: -15%;
+  z-index: -1;
+  width: 100%;
+}
+
+.server::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(6, 6, 6, 0.897);
+  background-image: url("./assets/bg3.png");
+  background-repeat: no-repeat;
+  background-size: 110%;
+  height: 850px;
+  top: 0%;
+  z-index: -1;
+  width: 100%;
+}
+
+.server::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(6, 6, 6, 0.5);
+  // background-image: url("./asstes/bg3.png");
+  background-repeat: no-repeat;
+  background-size: 110%;
+  height: 850px;
+  top: 0%;
+  z-index: -1;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .industrie::before {
     content: "";
     position: absolute;
-    background-color: rgba(6, 6, 6, 0.897);
     background-image: url("./assets/bg4.png");
     background-repeat: no-repeat;
-    background-size: 110%;
-    height: 850px;
+    background-size: 800%;
+    height: 100%;
     top: -15%;
     z-index: -1;
     width: 100%;
   }
-  .industrie::after {
-    content: "";
-    position: absolute;
-    background-color: rgba(6, 6, 6, 0.801);
-    // background-image: url("./asstes/bg3.png");
-    background-repeat: no-repeat;
-    background-size: 110%;
-    height: 850px;
-    top: -15%;
-    z-index: -1;
-    width: 100%;
-  }
-.server::before {
-    content: "";
-    position: absolute;
-    background-color: rgba(6, 6, 6, 0.897);
-    background-image: url("./assets/bg3.png");
-    background-repeat: no-repeat;
-    background-size: 110%;
-    height: 850px;
-    top: 0%;
-    z-index: -1;
-    width: 100%;
-  }
-  .server::after {
-    content: "";
-    position: absolute;
-    background-color: rgba(6, 6, 6, 0.5);
-    // background-image: url("./asstes/bg3.png");
-    background-repeat: no-repeat;
-    background-size: 110%;
-    height: 850px;
-    top: 0%;
-    z-index: -1;
-    width: 100%;
-  }
-  
-  @media (max-width: 768px) {
-    .industrie::before {
-      content: "";
-      position: absolute;
-          background-image: url("./assets/bg4.png");
-      background-repeat: no-repeat;
-      background-size: 400%;
-      height: 850px;
-      top: -15%;
-      z-index: -1;
-      width: 100%;
-    }
-  }
+}

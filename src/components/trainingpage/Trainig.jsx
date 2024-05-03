@@ -307,7 +307,7 @@ const Trainig = () => {
                 </div>
                 <p className='text-[#2f1c6a] darkxt-gray-400 mt-3 flex gap-1 items-end'>
                   <span className='text[0.416667em]'>₹</span>
-                  <span className='text-3xl font-bold'>30000</span>
+                  <span className='text-3xl font-bold'>30,000</span>
                   <span>/3mo</span>
                 </p>
                 <div className='flex justify-center py-6 w-full'>
@@ -377,7 +377,7 @@ const Trainig = () => {
                 </div>
                 <p className='text-[#2f1c6a] darkxt-gray-400 mt-3 flex gap-1 items-end'>
                   <span className='text[0.416667em]'>₹</span>
-                  <span className='text-3xl font-bold'>30000</span>
+                  <span className='text-3xl font-bold'>30,000</span>
                   <span>/3mo</span>
                 </p>
                 <div className='flex justify-center py-6 w-full'>
