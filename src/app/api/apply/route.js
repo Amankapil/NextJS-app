@@ -21,15 +21,9 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage })
 
-export const config = {
-  api: {
-    bodyParser: false
-  }
-}
 export async function POST (req, res) {
   if (req.method === 'POST') {
     // Initialize a new instance of IncomingForm
-
     console.log(req.file)
     console.log(req.body)
 
