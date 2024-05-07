@@ -1,18 +1,18 @@
-"use client";
-import React from "react";
-import "./blog.scss";
+'use client'
+import React from 'react'
+import './blog.scss'
 // import img from "./assets/unsplash_L1y9f5O8wiA.svg";
-import img from "./assets/2716353.jpg";
-import img2 from "./assets/2716353.jpg";
-import img3 from "./assets/lp.png";
-import img4 from "./assets/ml.png";
+import img from './assets/2716353.jpg'
+import img2 from './assets/2716353.jpg'
+import img3 from './assets/lp.png'
+import img4 from './assets/ml.png'
 
-import rain from "./assets/Rainbow 1.png";
-import rainp from "./assets/unsplash_HRZUzoX1e6w.png";
-import { useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
-import Emailsub from "./Emailsub";
+import rain from './assets/Rainbow 1.png'
+import rainp from './assets/unsplash_HRZUzoX1e6w.png'
+import { useState } from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
+import Emailsub from './Emailsub'
 
 const Blog = () => {
   return (
@@ -41,7 +41,7 @@ const Blog = () => {
               <path
                 d="M22.9861 18.8026L16.4637 12.2803L9.94141 18.8026"
                 stroke="white"
-                stroke-width="3.26117"
+                strokeWidth="3.26117"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -50,143 +50,170 @@ const Blog = () => {
         </button>
       </div> */}
 
-      <section className="blog-main ">
-        <div className="blog flex flex-col items-center justify-center">
-          <div className="blog-head pt-[15%] pb-4">All Blogs</div>
+      <section className='blog-main '>
+        <div className='blog flex flex-col items-center justify-center'>
+          <div className='blog-head pt-[15%] pb-4'>All Blogs</div>
 
-          <div className="all-blogs flex items-center justify-center flex-wrap pt-12">
-            <div className="blog-box">
-              <Link href="/blog/Tech-chronicles" className="in-box max-md:text-center">
-                <Image src={img2} alt="" />
+          <div className='all-blogs flex items-center justify-center flex-wrap pt-12'>
+            <div className='blog-box'>
+              <Link
+                href='/blog/Tech-chronicles'
+                className='in-box max-md:text-center'
+              >
+                <Image src={img2} alt='' />
 
-                <p className="pt-4 pb-0 max-md:text-center">
+                <p className='pt-4 pb-0 max-md:text-center'>
                   Tech Chronicles: Exploring the Digital Frontier
                 </p>
-                <span className="date p4">02/04/2024</span>
-                <div className="pt-2">
-                  <Link href="/blog/Tech-chronicles">Read More</Link>
+                <span className='date p4'>02/04/2024</span>
+                <div className='pt-2'>
+                  <Link href='/blog/Tech-chronicles'>Read More</Link>
                 </div>
               </Link>
             </div>
-            <div className="blog-box">
-              <Link href="/blog/Tech-Odyssey" className="in-box max-md:text-center">
-                <Image src={img3} alt="" />
+            <div className='blog-box'>
+              <Link
+                href='/blog/Tech-Odyssey'
+                className='in-box max-md:text-center'
+              >
+                <Image src={img3} alt='' />
 
-                <p className="pt-4 pb-0">
+                <p className='pt-4 pb-0'>
                   Tech Odyssey: Navigating the Digital Seas of Innovation
                 </p>
-                <span className="date p4">13/04/2024</span>
-                <div className="pt-2">
-                  <Link href="/blog/Tech-Odyssey">Read More</Link>
+                <span className='date p4'>13/04/2024</span>
+                <div className='pt-2'>
+                  <Link href='/blog/Tech-Odyssey'>Read More</Link>
                 </div>
               </Link>
             </div>
-            <div className="blog-box">
-              <Link href="/blog/Digital-Frontiers" className="in-box max-md:text-center">
-                <Image src={img4} alt="" />
-                <p className="pt-4 pb-0">
+            <div className='blog-box'>
+              <Link
+                href='/blog/Digital-Frontiers'
+                className='in-box max-md:text-center'
+              >
+                <Image src={img4} alt='' />
+                <p className='pt-4 pb-0'>
                   Digital Frontiers: Exploring the Ever-Evolving Landscape of
                   Tech Innovation
                 </p>
-                <span className="date p4">12/12/2012</span>
-                <div className="pt-2">
-                  <Link href="/blog/Digital-Frontiers">Read More</Link>
+                <span className='date p4'>12/12/2012</span>
+                <div className='pt-2'>
+                  <Link href='/blog/Digital-Frontiers'>Read More</Link>
                 </div>
               </Link>
             </div>
-            <div className="blog-box">
-              <div className="in-box max-md:text-center">
-                <Image src={img} alt="" />
+            <div className='blog-box'>
+              <div className='in-box max-md:text-center'>
+                <Image src={img} alt='' />
 
-                <p className="pt-4 pb-0">Lorem ipsum dolor sit amet consectetur.</p>
-                <span className="date p4">12/12/2012</span>
-                <div className="pt-2">
-                  <Link href=".">Read More</Link>
+                <p className='pt-4 pb-0'>
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <span className='date p4'>12/12/2012</span>
+                <div className='pt-2'>
+                  <Link href='.'>Read More</Link>
                 </div>
               </div>
             </div>
-            <div className="blog-box">
-              <div className="in-box max-md:text-center">
-                <Image src={img} alt="" />
+            <div className='blog-box'>
+              <div className='in-box max-md:text-center'>
+                <Image src={img} alt='' />
 
-                <p className="pt-4 pb-0">Lorem ipsum dolor sit amet consectetur.</p>
-                <span className="date p4">12/12/2012</span>
-                <div className="pt-2">
-                  <Link href=".">Read More</Link>
+                <p className='pt-4 pb-0'>
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <span className='date p4'>12/12/2012</span>
+                <div className='pt-2'>
+                  <Link href='.'>Read More</Link>
                 </div>
               </div>
             </div>
-            <div className="blog-box">
-              <div className="in-box">
-                <Image src={img} alt="" />
-                <p className="pt-4 pb-0">Lorem ipsum dolor sit amet consectetur.</p>
-                <span className="date p4">12/12/2012</span>
-                <div className="pt-2">
-                  <Link href=".">Read More</Link>
+            <div className='blog-box'>
+              <div className='in-box'>
+                <Image src={img} alt='' />
+                <p className='pt-4 pb-0'>
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <span className='date p4'>12/12/2012</span>
+                <div className='pt-2'>
+                  <Link href='.'>Read More</Link>
                 </div>
               </div>
             </div>
-            <div className="blog-box">
-              <div className="in-box">
-                <Image src={img} alt="" />
+            <div className='blog-box'>
+              <div className='in-box'>
+                <Image src={img} alt='' />
 
-                <p className="pt-4 pb-0">Lorem ipsum dolor sit amet consectetur.</p>
-                <span className="date p4">12/12/2012</span>
-                <div className="pt-2">
-                  <Link href=".">Read More</Link>
+                <p className='pt-4 pb-0'>
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <span className='date p4'>12/12/2012</span>
+                <div className='pt-2'>
+                  <Link href='.'>Read More</Link>
                 </div>
               </div>
             </div>
-            <div className="blog-box">
-              <div className="in-box">
-                <Image src={img} alt="" />
-                <p className="pt-4 pb-0">Lorem ipsum dolor sit amet consectetur.</p>
-                <span className="date p4">12/12/2012</span>
-                <div className="pt-2">
-                  <Link href=".">Read More</Link>
+            <div className='blog-box'>
+              <div className='in-box'>
+                <Image src={img} alt='' />
+                <p className='pt-4 pb-0'>
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <span className='date p4'>12/12/2012</span>
+                <div className='pt-2'>
+                  <Link href='.'>Read More</Link>
                 </div>
               </div>
             </div>
-            <div className="blog-box">
-              <div className="in-box">
-                <Image src={img} alt="" />
-                <p className="pt-4 pb-0">Lorem ipsum dolor sit amet consectetur.</p>
-                <span className="date p4">12/12/2012</span>
-                <div className="pt-2">
-                  <Link href=".">Read More</Link>
+            <div className='blog-box'>
+              <div className='in-box'>
+                <Image src={img} alt='' />
+                <p className='pt-4 pb-0'>
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <span className='date p4'>12/12/2012</span>
+                <div className='pt-2'>
+                  <Link href='.'>Read More</Link>
                 </div>
               </div>
             </div>
-            <div className="blog-box">
-              <div className="in-box">
-                <Image src={img} alt="" />
+            <div className='blog-box'>
+              <div className='in-box'>
+                <Image src={img} alt='' />
 
-                <p className="pt-4 pb-0">Lorem ipsum dolor sit amet consectetur.</p>
-                <span className="date p4">12/12/2012</span>
-                <div className="pt-2">
-                  <Link href=".">Read More</Link>
+                <p className='pt-4 pb-0'>
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <span className='date p4'>12/12/2012</span>
+                <div className='pt-2'>
+                  <Link href='.'>Read More</Link>
                 </div>
               </div>
             </div>
-            <div className="blog-box">
-              <div className="in-box">
-                <Image src={img} alt="" />
+            <div className='blog-box'>
+              <div className='in-box'>
+                <Image src={img} alt='' />
 
-                <p className="pt-4 pb-0">Lorem ipsum dolor sit amet consectetur.</p>
-                <span className="date p4">12/12/2012</span>
-                <div className="pt-2">
-                  <Link href=".">Read More</Link>
+                <p className='pt-4 pb-0'>
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <span className='date p4'>12/12/2012</span>
+                <div className='pt-2'>
+                  <Link href='.'>Read More</Link>
                 </div>
               </div>
             </div>
-            <div className="blog-box">
-              <div className="in-box">
-                <Image src={img} alt="" />
+            <div className='blog-box'>
+              <div className='in-box'>
+                <Image src={img} alt='' />
 
-                <p className="pt-4 pb-0">Lorem ipsum dolor sit amet consectetur.</p>
-                <span className="date p4">12/12/2012</span>
-                <div className="pt-2">
-                  <Link href=".">Read More</Link>
+                <p className='pt-4 pb-0'>
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <span className='date p4'>12/12/2012</span>
+                <div className='pt-2'>
+                  <Link href='.'>Read More</Link>
                 </div>
               </div>
             </div>
@@ -208,7 +235,7 @@ const Blog = () => {
 
       <Emailsub />
     </>
-  );
-};
+  )
+}
 
-export default Blog;
+export default Blog
