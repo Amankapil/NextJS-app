@@ -23,7 +23,6 @@ const upload = multer({ storage })
 
 export async function POST (req, res) {
   if (req.method === 'POST') {
-    // Initialize a new instance of IncomingForm
     console.log(req.file)
     console.log(req.body)
 

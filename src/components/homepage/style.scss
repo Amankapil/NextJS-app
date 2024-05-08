@@ -1,5 +1,12 @@
 /* styles/Marquee.module.css */
 
+.client {
+  background: linear-gradient(45.42deg,
+      #abe1f8 20.58%,
+      #f9f9f9 38.51%,
+      #abe1f8 87.75%);
+}
+
 .marquee-container {
   width: 100%;
   overflow: hidden;
@@ -15,6 +22,7 @@
   0% {
     transform: translateX(100%);
   }
+
   100% {
     transform: translateX(-100%);
   }
@@ -56,6 +64,7 @@
     width: 100%;
   }
 }
+
 @media (max-width: 500px) {
   .hero-container::before {
     z-index: -1;
@@ -70,6 +79,7 @@
     width: 100%;
   }
 }
+
 /* 
 
 .hero-video {
@@ -99,9 +109,11 @@
   width: 250px;
   filter: grayscale(100%);
 }
+
 .techno:hover {
   filter: grayscale(0%);
 }
+
 .animate-slide-to-right ul li {
   font-size: 60px;
   font-weight: 700;
@@ -118,13 +130,16 @@
   display: block;
   /* width: 100%; */
 }
+
 .mytech {
   animation: slide_to_right 45s linear infinite;
 }
+
 @keyframes slide_to_right {
   0% {
     transform: translateX(0%);
   }
+
   50% {
     transform: translateX(-60%);
   }
@@ -133,7 +148,3 @@
     transform: translateX(0);
   }
 }
-
-
-
-
