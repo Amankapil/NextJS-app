@@ -1,7 +1,7 @@
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import hero from "./assets/about.jpg";
+import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
+import hero from './assets/about.jpg'
 
 const About = ({ brand }) => {
   return (
@@ -13,13 +13,13 @@ const About = ({ brand }) => {
           </ul>
         );
       })} */}
-      <div className="about-section py-20 mx-auto max-w-7xl">
-        <h2 className=" text-[#062b43] text-3xl font-bold mb-4 max-lg:text-center">
+      <div className='about-section py-20 mx-auto max-w-7xl'>
+        <h2 className=' text-[#062b43] text-3xl font-bold mb-4 max-lg:text-center'>
           About Us
         </h2>
-        <div class="self-stretch justify-center gap-[158px] max-xl:px-[80px] max-2lg:gap-[50px] max-xl:gap-[130px] inline-flex max-lg:flex-wrap max-2md:py-10 max-lg:px-[40px] max-smpx-[20px] max-xlpx-0  max-sm:gap-5 max-2md:gap-[20px]">
-          <div class="self-stretch flex-col justify-between items-start inline-flex max-2md:gap-10 max-xlpx-10 max-2md:p-0">
-            <div class="w-[503.60px] letter3 max-md:text-justify text-black text-[18px] font-normal  leading[120%] max-xl:w-full">
+        <div class='self-stretch justify-center gap-[158px] max-xl:px-[80px] max-2lg:gap-[50px] max-xl:gap-[130px] inline-flex max-lg:flex-wrap max-2md:py-10 max-lg:px-[40px] max-smpx-[20px] max-xlpx-0  max-sm:gap-5 max-2md:gap-[20px]'>
+          <div class='self-stretch flex-col justify-between items-start inline-flex max-2md:gap-10 max-xlpx-10 max-2md:p-0'>
+            <div class='w-[503.60px] letter3 max-md:text-justify text-black text-[18px] font-normal  leading[120%] max-xl:w-full'>
               Hiring Tech is a name that is counted amongst the trustworthy
               placement agencies in Indore (Madhya Pradesh, India). Our company
               is actively involved in rendering dependable solutions for
@@ -36,8 +36,8 @@ const About = ({ brand }) => {
               i ever need it.
             </div>
             <Link
-              class=" transition-all mt-6 px-10 py-3 rounded-[31px] border bordr-black justify-center items-center gap-2 inline-flex max-sm:w-full  hover:bg-[#000] bg-[#062b43] text-white hovertext-black"
-              href="/aboutus"
+              class=' transition-all mt-6 px-10 py-3 rounded-[31px] border bordr-black justify-center items-center gap-2 inline-flex max-sm:w-full  hover:bg-[#000] bg-[#062b43] text-white hovertext-black'
+              href='/aboutus'
             >
               About us
             </Link>
@@ -50,13 +50,13 @@ const About = ({ brand }) => {
             </button> */}
           </div>
 
-          <div class="w-[503.60px] letter-spacing-3 text-black text-[32px] font-normal  leading-[120%] max-xl:w-full max-lg:flex max-lg:justify-center">
-            <Image src={hero} width={500} alt="hero" />
+          <div class='w-[503.60px] letter-spacing-3 text-black text-[32px] font-normal  leading-[120%] max-xl:w-full max-lg:flex max-lg:justify-center'>
+            <Image src={hero} width={500} alt='hero' />
           </div>
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default About;
+export default About

@@ -20,47 +20,63 @@ import './style.scss'
 const Clients = () => {
   return (
     <>
-      <div className='client  '>
-        <div className=' max-w-6xl mx-auto py-20 '>
-          <h2 className=' text-[#062b43] text-4xl font-bold mb-4 max-lg:text-center'>
-            Trusted Partners
-          </h2>
-          <div className=' flex gap-20 flex-wrap justify-center items-center max-md:gap-8'>
-            <div>
-              <Image src={hero} width={150} alt='hero' />
+      <div className='clint  '>
+        <div className=' max-w-6xl mx-auto py-20 flex justify-between items-center gap-20 max-md:flex-col'>
+          <div className='servidc mb-20 w-[50%] max-md:w-full max-md:p-4'>
+            <h3 className='self-start text-[#175574] text-xl font-bold leading-[51.2px]'>
+              Partners
+            </h3>
+            <h1 className='self-start text-[#062B43] text-[41px] font-bold leading-[51.2px]'>
+              We Worked with The Best Partners
+            </h1>
+            <p className='text-[#175574] text-[22px] font-medium uppercase'>
+              Team . Customers . Community
+            </p>
+            <p className='text-[#175574] text-[20px] font-bold mt-8'>
+              Our trusted partners collaborate with us to enhance learning
+              experiences, ensuring industry relevance and excellence.
+            </p>
+          </div>
+          <div className=' flex gap-20 flex-wrap justify-center items-center max-md:gap-8 h-[400px] overflow-hidden'>
+            <div className=' flex gap-16 flex-col justify-center items-center max-md:gap-8 top-bot'>
+              <div>
+                <Image src={hero} width={150} alt='hero' />
+              </div>
+              <div>
+                <Image src={hero1} width={150} alt='hero' />
+              </div>
+              <div>
+                <Image src={hero2} width={150} alt='hero' />
+              </div>
+              <div>
+                <Image src={hero3} width={150} alt='hero' />
+              </div>
+              <div>
+                <Image src={hero4} width={150} alt='hero' />
+              </div>
+              <div>
+                <Image src={hero5} width={150} alt='hero' />
+              </div>
             </div>
-            <div>
-              <Image src={hero1} width={150} alt='hero' />
-            </div>
-            <div>
-              <Image src={hero2} width={150} alt='hero' />
-            </div>
-            <div>
-              <Image src={hero3} width={150} alt='hero' />
-            </div>
-            <div>
-              <Image src={hero4} width={150} alt='hero' />
-            </div>
-            <div>
-              <Image src={hero5} width={150} alt='hero' />
-            </div>
-            <div>
-              <Image src={hero6} width={150} alt='hero' />
-            </div>
-            <div>
-              <Image src={hero7} width={150} alt='hero' />
-            </div>
-            <div>
-              <Image src={hero8} width={150} alt='hero' />
-            </div>
-            <div>
-              <Image src={hero9} width={150} alt='hero' />
-            </div>
-            <div>
-              <Image src={hero10} width={150} alt='hero' />
-            </div>
-            <div>
-              <Image src={hero11} width={150} alt='hero' />
+            <div className=' flex gap-16 flex-col justify-center items-center max-md:gap-8 bot-top '>
+              <div>
+                <Image src={hero6} width={150} alt='hero' />
+              </div>
+              <div>
+                <Image src={hero7} width={150} alt='hero' />
+              </div>
+              <div>
+                <Image src={hero8} width={150} alt='hero' />
+              </div>
+              <div>
+                <Image src={hero9} width={150} alt='hero' />
+              </div>
+              <div>
+                <Image src={hero10} width={150} alt='hero' />
+              </div>
+              <div>
+                <Image src={hero11} width={150} alt='hero' />
+              </div>
             </div>
           </div>
         </div>

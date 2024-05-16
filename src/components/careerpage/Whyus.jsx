@@ -5,7 +5,7 @@ import img from './assets/Border.svg'
 const Whyus = () => {
   return (
     <>
-      <div className='whyeis py-20 bg-career'>
+      <div className='whye\s py-20 bgcareer'>
         <div className='max-w-6xl mx-auto flex justify-center items-center gap-20 max-md:flex-wrap max-md:p-4'>
           <div className='flex flex-col w-[50%] max-md:w-full'>
             <h1 className='text-[36px]'>

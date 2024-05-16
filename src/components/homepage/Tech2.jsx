@@ -14,26 +14,25 @@ import net from './assets/net.png'
 import py from './assets/pythn.jpeg'
 import vp from './assets/vps.png'
 import aws from './assets/aws.jpeg'
-
 import './style.scss'
 
-const Techstack = () => {
+const Tech2 = () => {
   return (
     <>
-      <div className='w-full vision-bg py-20'>
-        <div className='techstack w-full relative  bg-cyan-800 rounded-[35px_2px] my10 max-w-7xl mx-auto'>
-          <Image
+      <div className='w-full visio-bg py-20'>
+        <div className='techstack w-full relative  bgyan-800 rounded-[35px_2px] my10 max-w-7xl mx-auto'>
+          {/* <Image
             className='absolute right-0 -top-20 z-[999999] max-md:hidden'
             src={imgte}
             alt='k'
-          />
+          /> */}
           <div className='max-w-6xl mx-auto'>
             <div className='flex flex-col self-end mt-10 max-md:mt-10 max-md:max-w-full'>
-              <div className='flex gap-5 self-start text-xl leading-9 text-sky-500 uppercase mt-10'>
+              {/* <div className='flex gap-5 self-start text-xl leading-9 text-sky-500 uppercase mt-10'>
                 <div className='flex-auto  max-md:pl-6'>Start now</div>
                 <div className='shrink-0 my-auto w-24 h-0.5 bg-sky-500 border-2 border-sky-500 border-solid' />
-              </div>
-              <div className='mt-16 max-md:pl-8 text-5xl text-white leading-[61.44px] max-md:mt-10 max-md:max-w-full max-md:text-4xl'>
+              </div> */}
+              <div className='mt-16 max-md:pl-8 text-5xl font-medium text-[#062B43] leading-[61.44px] max-md:mt-10 max-md:max-w-full max-md:text-4xl'>
                 Technology we serve...
               </div>
             </div>
@@ -41,12 +40,15 @@ const Techstack = () => {
               Technology we serve
             </p> */}
 
-            <div className='max-w-7xl overflow-hidden'>
-              <div className='w-[250%] max-md:w-full'>
+            <div className='max-w-7xl overflowhidden'>
+              <div className='w[250%] '>
                 {/* <div> */}
                 {/* </div>  */}
-                <div className='w-full max-sm:w-[100%] flex  rid gridcols-2  gap-8 overflw-hidden text-center py-8 px12 sm:px-0  mytech'>
-                  <div className=' w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno'>
+                <div className='w-full justify-center items-center max-sm:w-[100%] flex flex-wrap rid gridcols-2  gap-20 overflw-hidden text-center py-8 px12 sm:px-0  mtech'>
+                  <div
+                    className=' w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno
+'
+                  >
                     <Image
                       src={hero}
                       width={200}
@@ -196,4 +198,4 @@ const Techstack = () => {
   )
 }
 
-export default Techstack
+export default Tech2

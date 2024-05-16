@@ -1,28 +1,30 @@
-"use client";
+'use client'
 
-import React, { useState } from "react";
+import React, { useState } from 'react'
 // import img3 from "../assets/pexels-iryna-riabchykova-12876443 1.png"
-import Image from "next/image";
+import Image from 'next/image'
 
-import img from "./assets/it.webp";
-import img2 from "./assets/trainin.jpg";
-import "./service.scss";
+import img from './assets/it.webp'
+import img2 from './assets/trainin.jpg'
+import './service.scss'
 const Servicepage = () => {
-  const [data, setData] = useState(0);
-  const handleclick = () => {
-    setData(data + 1);
-  };
-
   return (
     <>
-      {/* <button onClick={handleclick}>add</button>
-      {data} */}
-
-      <div className="w-full bggrayy max-lgpx-4">
-        <div className="w-4px] text-400 text-white text-[87.74px]  font-normal font['Graphik'] leading-[108%] max-md:text-[50px] max-md:leading-[54px] max-w-7xl mx-auto max-lg:text-[70px] max-lg:leading-[7px] text-center flex justify-center items-center h-[650px] max-md:h-[500px]">
-          <div>We must continue to innovate, and re-innovate every day.</div>
+      ;
+      <section className='w-full py12 bggrayy h-[735px] max-md:h-[500px] relative overflow-hidden'>
+        <div class='w-full max-w-7xl mx-auto '>
+          <div class="w-4px] text-400 text-white text-[87.74px]  font-normal font['Graphik'] leading-[108%] max-md:text-[50px] max-md:leading-[54px]  max-lg:text-[70px] max-lg:leading-[7px] text-center flex justify-start items-start h-[500px]">
+            <div className='servidc mt-12 w-1/2 max-lg:w-full'>
+              <h3 className='self-start text-left text-[#062B43] text-xl font-bold leading-[51.2px]'>
+                Trainings
+              </h3>
+              <h1 className='self-start text-left text-[#062B43] text-[41px] font-bold leading-[51.2px]'>
+                Access the world’s best Learning courses With Hiring tech
+              </h1>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
       {/* <>
         <div className="bg-service pb-10">
           <div className="serviepageappdevs  max-w-7xl mx-auto max-lg:px-4 ">
@@ -68,7 +70,7 @@ const Servicepage = () => {
         </div>
       </> */}
     </>
-  );
-};
+  )
+}
 
-export default Servicepage;
+export default Servicepage

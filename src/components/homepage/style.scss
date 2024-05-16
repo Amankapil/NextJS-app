@@ -5,6 +5,7 @@
       #abe1f8 20.58%,
       #f9f9f9 38.51%,
       #abe1f8 87.75%);
+  // background-image:url("")
 }
 
 .marquee-container {
@@ -106,12 +107,13 @@
 
 
 .techno {
-  width: 250px;
-  filter: grayscale(100%);
+  width: 140px;
+  // filter: grayscale(100%);
+  background: #fff;
 }
 
 .techno:hover {
-  filter: grayscale(0%);
+  // filter: grayscale(0%);
 }
 
 .animate-slide-to-right ul li {
@@ -146,5 +148,41 @@
 
   100% {
     transform: translateX(0);
+  }
+}
+
+.top-bot {
+  animation: slide_to_bott 15s linear infinite;
+}
+
+@keyframes slide_to_bott {
+  0% {
+    transform: translateY(0%);
+  }
+
+  50% {
+    transform: translateY(-60%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bot-top {
+  animation: slide_to_top 15s linear infinite;
+}
+
+@keyframes slide_to_top {
+  0% {
+    transform: translateY(-50%);
+  }
+
+  50% {
+    transform: translateY(10%);
+  }
+
+  100% {
+    transform: translateY(0);
   }
 }

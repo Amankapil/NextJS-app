@@ -1,3 +1,20 @@
 {
-    "typewriterScrollMode.enable": true
+  "typewriterScrollMode.enable": true,
+  "emmet.showExpandedAbbreviation": "never",
+  "gitlens.advanced.abbreviateShaOnCopy": true,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.fontSize": 18,
+  "editor.renderWhitespace": "selection",
+  "editor.accessibilitySupport": "on",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingComments": "languageDefined",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.inlineSuggest.enabled": false,
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on"
+  },
+  "editor.quickSuggestionsDelay": 1
 }

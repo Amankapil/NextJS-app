@@ -1,11 +1,12 @@
 .bggrayy::before {
   content: "";
   position: absolute;
-  background-image: url("./assets/bg8.png");
+  background-image: url("./assets/231.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 90%;
+  background-position: center center;
   height: 850px;
-  top: -15%;
+  top: -10%;
   z-index: -1;
   width: 100%;
 }
@@ -16,7 +17,7 @@
     position: absolute;
     background-image: url("./assets/bg8.png");
     background-repeat: no-repeat;
-    background-size: 278%;
+    background-size: 0%;
     background-position: 18% 52%;
     height: 115vh;
     top: -15%;
@@ -26,18 +27,18 @@
 }
 
 .bg-service {
-  background: linear-gradient(
-    30.42deg,
-    #abe1f8 20.58%,
-    #f9f9f9 38.51%,
-    #abe1f8 87.75%
-  );
+  background: linear-gradient(30.42deg,
+      #abe1f8 20.58%,
+      #f9f9f9 38.51%,
+      #abe1f8 87.75%);
 }
 
 .someone {
   background: linear-gradient(360deg, #08249470 11.9%, #ffffff 100%);
-  -webkit-background-clip: text; /* Clip the text to the background shape */
-  color: transparent; /* Make the text transparent */
+  -webkit-background-clip: text;
+  /* Clip the text to the background shape */
+  color: transparent;
+  /* Make the text transparent */
   // font-size: 450px; /* Set the font size to 450px */
 }
 
@@ -46,11 +47,10 @@
     display: none;
   }
 }
+
 .servicebg {
-  background: linear-gradient(
-    226.41deg,
-    #abe1f8 22.79%,
-    rgba(249, 249, 249, 0.82) 42.07%,
-    #abe1f8 76.06%
-  );
+  background: linear-gradient(226.41deg,
+      #abe1f8 22.79%,
+      rgba(249, 249, 249, 0.82) 42.07%,
+      #abe1f8 76.06%);
 }

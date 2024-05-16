@@ -208,7 +208,7 @@
 
 .footer-bottom {
   position: relative;
-  padding: 32px 0px;
+  padding: 12px 0px;
 }
 
 .footer-bottom .copyright p {
@@ -220,9 +220,6 @@
 
 .footer-bottom .copyright p a {
   color: #fff;
-}
-
-.footer-bottom .copyright p a:hover {
 }
 
 .footer-bottom .footer-nav li {
@@ -278,10 +275,6 @@
   }
 }
 
-
-
-
-
 .logobg {
   background-image: url("./logo.svg");
   width: 155px;
@@ -292,7 +285,6 @@
   background-position-y: 50%;
 }
 
-
-.footer-bg{
-  background: linear-gradient(90deg, #336a8e 0%, #002839 100%);
+.footer-bg {
+  /* background: linear-gradient(90deg, #336a8e 0%, #002839 100%); */
 }

@@ -1,35 +1,36 @@
 .bggray::before {
   content: "";
   position: absolute;
-  background-color: rgba(6, 6, 6, 0.897);
-  background-image: url("./asstes/bg3.png");
+  // background-color: rgba(6, 6, 6, 0.897);
+  background-image: url("./asstes/23.png");
   background-repeat: no-repeat;
-  background-size: 110%;
-  height: 850px;
-  top: -15%;
+  background-size: 100%;
+  height: 650px;
+  // top: 1%;
   z-index: -1;
   width: 100%;
 }
-.bggray::after {
-  content: "";
-  position: absolute;
-  background-color: rgba(6, 6, 6, 0.445);
-  // background-image: url("./asstes/bg3.png");
-  background-repeat: no-repeat;
-  background-size: 110%;
-  height: 850px;
-  top: -15%;
-  z-index: -1;
-  width: 100%;
-}
+
+// .bggray::after {
+//   content: "";
+//   position: absolute;
+//   background-color: rgba(6, 6, 6, 0.445);
+//   // background-image: url("./asstes/bg3.png");
+//   background-repeat: no-repeat;
+//   background-size: 110%;
+//   height: 850px;
+//   top: -15%;
+//   z-index: -1;
+//   width: 100%;
+// }
 
 @media (max-width: 768px) {
   .bggray::before {
     content: "";
     position: absolute;
-    background-image: url("./asstes/bg3.png");
+    background-image: url("./asstes/23.png");
     background-repeat: no-repeat;
-    background-size: 400%;
+    background-size: 0%;
     height: 850px;
     top: -15%;
     z-index: -1;
@@ -38,50 +39,49 @@
 }
 
 .misson {
-  background: linear-gradient(
-    45.42deg,
-    #abe1f8 20.58%,
-    #f9f9f9 38.51%,
-    #abe1f8 87.75%
-  );
+  background: linear-gradient(45.42deg,
+      #abe1f8 20.58%,
+      #f9f9f9 38.51%,
+      #abe1f8 87.75%);
 }
 
-.about-bg-offer {
-  background-image: url("./asstes/bg5.png");
-  background-color: rgba(1, 1, 1, 0.301);
-  background-size: 120%;
-  background-repeat: no-repeat;
-  height: 100%;
-  z-index: 2;
-  height: 700px;
-}
+// .about-bg-offer {
+//   background-image: url("./asstes/24.png");
+//   // background-color: rgba(1, 1, 1, 0.301);
+//   background-size: 100%;
+//   background-repeat: no-repeat;
+//   height: 100%;
+//   z-index: 2;
+//   height: 850px;
+// }
 
-.about-bg-offer::before {
-  content: "";
-  background-color: #09171db7;
-  position: absolute;
-  width: 100%;
-  height: 700px;
-  z-index: 1;
-}
+// .about-bg-offer::before {
+//   content: "";
+//   background-color: #09171db7;
+//   position: absolute;
+//   width: 100%;
+//   height: 700px;
+//   z-index: 1;
+// }
 
 @media (max-width: 500px) {
   .about-bg-offer {
     background-image: url("./asstes/bg5.png");
-    background-color: rgba(1, 1, 1, 0.301);
-    background-size: 1020%;
+    // background-color: rgba(1, 1, 1, 0.301);
+    background-size: 0%;
     background-repeat: no-repeat;
     height: 100%;
     z-index: 2;
-    height: 1700px;
+    height: 100%;
     margin-top: 130px;
   }
+
   .about-bg-offer::before {
     content: "";
-    background-color: #09171db7;
+    // background-color: #09171db7;
     position: absolute;
     width: 100%;
-    height: 1700px;
+    height: 100%;
     z-index: 1;
   }
 }

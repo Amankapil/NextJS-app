@@ -19,7 +19,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules'
 const Testimonials = () => {
   return (
     <>
-      <div className='w-full vision-bg'>
+      <div className='w-full visionbg'>
         <div className='testiminilas max-w-7xl mx-auto pt-20'>
           {/* <h2 className=" text-[#733e3d] text-3xl font-bold mb-4 max-lg:text-center">
           </h2> */}
@@ -65,7 +65,7 @@ const Testimonials = () => {
           >
             <SwiperSlide>
               <div className='flex flex-col w[33%] max-md:ml-0 max-md:w-full h-[400px]'>
-                <div className='flex flex-col grow px-8 py-10 border-gray-300 border-solid border-[3px] leading-[128%] rounded-[35px_4px] max-md:px-5 max-md:mt-10 h-[300px]'>
+                <div className='flex flex-col grow px-8 py-10 bg-[#D794421A] border-gray-300 border-solid border-[3px] leading-[128%] rounded-[35px_4px] max-md:px-5 max-md:mt-10 h-[300px]'>
                   <div className='flex gap-5 justify-start text-2xl'>
                     <Image
                       loading='lazy'
@@ -92,7 +92,7 @@ const Testimonials = () => {
 
             <SwiperSlide>
               <div className='flex flex-col w[33%] max-md:ml-0 max-md:w-full h-[400px]'>
-                <div className='flex flex-col grow px-8 py-10 bg-cyan-800 border-gray-300 border-solid border-[3px] leading-[128%] rounded-[35px_4px] max-md:px-5 max-md:mt-10 h-[300px] max-md:h-[400px]'>
+                <div className='flex flex-col grow px-8 py-10 bg-[#ABE0F8] border-gray-300 border-solid border-[3px] leading-[128%] rounded-[35px_4px] max-md:px-5 max-md:mt-10 h-[300px] max-md:h-[400px]'>
                   <div className='flex gap-5 justify-start text-2xl'>
                     <Image
                       loading='lazy'
@@ -123,7 +123,7 @@ const Testimonials = () => {
 
             <SwiperSlide>
               <div className='flex flex-col w[33%] max-md:ml-0 max-md:w-full h-[400px]'>
-                <div className='flex flex-col grow px-8 py-10 border-gray-300 border-solid border-[3px] leading-[128%] rounded-[35px_4px] max-md:px-5 max-md:mt-10 h-[300px]'>
+                <div className='flex flex-col grow px-8 py-10 bg-[#ABE0F84D] border-gray-300 border-solid border-[3px] leading-[128%] rounded-[35px_4px] max-md:px-5 max-md:mt-10 h-[300px]'>
                   <div className='flex gap-5 justify-start text-2xl'>
                     <Image
                       loading='lazy'

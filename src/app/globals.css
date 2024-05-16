@@ -8,10 +8,10 @@
   box-sizing: border-box;
 }
 
-
 ::selection {
   background-color: #0b5486;
   color: #fff; /* Optional: Change the text color */
 }
-
-
+body {
+  background: #fff7f7;
+}

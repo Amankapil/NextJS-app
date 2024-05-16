@@ -1,15 +1,15 @@
-import React from "react";
-import Image from "next/image";
-import hero from "./assets/hero1.png";
+import React from 'react'
+import Image from 'next/image'
+import hero from './assetss/he.png'
 // import herok from "./assets/1094546947preview.mp4";
 // import herok from "./assets/1097384643preview.mp4";
-import herok from "./assets/hero.jpg";
-import "./style.scss";
+import herok from './assets/hero.jpg'
+import './style.scss'
 
 const Hero = () => {
   return (
     <>
-      <div className="hero-container h-[650px] max-lg:h-full">
+      <div className='her-container h-[650px] max-lg:h-full'>
         {/* <video
           controls
           preload="none"
@@ -21,16 +21,12 @@ const Hero = () => {
           <source src={herok} type="video/mp4" />
           Your browser does not support the video tag.
         </video> */}
-        <div className="hero- flex justify-center items-center gap-0 py-40 h-full ">
-          <div className="left-description w-[100%] mx-auto">
-            {/* <span className="engage text-[#8AAAE5] text-lg font-bold mb-4">
-              ENGAGED WITH STAFFING
-            </span> */}
-            <h1 className="text-[50px] w-full max-w-6xl mx-auto max-sm:text-[25px] max-sm:p-1 text-center text-[#fff] font-bold leading-[120%] mt6">
-              Cultivating Innovation, Crafting Success: Pioneering Tech
-              Transformation Together
+        <div className='hero- flex justify-center items-center gap-40 py-40 h-full max-w-7xl mx-auto max-md:flex-col max-md:p-4'>
+          <div className='left-description w-[47%] mx-auto max-md:w-full max-md:'>
+            <h1 className='text-[55px] w- max-w-6xl mx-auto max-sm:text-[40px] max-sm:p-1 text-left text-[#062B43] font-bold leading-[62px] mt6'>
+              Pioneering together we craft transformative success
             </h1>
-            <p className="w-[50%] text-center max-lg:w-full mx-auto opacity85 mt-8 text-[#fff] ">
+            <p className='w[50%] text-left max-lg:w-full text-[27px] font-medium mx-auto opacity85 mt-8 text-[#175574] '>
               Information Technology Consulting Services IT Consulting services
               integrate new systems, ensure robust cybersecurity, or navigate
               the rapid pace of tech advancements.
@@ -38,21 +34,21 @@ const Hero = () => {
             {/* <p className="text-white font-medium text-[18px] mt-5">
               By way of us you can achieve what you want.
             </p> */}
-            {/* <div className="mt-8">
-              <button className="px-8 py-3 hover:bg-[#8AAAE5] bg-[#00246B] text-white hover:text-black rounded-3xl  ">
-                Learn more
+            <div className='mt-8'>
+              <button className='px-8 py-3 hover:bg[#8AAAE5] bg-[#D79442] text-white hover:text-black rounded-3xl  '>
+                Contact Us
               </button>
-            </div> */}
+            </div>
           </div>
-          <div className="right-desc">
-            {/* <Image src={hero} width={600} alt="hero" /> */}
+          <div className='right-desc w-[40%] max-md:w-full'>
+            <Image src={hero} width={600} alt='hero' />
           </div>
         </div>
       </div>
 
       {/* div. */}
     </>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero
