@@ -24,7 +24,7 @@ const Clients = () => {
         <div className=' max-w-6xl mx-auto py-20 flex justify-between items-center gap-20 max-md:flex-col'>
           <div className='servidc mb-20 w-[50%] max-md:w-full max-md:p-4'>
             <h3 className='self-start text-[#175574] text-xl font-bold leading-[51.2px]'>
-              Partners
+              <span className='text-[#D79442]'>|</span> Partners
             </h3>
             <h1 className='self-start text-[#062B43] text-[41px] font-bold leading-[51.2px]'>
               We Worked with The Best Partners

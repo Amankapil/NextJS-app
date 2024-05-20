@@ -13,8 +13,8 @@ const Services = () => {
     <>
       <div className='home-service mx-auto max-w-[1440px] max-lg:h-full'>
         <div className='servidc mb-20'>
-          <h3 className='self-start text-[#062B43] text-xl font-bold leading-[51.2px]'>
-            Services
+          <h3 className='self-start text-[#175574] text-xl font-bold leading-[51.2px]'>
+            <span className='text-[#D79442]'>|</span> Services
           </h3>
           <h1 className='self-start text-[#062B43] text-[41px] font-bold leading-[51.2px]'>
             Our Services

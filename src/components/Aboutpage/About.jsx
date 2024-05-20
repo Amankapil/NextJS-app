@@ -34,8 +34,8 @@ const About = () => {
           {/* <Image src={imgss} alt='k' /> */}
           <div className=' flex justify-between ite w-full px-16 max-md:px-4 max-lg:flex-wrap'>
             <div className='servidc mb20 mt-10'>
-              <h3 className='self-start text-[#062B43] text-xl font-bold leading-[51.2px]'>
-                Our Expertise
+              <h3 className='self-start text-left text-[#062B43] text-xl font-bold leading-[51.2px]'>
+                <span className='text-[#D79442]'>|</span> Our Expertise
               </h3>
               <h1 className='self-start text-[#062B43] text-[41px] font-bold leading-[51.2px]'>
                 Why choose us?

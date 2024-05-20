@@ -16,14 +16,13 @@ import hero9 from './clients/inc.png'
 import hero10 from './clients/gen.png'
 import hero11 from './clients/ch.png'
 
-const TrainingHero = () => {
+const Chose = () => {
   return (
-    <section className='w-full py12 bggrayy h-[735px] max-md:h-[500px] relative overflow-hidden'>
+    <section className='w-full py12 bggryy h-[735px] max-md:h-[500px] relative overflow-hidden'>
       <div class='w-full max-w-7xl mx-auto '>
         <div class="w-4px] text-400 text-white text-[87.74px]  font-normal font['Graphik'] leading-[108%] max-md:text-[50px] max-md:leading-[54px]  max-lg:text-[70px] max-lg:leading-[7px] text-center flex justify-start items-start h-[500px]">
           <div className='servidc mt-12 w-1/2 max-lg:w-full'>
             <h3 className='self-start text-left text-[#062B43] text-xl font-bold leading-[51.2px]'>
-              <span className='text-[#D79442]'>|</span>
               Trainings
             </h3>
             <h1 className='self-start text-left text-[#062B43] text-[41px] font-bold leading-[51.2px]'>
@@ -32,10 +31,6 @@ const TrainingHero = () => {
           </div>
 
           <div className='w-[80%] overflow-hidden absolute bottom-10 -right-[25%]'>
-            <h3 className='self-start text-left text-[#062B43] ml-20 mt-10 text-xl font-bold leading-[51.2px]'>
-              <span className='text-[#D79442]'>| </span>
-              We’ve worked with
-            </h3>
             <div className=' flex gap-16 flexcol w[50%]  justify-center items-center max-md:gap-8 top-bot'>
               <div>
                 <Image src={hero1} width={150} alt='hero' />
@@ -63,4 +58,4 @@ const TrainingHero = () => {
   )
 }
 
-export default TrainingHero
+export default Chose

@@ -32,8 +32,14 @@ const Tech2 = () => {
                 <div className='flex-auto  max-md:pl-6'>Start now</div>
                 <div className='shrink-0 my-auto w-24 h-0.5 bg-sky-500 border-2 border-sky-500 border-solid' />
               </div> */}
-              <div className='mt-16 max-md:pl-8 text-5xl font-medium text-[#062B43] leading-[61.44px] max-md:mt-10 max-md:max-w-full max-md:text-4xl'>
-                Technology we serve...
+
+              <div className='servidc mb-20'>
+                <h3 className='self-start text-[#062B43] text-xl font-bold leading-[51.2px]'>
+                  <span className='text-[#D79442]'>|</span> Technologies
+                </h3>
+                <h1 className='self-start text-[#062B43] text-[41px] font-bold leading-[51.2px]'>
+                  Technology we serve
+                </h1>
               </div>
             </div>
             {/* <p className=" text-[#733e3d] text-3xl mx-auto w-full max-w-7xl mb-4 font-bold border-b4 bordergray-500 p-2 flex max-lg:text-center">

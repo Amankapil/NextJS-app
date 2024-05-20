@@ -12,9 +12,11 @@
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
 
-import Meeting from "@/components/trainingpage/Meeting";
-import Trainig from "@/components/trainingpage/Trainig";
-import TrainingHero from "@/components/trainingpage/TrainingHero";
+import Choose from '@/components/trainingpage/Choose'
+import Chose from '@/components/trainingpage/Chose'
+import Meeting from '@/components/trainingpage/Meeting'
+import Trainig from '@/components/trainingpage/Trainig'
+import TrainingHero from '@/components/trainingpage/TrainingHero'
 
 // export default function Component() {
 //   return (
@@ -22,13 +24,14 @@ import TrainingHero from "@/components/trainingpage/TrainingHero";
 const page = () => {
   return (
     <>
-      <div className="max-w-8xl mx-auto">
+      <div className='max-w-8xl mx-auto'>
         <TrainingHero />
+        <Choose />
         <Trainig />
         {/* <Meeting /> */}
       </div>
     </>
-  );
-};
+  )
+}
 
-export default page;
+export default page

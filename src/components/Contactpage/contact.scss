@@ -1,51 +1,53 @@
 .hero-container::before {
   content: "";
   position: absolute;
-  background-image: url("./assets/bg5.png");
+  background-image: url("./assets/12.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 90%;
+  background-position: center;
   height: 750px;
-  top: -15%;
+  top: -0%;
   z-index: -1;
   width: 100%;
 }
 
-#fname {
-  height: 100%;
-  width: 100%;
-  background-image: url("./assets/name.png");
-  background-repeat: no-repeat;
-  background-position: right;
-}
+// #fname {
+//   height: 100%;
+//   width: 100%;
+//   background-image: url("./assets/name.png");
+//   background-repeat: no-repeat;
+//   background-position: right;
+// }
 
-#lname {
-  height: 100%;
-  // width: 100%;
-  background-image: url("./assets/name.png");
-  background-repeat: no-repeat;
-  background-position: right;
-}
-#lnamee {
-  height: 100%;
-  width: 100%;
-  background-image: url("./assets/mail.png");
-  background-repeat: no-repeat;
-  background-position: right;
-}
-#subject {
-  height: 100%;
-  width: 100%;
-  background-image: url("./assets/test.svg");
-  // bac
-  background-repeat: no-repeat;
-  background-position: right top;
-}
+// #lname {
+//   height: 100%;
+//   background-image: url("./assets/name.png");
+//   background-repeat: no-repeat;
+//   background-position: right;
+// }
+
+// #lnamee {
+//   height: 100%;
+//   width: 100%;
+//   background-image: url("./assets/mail.png");
+//   background-repeat: no-repeat;
+//   background-position: right;
+// }
+
+// #subject {
+//   height: 100%;
+//   width: 100%;
+//   background-image: url("./assets/test.svg");
+//   // bac
+//   background-repeat: no-repeat;
+//   background-position: right top;
+// }
 
 @media (max-width: 500px) {
   .hero-container::before {
     content: "";
     position: absolute;
-    background-image: url("./assets/bg5.png");
+    background-image: url("./assets/12.png");
     background-repeat: no-repeat;
     background-size: 600%;
     height: 850px;
@@ -54,7 +56,9 @@
     width: 100%;
   }
 }
+
 .contact-hero {
+
   // margin-bottom: 80px;
   .contact-hero-h1 {
     color: #000;
@@ -68,44 +72,56 @@
     letter-spacing: -2.64px;
     width: 650.552px;
   }
+
   .contact-form {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 36px;
+
     .form {
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
+
       // margin-left: 82px;
       // margin-top: 62px;
       .form-div {
         display: flex;
         gap: 30px;
+
         .name {
           display: flex;
           padding: 15px 86px 15px 10px;
           align-items: center;
-          border: 1px solid #000;
+          // border: 1px solid #000;
+          background: #abe0f879;
+          border-radius: 20px;
         }
       }
+
       .email {
         width: 100%;
         display: flex;
-        width: 652px;
+        // width: 652px;
         padding: 15px 16px 15px 10px;
         align-items: center;
-        border: 1px solid #000;
+        background: #abe0f879;
+
+        border-radius: 20px;
         margin: 32px 0;
       }
+
       .text {
         display: flex;
-        width: 652px;
+        // width: 652px;
         padding: 15px 96px 80px 10px;
         align-items: center;
-        border: 1px solid #000;
+        background: #abe0f879;
+        border-radius: 20px;
       }
     }
+
     button {
       display: flex;
       padding: 16px 32px;
@@ -117,6 +133,7 @@
       margin-left: 82px;
       transition: 0.3s;
     }
+
     //   button:hover {
     //     border: 1px solid #ffcd05;
     //     background-color: #ffcd05;
@@ -127,6 +144,7 @@
 .indiaimg {
   display: none;
 }
+
 .analog-clock {
   position: relative;
   width: 127px;
@@ -134,85 +152,33 @@
   border: 1px solid #9e9fa6;
   border-radius: 50%;
 }
+
 .div-time {
   position: absolute;
   top: 307px;
   right: 80px;
+
   .time-h1 {
     color: #000;
     //   font-family: Graphik;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 122%; /* 24.4px */
+    line-height: 122%;
+    /* 24.4px */
     letter-spacing: -0.2px;
     margin-bottom: 32px;
   }
 }
+
 .clocks {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 27px;
 }
-.hand {
-  position: absolute;
-  top: 18%;
-  left: 50%;
-  transform-origin: 50% 100%;
-  background-color: #333;
-  transition: transform 0.5s cubic-bezier(0.4, 2.6, 0.2, 1);
-}
-.time-zones {
-  display: flex;
-  align-items: center;
-  gap: 43px;
-}
-.digital-clock {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 19px;
-  h1 {
-    display: flex;
-    align-items: flex-start;
-    gap: 12px;
-    color: #000;
-    leading-trim: both;
-    text-edge: cap;
-    // font-family: Chivo Mono Medium;
-    font-size: 52.744px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%; /* 63.293px */
-    letter-spacing: -0.527px;
-  }
-  p {
-    color: #000;
-    //   font-family: Graphik;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 122%; /* 24.4px */
-    letter-spacing: -0.2px;
-    opacity: 0.5;
-  }
-}
-.hand.hour {
-  height: 30px;
-  width: 2px;
-  margin-top: 10px;
-}
-.hand.second {
-  height: 40px;
-  width: 1px;
-  background-color: #ffcd05;
-}
-.hand.minute {
-  height: 35px;
-  width: 1.5px;
-  margin-top: 5px;
-}
+
+
 .regions {
   h1 {
     width: 100%;
@@ -223,10 +189,12 @@
     font-size: 49.202px;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%; /* 59.042px */
+    line-height: 120%;
+    /* 59.042px */
     letter-spacing: -1.476px;
   }
 }
+
 .working-areas {
   width: 100%;
   padding: 108px 146px;
@@ -234,12 +202,14 @@
   justify-content: center;
   gap: 100px;
   align-items: center;
+
   div {
-    display: flex;
+    // display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 60px;
+
     p {
       color: #000;
       text-align: center;
@@ -254,17 +224,20 @@
     }
   }
 }
+
 .our-contact {
   padding: 0px 0 94px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
+
   .contacts-info {
-    width: 802px;
+    // width: 802px;
     display: flex;
     flex-direction: column;
     gap: 66px;
   }
+
   .contact-head {
     color: #000;
     text-align: center;
@@ -272,40 +245,55 @@
     font-size: 49.202px;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%; /* 59.042px */
+    line-height: 120%;
+    /* 59.042px */
     letter-spacing: -1.476px;
   }
 }
+
 .contact-details {
   display: flex;
-  gap: 16px;
+  gap: 100px;
+
   div {
-    display: flex;
+    // display: flex;
     // width: 230px;
     // flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    color: #175574 !important;
+    font-size: 25px;
+    width: 318px;
+
+
     h1 {
       color: #000;
       // font-family: Graphik;
-      font-size: 32px;
+      font-size: 25px;
       font-style: normal;
+      text-align: center;
       font-weight: 400;
-      line-height: 120%; /* 38.4px */
+      line-height: 120%;
+      /* 38.4px */
       letter-spacing: -0.32px;
     }
+
     p {
       color: #000;
       // font-family: Graphik;
       font-size: 16px;
       font-style: normal;
+      text-align: center;
+
       font-weight: 400;
-      line-height: 150%; /* 24px */
+      line-height: 150%;
+      /* 24px */
       text-decoration-line: underline;
     }
   }
 }
+
 .address-div {
   display: flex;
   gap: 139px;
@@ -313,6 +301,7 @@
   margin-top: 30px;
   margin-bottom: 50px;
 }
+
 .address-div2 {
   .address-head {
     color: #000;
@@ -320,60 +309,72 @@
     font-size: 49.202px;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%; /* 59.042px */
+    line-height: 120%;
+    /* 59.042px */
     letter-spacing: -1.476px;
     margin-bottom: 66px;
   }
+
   .address-head2 {
     color: #000;
     //   font-family: Graphik;
     font-size: 49.202px;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%; /* 59.042px */
+    line-height: 120%;
+    /* 59.042px */
     letter-spacing: -1.476px;
     margin-bottom: 66px;
     display: none;
   }
+
   div {
     margin-bottom: 36px;
+
     h1 {
       color: #000;
       // font-family: Graphik;
       font-size: 32px;
       font-style: normal;
       font-weight: 400;
-      line-height: 120%; /* 38.4px */
+      line-height: 120%;
+      /* 38.4px */
       letter-spacing: -0.32px;
       // text-decoration-line: underline;
       // margin-bottom: 20px;
     }
+
     p {
       color: #000;
       // font-family: Graphik;
       font-size: 16px;
       font-style: normal;
       font-weight: 400;
-      line-height: 150%; /* 24px */
+      line-height: 150%;
+      /* 24px */
       opacity: 0.8;
     }
   }
 }
+
 @media (max-width: 1200px) {
   .contact-hero {
     .contact-form {
       .form {
         .form-div {
           gap: 20px;
+
           .name {
             padding: 15px 10px;
             width: 100%;
           }
         }
+
         .email {
           width: 428px;
           padding: 15px 350px 15px 0px;
         }
+
         .text {
           width: 428px;
           padding: 15px 350px 80px 0px;
@@ -381,17 +382,21 @@
       }
     }
   }
+
   .working-areas {
     gap: 40px;
   }
+
   .address-div {
     margin-left: 100px;
   }
 }
+
 @media (max-width: 1024px) {
   .indiaimg {
     display: block;
   }
+
   .contact-hero {
     .contact-form {
       .form {
@@ -399,27 +404,33 @@
           gap: 20px;
           flex-direction: column;
         }
+
         .email {
           width: 328px;
           padding: 15px 0px;
         }
+
         .text {
           width: 328px;
           padding: 15px 0px 80px 0px;
         }
       }
+
       button {
         padding: 8px 25px;
       }
     }
   }
+
   .working-areas {
     gap: 20px;
   }
+
   .address-div {
     gap: 50px;
   }
 }
+
 @media (max-width: 866px) {
   .time-zones {
     // flex-direction: column;
@@ -427,25 +438,30 @@
     align-items: center;
     justify-content: center;
   }
+
   .clocks {
     justify-content: center;
     align-items: center;
   }
+
   .digital-clock {
     gap: 5px;
     text-align: center;
     justify-content: center;
     align-items: center;
+
     h1 {
       font-size: 30px;
     }
   }
+
   .div-time {
     .time-h1 {
       margin-bottom: 20px;
       text-align: center;
     }
   }
+
   .working-areas {
     flex-direction: column;
     gap: 50px;
@@ -454,21 +470,25 @@
       gap: 20px;
     }
   }
+
   .address-div {
     margin: 0 82px;
     flex-direction: column;
     margin-bottom: 0;
+
     .address-div2 {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center;
+
       h1 {
         margin-bottom: 30px;
       }
     }
   }
+
   .contact-details {
     display: flex;
     gap: 56px;
@@ -476,6 +496,7 @@
     justify-content: center;
     align-items: center;
   }
+
   .contact-hero {
     .contact-hero-h1 {
       font-size: 56px;
@@ -484,6 +505,7 @@
     }
   }
 }
+
 @media (max-width: 670px) {
   .address-head {
     display: none;
@@ -492,16 +514,19 @@
   .address-head2 {
     display: block;
   }
+
   .div-time {
     position: relative;
     top: 30px;
     right: 0px;
   }
+
   .clocks {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
+
   .contact-hero {
     .contact-hero-h1 {
       font-size: 40px;
@@ -509,25 +534,31 @@
       width: 330px;
     }
   }
+
   .contact-hero {
     .contact-form {
       width: 100%;
+
       .form {
         margin-left: 5%;
         width: 90%;
+
         .form-div {
           gap: 20px;
           flex-direction: column;
         }
+
         .email {
           width: 100%;
           padding: 15px 0px;
         }
+
         .text {
           width: 100%;
           padding: 15px 0px 80px 0px;
         }
       }
+
       button {
         padding: 8px 0px;
         width: 90%;
@@ -535,51 +566,62 @@
       }
     }
   }
+
   .working-areas {
     padding: 70px;
   }
+
   .regions {
     h1 {
       font-size: 40px;
     }
   }
+
   .address-div2 {
     .address-head {
       font-size: 40px;
     }
   }
+
   .address-div {
     margin: 0 70px;
   }
+
   .our-contact {
     .contact-head {
       font-size: 40px;
     }
   }
 }
+
 @media (max-width: 420px) {
   .working-areas {
     padding: 70px 30px;
   }
+
   .address-div {
     margin: 0 30px;
   }
+
   .clocks {
     flex-direction: column;
   }
 }
+
 @media (max-width: 380px) {
   .contact-hero .contact-hero-h1 {
     margin-left: 5%;
     width: 90%;
   }
 }
+
 @media (max-width: 1024px) and (min-width: 768px) {
   .div-time {
     position: relative;
     top: 30px;
     right: 0px;
   }
+
   .clocks {
     flex-direction: row;
   }

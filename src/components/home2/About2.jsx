@@ -6,13 +6,12 @@ const About2 = () => {
   return (
     <>
       <div className='flex justify-center items-center px-16 py-20 w-full text-white max-lg:h-full   max-md:px-5 max-md:max-w-full aboutbg gap-28 max-md:flex-col'>
-        ;
         <div className='right'>
           <Image src={img} alt='m' />
         </div>
         <div className='flex flex-col mt-9 w-[50%] max-md:w-full max-w-[1200px] max-md:max-w-full z-[999999] textblack'>
           <h3 className='self-start text-[#062B43] text-xl font-bold leading-[51.2px]'>
-            About Us
+            <span className='text-[#D79442]'>|</span> About Us
           </h3>
           <h1 className='self-start text-[#062B43] text-[41px] font-bold leading-[51.2px]'>
             Why Choose Us?

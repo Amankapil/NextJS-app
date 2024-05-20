@@ -24,16 +24,10 @@ max-lg:ml-[70px] max-lg:text-[40px] max-lg:w-[500px] max-md:mt-[50px] max-sm:ml-
             Insights that helps you stay in the know
           </h1>
         </div>
-        {/* DivRef */}
 
-        {/* <h1 className='bg-[#096B99] font-semibold text-[24px] w-[130px] h-[30px] max-md:w-[90px] max-sm:w-[70px] max-sm:h-[20px] mt-[100px] max-md:mt-[20px] max-sm:mt-[10px] ml-[50px] max-lg:text-[20px] max-md:text-[16px] max-sm:text-[12px]'>
-        
-          OUR BLOG
-        </h1> */}
         <h1 className='font-normal text-[64px] tracking-tight leading-[57px] my-[100px]  max-md:mt-[20px] max-sm:mt-[10px] ml-[50px] max-lg:text-[55px] max-md:text-[40px] max-sm:text-[30px] '>
           Articles
         </h1>
-
         <div className='blog-bg'>
           <div
             className='w-full flex flex-wrap  gap-[100px]  max-lg:gap-y-[50px] justify-center items-center max-w-7xl mx-auto
@@ -152,9 +146,7 @@ max-md:gap-y-[20px] ml[90px] max-xl:ml-[50px] max-sm:ml-[0px] py-[100px] max-md:
             </Link>
           </div>
         </div>
-
         <Emailsub />
-
         {/* <div className='flex flex-col items-center justify-center h-[700px] max-sm:h-[400px]'>
           <h1 className='font-normal text-[64px] tracking-tight max-lg:text-[55px] max-md:text-[45px] max-sm:text-[22px]'>
             Subscribe to our newsletter

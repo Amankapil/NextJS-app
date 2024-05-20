@@ -23,8 +23,8 @@ const Testimonials = () => {
         <div className='testiminilas max-w-7xl mx-auto pt-20'>
           {/* <h2 className=" text-[#733e3d] text-3xl font-bold mb-4 max-lg:text-center">
           </h2> */}
-          <h2 className=' text-[#062b43] text-4xl font-bold mb-4 max-lg:text-center'>
-            Testimonials
+          <h2 className='self-start text-[#062B43] text-xl font-bold leading-[51.2px]'>
+            <span className='text-[#D79442]'>|</span> Testimonials
           </h2>
         </div>
         <div className='flx max-w-7xl mx-auto p-10'>
