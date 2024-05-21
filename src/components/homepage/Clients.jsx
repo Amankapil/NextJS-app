@@ -16,13 +16,14 @@ import hero10 from './clients/gen.png'
 import hero11 from './clients/ch.png'
 
 import './style.scss'
+import Link from 'next/link'
 
 const Clients = () => {
   return (
     <>
       <div className='clint  '>
         <div className=' max-w-6xl mx-auto py-20 flex justify-between items-center gap-20 max-md:flex-col'>
-          <div className='servidc mb-20 w-[50%] max-md:w-full max-md:p-4'>
+          <div className='servidc mb-10 h-full w-[50%] max-md:w-full max-md:p-4'>
             <h3 className='self-start text-[#175574] text-xl font-bold leading-[51.2px]'>
               <span className='text-[#D79442]'>|</span> Partners
             </h3>
@@ -32,10 +33,18 @@ const Clients = () => {
             <p className='text-[#175574] text-[22px] font-medium uppercase'>
               Team . Customers . Community
             </p>
-            <p className='text-[#175574] text-[20px] font-bold mt-8'>
+            <p className='text-[#175574] text-[20px] font-bold mt-8 mb-10'>
               Our trusted partners collaborate with us to enhance learning
               experiences, ensuring industry relevance and excellence.
             </p>
+
+            <Link
+              href='/Industries
+'
+              className='px-8 py-3 mt-10 hover:bg[#8AAAE5] bg-[#D79442] text-white hover:text-black rounded-3xl  '
+            >
+              Read more
+            </Link>
           </div>
           <div className=' flex gap-20 flex-wrap justify-center items-center max-md:gap-8 h-[400px] overflow-hidden'>
             <div className=' flex gap-16 flex-col justify-center items-center max-md:gap-8 top-bot'>

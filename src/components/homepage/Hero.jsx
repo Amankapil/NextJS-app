@@ -5,6 +5,7 @@ import hero from './assetss/he.png'
 // import herok from "./assets/1097384643preview.mp4";
 import herok from './assets/hero.jpg'
 import './style.scss'
+import Link from 'next/link'
 
 const Hero = () => {
   return (
@@ -35,9 +36,13 @@ const Hero = () => {
               By way of us you can achieve what you want.
             </p> */}
             <div className='mt-8'>
-              <button className='px-8 py-3 hover:bg[#8AAAE5] bg-[#D79442] text-white hover:text-black rounded-3xl  '>
+              <Link
+                href='/contact
+'
+                className='px-8 py-3 hover:bg[#8AAAE5] bg-[#D79442] text-white hover:text-black rounded-3xl  '
+              >
                 Contact Us
-              </button>
+              </Link>
             </div>
           </div>
           <div className='right-desc w-[40%] max-md:w-full'>

@@ -8,6 +8,7 @@ import img2 from './assets/32.png'
 import img3 from './assets/33.png'
 import img4 from './assets/34.png'
 import './service.scss'
+import Link from 'next/link'
 
 const ItConcern = () => {
   return (
@@ -41,9 +42,13 @@ const ItConcern = () => {
                 </div>
 
                 <div className='mt-8'>
-                  <button className='px-8 py-3 hover:bg[#8AAAE5] bg-[#D79442] text-white hover:text-black rounded-3xl  '>
+                  <Link
+                    href='/contact
+'
+                    className='px-8 py-3 hover:bg[#8AAAE5] bg-[#D79442] text-white hover:text-black rounded-3xl  '
+                  >
                     Contact Us
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -79,9 +84,13 @@ const ItConcern = () => {
                 </div>
 
                 <div className='mt-8'>
-                  <button className='px-8 py-3 hover:bg[#8AAAE5] bg-[#D79442] text-white hover:text-black rounded-3xl  '>
+                  <Link
+                    href='/contact
+'
+                    className='px-8 py-3 hover:bg[#8AAAE5] bg-[#D79442] text-white hover:text-black rounded-3xl  '
+                  >
                     Contact Us
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -117,9 +126,13 @@ const ItConcern = () => {
                 </div>
 
                 <div className='mt-8'>
-                  <button className='px-8 py-3 hover:bg[#8AAAE5] bg-[#D79442] text-white hover:text-black rounded-3xl  '>
+                  <Link
+                    href='/contact
+'
+                    className='px-8 py-3 hover:bg[#8AAAE5] bg-[#D79442] text-white hover:text-black rounded-3xl  '
+                  >
                     Contact Us
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -154,9 +167,13 @@ const ItConcern = () => {
                 </div>
 
                 <div className='mt-8'>
-                  <button className='px-8 py-3 hover:bg[#8AAAE5] bg-[#D79442] text-white hover:text-black rounded-3xl  '>
+                  <Link
+                    href='/contact
+'
+                    className='px-8 py-3 hover:bg[#8AAAE5] bg-[#D79442] text-white hover:text-black rounded-3xl  '
+                  >
                     Contact Us
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>

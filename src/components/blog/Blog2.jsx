@@ -1,4 +1,5 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 // import './css/insight.css'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -10,43 +11,132 @@ import bgl2 from './assets/bl2.png'
 import bgl3 from './assets/bl3.png'
 import bgl4 from './assets/bl4.png'
 import bgl5 from './assets/bl5.png'
+import imgs from './assets/29.png'
 
 import './blog.scss'
+import Blogcards from './Blogcards'
 const Blog2 = () => {
+  const [selectedTab, setSelectedTab] = useState(0)
+
+  const tabs = [
+    {
+      id: 0,
+      title: 'Neural Network Evolution',
+      content: {
+        title: 'Spiking Neural Network: The building block for innovation',
+        description:
+          'The Spiking Neural Network (SNN) is the third generation of neural network models, built with specialized network topologies that redefine the entire computational process.',
+        image: imgs
+      }
+    },
+    {
+      id: 1,
+      title: 'The Cybersecurity Gold Rush',
+      content: {
+        title: 'Cybersecurity in the Modern Age',
+        description:
+          'Cybersecurity is becoming increasingly critical as the number of cyber threats continues to grow. Learn how to protect your data and systems.',
+        image: imgs
+      }
+    },
+    {
+      id: 2,
+      title: 'Sensitive Data With Blockchain',
+      content: {
+        title: 'Blockchain for Data Security',
+        description:
+          'Blockchain technology offers a secure way to handle sensitive data. Discover the benefits and applications of blockchain in data security.',
+        image: imgs
+      }
+    }
+  ]
+
+  const handleTabClick = index => {
+    setSelectedTab(index)
+  }
+
   return (
     <>
-      <div className='w-full h-full backg '>
-        <div className='headerb h-[450px] flex items-center max-xl:h-[400px] max-lg:h-[350px] max-md:h-[300px] max-sm:h-[200px]'>
-          <h1
-            className=' w-[750px] h-[300px] font-bold text-[60px] text-gradient ml-[200px] max-xl:ml-[100px] max-xl:text-[50px] max-xl:w-[600px]
-max-lg:ml-[70px] max-lg:text-[40px] max-lg:w-[500px] max-md:mt-[50px] max-sm:ml-[30px] max-sm:mt-[200px] max-sm:text-[20px] max-sm:w-[250px] text-white'
-          >
-            Insights that helps you stay in the know
+      <div className='w-full h-full bakg '>
+        <div className=' mt-10 w[64%] max-md:w-full max-w-7xl mx-auto'>
+          <h3 className='self-start text-[#175574] text-xl text-left font-bold leading-[51.2px]'>
+            <span className='text-[#D79442]'>|</span> Insights
+          </h3>
+          <h1 className='self-start text-[#062B43] text-left text-[41px] font-bold leading-[51.2px]'>
+            Stay in the know
           </h1>
         </div>
+
+        <section>
+          <div className='flex p-5 max-w-7xl mx-auto max-md:flex-wrap'>
+            <div className='flex- w-[50%] pr-5 max-md:w-full'>
+              <ol className='list-none p-0 m-0'>
+                {tabs.map((tab, index) => (
+                  <li
+                    key={tab.id}
+                    className={`mb-5 text-lg cursor-pointer ${
+                      selectedTab === index ? 'font-bold' : ''
+                    }`}
+                    onClick={() => handleTabClick(index)}
+                  >
+                    {selectedTab === index ? (
+                      <span className='text-[#D79442] text-[40px]'>| </span>
+                    ) : (
+                      ''
+                    )}
+
+                    <span className='mr-2 text-[40px]'>
+                      {' '}
+                      {`0${index + 1}`}{' '}
+                    </span>
+                    {tab.title}
+                  </li>
+                ))}
+              </ol>
+            </div>
+            <div className='w-[70%] max-md:w-full pl-5 borderl bg-[#fff] p-4 rounded-md border-gray-300'>
+              <div className='relative'>
+                <Image
+                  src={tabs[selectedTab].content.image}
+                  alt={tabs[selectedTab].content.title}
+                  className='w-full rounded-lg'
+                />
+                <div className='p-5'>
+                  <h2 className='mt-2 text-2xl font-semibold text-[#062B43]'>
+                    {tabs[selectedTab].content.title}
+                  </h2>
+                  <p className='mt-2 text-base text-[#175574]'>
+                    {tabs[selectedTab].content.description}
+                  </p>
+                  <a
+                    href='/read-more'
+                    className='text-[#175574] text-[22px] hover:underline  inline-block mt-2'
+                  >
+                    &rarr; Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <h1 className='font-normal text-[64px] tracking-tight leading-[57px] my-[100px]  max-md:mt-[20px] max-sm:mt-[10px] ml-[50px] max-lg:text-[55px] max-md:text-[40px] max-sm:text-[30px] '>
           Articles
         </h1>
-        <div className='blog-bg'>
+        <div className='blog-g'>
           <div
-            className='w-full flex flex-wrap  gap-[100px]  max-lg:gap-y-[50px] justify-center items-center max-w-7xl mx-auto
+            className='w-full flex flex-wrap  gap-[15px]  max-lg:gap-y-[50px] justify-center items-center max-w-7xl mx-auto
 max-md:gap-y-[20px] ml[90px] max-xl:ml-[50px] max-sm:ml-[0px] py-[100px] max-md:pt-[50px]  max-sm:flex max-sm:flex-col max-sm:items-center '
           >
             <Link href='/blog/Digital-Frontiers'>
-              <div className='bg[#fff] rounded-lg shadowlg w-[340px] h[370px] max-md:w-[320px] max-md:h-[350px] max-sm:w-[280px] max-sm:h-[300px] p-5 flex flex-col justify-between relative text-white'>
-                <div className='blog-imgn'>
-                  <Image
-                    src={bgl}
-                    className='mb-[5px] max-sm:-[90px] maxh-[90px] blog-'
-                    alt='First Box'
-                  />
-                </div>
-                <div className='absolute bottom-10 text-center p-10 left-0 '>
+              <div className='bg[#fff] rounded-lg shadowlg w-[416px] h-[555px] max-md:w-full max-md:h-full max-sm:w-[380px] max-sm:h-[550px] p-5 flex flex-col justify-between relative text-white'>
+                <div className='blog-imgn'></div>
+                <div className='absolute bottom-0 text-left p-4 left-0 '>
+                  <span className='text-[50px]'> 01</span>
                   <h3 className='font-bold text-[20px] leading-[28px] tracking-tight mb-[20px]'>
                     Unveiling the Digital Symphony
                   </h3>
-                  <p className='font-light text-[16p] leading-[17px] tracking-tight mb-[20px]'>
+                  <p className='font-medium text-[18px] leading-[23px] tracking-tight mb-[20px]'>
                     Website Design and Digital Marketing as the Art of Brand
                     Orchestration.
                   </p>
@@ -57,6 +147,40 @@ max-md:gap-y-[20px] ml[90px] max-xl:ml-[50px] max-sm:ml-[0px] py-[100px] max-md:
               </div>
             </Link>
             <Link href='/blog/Tech-chronicles'>
+              <div className='bg[#fff] rounded-lg shadowlg w-[416px] h-[555px] max-md:w-[320px] max-md:h-[350px] max-sm:w-[380px] max-sm:h-[550px]  p-5 flex flex-col justify-between relative text-white'>
+                <div className='blog-imgn2'></div>
+                <div className='absolute bottom-0 text-left p-4 left-0 '>
+                  <span className='text-[50px]'> 02</span>
+                  <h3 className='font-bold text-[20px] leading-[28px] tracking-tight mb-[20px]'>
+                    Future
+                  </h3>
+                  <p className='font-medium text-[18px] leading-[23px] tracking-tight mb-[20px]'>
+                    Exploring the Frontiers of Quantum Computing
+                  </p>
+                  <h4 className='font-bold text-[16px] leading-[28px] tracking-tight'>
+                    Read more
+                  </h4>
+                </div>
+              </div>
+            </Link>
+            <Link href='/blog/Tech-Odyssey'>
+              <div className='bg[#fff] rounded-lg shadowlg w-[416px] h-[555px] max-md:w-[320px] max-sm:w-[380px] max-sm:h-[550px]  p-5 flex flex-col justify-between relative text-white'>
+                <div className='blog-imgn3'></div>
+                <div className='absolute bottom-0 text-left p-4 left-0 '>
+                  <span className='text-[50px]'> 03</span>
+                  <h3 className='font-bold text-[20px] leading-[28px] tracking-tight mb-[20px]'>
+                    Blockchain Beyond Crypto
+                  </h3>
+                  <p className='font-medium text-[18px] leading-[23px] tracking-tight mb-[20px]'>
+                    Exploring the Uncharted Territories .
+                  </p>
+                  <h4 className='font-bold text-[16px] leading-[28px] tracking-tight'>
+                    Read more
+                  </h4>
+                </div>
+              </div>
+            </Link>
+            {/* <Link href='/blog/Tech-chronicles'>
               <div className='bg[#fff] rounded-lg shadowlg w-[340px] h[370px] max-md:w-[320px] max-md:h-[350px] max-sm:w-[280px] max-sm:h-[300px] p-5 flex flex-col justify-between relative text-white'>
                 <div className='blog-imgn'>
                   <Image
@@ -99,8 +223,8 @@ max-md:gap-y-[20px] ml[90px] max-xl:ml-[50px] max-sm:ml-[0px] py-[100px] max-md:
                   </h4>
                 </div>
               </div>
-            </Link>
-            <Link href='/blog'>
+            </Link> */}
+            {/* <Link href='/blog'>
               <div className='bg[#fff] rounded-lg shadowlg w-[340px] h[370px] max-md:w-[320px] max-md:h-[350px] max-sm:w-[280px] max-sm:h-[300px] p-5 flex flex-col justify-between relative text-white'>
                 <div className='blog-imgn'>
                   <Image
@@ -143,9 +267,11 @@ max-md:gap-y-[20px] ml[90px] max-xl:ml-[50px] max-sm:ml-[0px] py-[100px] max-md:
                   </h4>
                 </div>
               </div>
-            </Link>
+            </Link> */}
           </div>
         </div>
+
+        {/* <Blogcards /> */}
         <Emailsub />
         {/* <div className='flex flex-col items-center justify-center h-[700px] max-sm:h-[400px]'>
           <h1 className='font-normal text-[64px] tracking-tight max-lg:text-[55px] max-md:text-[45px] max-sm:text-[22px]'>

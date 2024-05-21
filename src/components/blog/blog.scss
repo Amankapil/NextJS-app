@@ -26,14 +26,58 @@
 .blog-imgn::before {
   content: "";
   position: absolute;
-  width: 278px;
+  width: 416px;
   top: 30px;
-  height: 301px;
-  left: 31px;
+  height: 555px;
+  background: url('./assets/16.png');
+  background-size: 100%;
+  left: 0px;
   border-radius: 15px;
-  background: #00000090;
+  // background: #00000090;
   // z-index: ;
 }
+
+.blog-imgn2::before {
+  content: "";
+  position: absolute;
+  width: 416px;
+  top: 30px;
+  height: 555px;
+  background: url('./assets/17.png');
+  background-size: 100%;
+  left: 0px;
+  border-radius: 15px;
+  // background: #00000090;
+  // z-index: ;
+}
+
+.blog-imgn3::before {
+  content: "";
+  position: absolute;
+  width: 416px;
+  top: 30px;
+  height: 555px;
+  background: url('./assets/18.png');
+  background-size: 100%;
+  left: 0px;
+  border-radius: 15px;
+  // background: #00000090;
+  // z-index: ;
+}
+
+// .blog-imgn::after {
+//   content: "";
+//   position: absolute;
+//   width: 416px;
+//   top: 30px;
+//   height: 25px;
+//   // background: url('./assets/16.png');
+//   background-size: 100%;
+//   left: 31px;
+//   border-radius: 15px;
+//   background: #000000de;
+//   // z-index: ;
+// }
 
 .thanks {
   border-radius: 12px;
@@ -194,35 +238,8 @@
   cursor: pointer;
 }
 
-.page-number {
-  gap: 40px;
-}
 
-.page-num {
-  color: #2a2f35;
-  font-variant-numeric: ordinal;
-  font-feature-settings: "dlig"on;
-  // font-family: Poppins;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  opacity: 0.5;
-  cursor: pointer;
 
-  padding: 8.392px 0px 8.108px 0px;
-}
-
-.next {
-  color: #3040d0;
-  font-variant-numeric: ordinal;
-  font-feature-settings: "dlig"on;
-  // font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
 
 /* //////////////////blog-main ?////////////////////////////////////// */
 /* //////////////////news-main ?////////////////////////////////////// */
@@ -342,16 +359,6 @@
     background-repeat: no-repeat;
   }
 
-  .blog-imgn::before {
-    content: "";
-    position: absolute;
-    width: 278px;
-    top: 30px;
-    height: 301px;
-    left: 31px;
-    border-radius: 15px;
-    background: #00000000;
-    // z-index: ;
-  }
+
 
 }
