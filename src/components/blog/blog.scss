@@ -65,6 +65,48 @@
   // z-index: ;
 }
 
+.blog-imgn4::before {
+  content: "";
+  position: absolute;
+  width: 416px;
+  top: 30px;
+  height: 555px;
+  background: url('./assets/19.png');
+  background-size: 100%;
+  left: 0px;
+  border-radius: 15px;
+  // background: #00000090;
+  // z-index: ;
+}
+
+.blog-imgn5::before {
+  content: "";
+  position: absolute;
+  width: 416px;
+  top: 30px;
+  height: 555px;
+  background: url('./assets/20.png');
+  background-size: 100%;
+  left: 0px;
+  border-radius: 15px;
+  // background: #00000090;
+  // z-index: ;
+}
+
+.blog-imgn6::before {
+  content: "";
+  position: absolute;
+  width: 416px;
+  top: 30px;
+  height: 555px;
+  background: url('./assets/21.png');
+  background-size: 100%;
+  left: 0px;
+  border-radius: 15px;
+  // background: #00000090;
+  // z-index: ;
+}
+
 // .blog-imgn::after {
 //   content: "";
 //   position: absolute;

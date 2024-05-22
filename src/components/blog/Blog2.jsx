@@ -128,7 +128,7 @@ const Blog2 = () => {
             className='w-full flex flex-wrap  gap-[15px]  max-lg:gap-y-[50px] justify-center items-center max-w-7xl mx-auto
 max-md:gap-y-[20px] ml[90px] max-xl:ml-[50px] max-sm:ml-[0px] py-[100px] max-md:pt-[50px]  max-sm:flex max-sm:flex-col max-sm:items-center '
           >
-            <Link href='/blog/Digital-Frontiers'>
+            <Link href='/blog/Unveiling-the-Digital-Symphony'>
               <div className='bg[#fff] rounded-lg shadowlg w-[416px] h-[555px] max-md:w-full max-md:h-full max-sm:w-[380px] max-sm:h-[550px] p-5 flex flex-col justify-between relative text-white'>
                 <div className='blog-imgn'></div>
                 <div className='absolute bottom-0 text-left p-4 left-0 '>
@@ -146,7 +146,7 @@ max-md:gap-y-[20px] ml[90px] max-xl:ml-[50px] max-sm:ml-[0px] py-[100px] max-md:
                 </div>
               </div>
             </Link>
-            <Link href='/blog/Tech-chronicles'>
+            <Link href='/blog/Exploring-the-Frontiers-of-Quantum-Computing'>
               <div className='bg[#fff] rounded-lg shadowlg w-[416px] h-[555px] max-md:w-[320px] max-md:h-[350px] max-sm:w-[380px] max-sm:h-[550px]  p-5 flex flex-col justify-between relative text-white'>
                 <div className='blog-imgn2'></div>
                 <div className='absolute bottom-0 text-left p-4 left-0 '>
@@ -163,7 +163,7 @@ max-md:gap-y-[20px] ml[90px] max-xl:ml-[50px] max-sm:ml-[0px] py-[100px] max-md:
                 </div>
               </div>
             </Link>
-            <Link href='/blog/Tech-Odyssey'>
+            <Link href='/blog/Blockchain-Beyond-Crypto'>
               <div className='bg[#fff] rounded-lg shadowlg w-[416px] h-[555px] max-md:w-[320px] max-sm:w-[380px] max-sm:h-[550px]  p-5 flex flex-col justify-between relative text-white'>
                 <div className='blog-imgn3'></div>
                 <div className='absolute bottom-0 text-left p-4 left-0 '>
@@ -173,6 +173,62 @@ max-md:gap-y-[20px] ml[90px] max-xl:ml-[50px] max-sm:ml-[0px] py-[100px] max-md:
                   </h3>
                   <p className='font-medium text-[18px] leading-[23px] tracking-tight mb-[20px]'>
                     Exploring the Uncharted Territories .
+                  </p>
+                  <h4 className='font-bold text-[16px] leading-[28px] tracking-tight'>
+                    Read more
+                  </h4>
+                </div>
+              </div>
+            </Link>
+
+            <Link href='/blog/Tech-chronicles'>
+              <div className='bg[#fff] rounded-lg shadowlg w-[416px] h-[555px] max-md:w-[320px] max-sm:w-[380px] max-sm:h-[550px]  p-5 flex flex-col justify-between relative text-white'>
+                <div className='blog-imgn6'></div>
+                <div className='absolute bottom-0 text-left p-4 left-0 '>
+                  <span className='text-[50px]'> 04</span>
+                  <h3 className='font-bold text-[20px] leading-[28px] tracking-tight mb-[20px]'>
+                    Tech Chronicles: Exploring the Digital Frontier
+                  </h3>
+                  <p className='font-medium text-[18px] leading-[23px] tracking-tight mb-[20px]'>
+                    Let's set sail on this adventure and discover the wonders
+                    that await us in the digital landscape.
+                  </p>
+                  <h4 className='font-bold text-[16px] leading-[28px] tracking-tight'>
+                    Read more
+                  </h4>
+                </div>
+              </div>
+            </Link>
+            <Link href='/blog/Tech-Odyssey'>
+              <div className='bg[#fff] rounded-lg shadowlg w-[416px] h-[555px] max-md:w-[320px] max-sm:w-[380px] max-sm:h-[550px]  p-5 flex flex-col justify-between relative text-white'>
+                <div className='blog-imgn5'></div>
+                <div className='absolute bottom-0 text-left p-4 left-0 '>
+                  <span className='text-[50px]'> 05</span>
+                  <h3 className='font-bold text-[20px] leading-[28px] tracking-tight mb-[20px]'>
+                    Tech Odyssey
+                  </h3>
+                  <p className='font-medium text-[18px] leading-[23px] tracking-tight mb-[20px]'>
+                    Let's embark on this adventure together and discover the
+                    wonders of the digital world.
+                  </p>
+                  <h4 className='font-bold text-[16px] leading-[28px] tracking-tight'>
+                    Read more
+                  </h4>
+                </div>
+              </div>
+            </Link>
+            <Link href='/blog/Digital-Frontiers'>
+              <div className='bg[#fff] rounded-lg shadowlg w-[416px] h-[555px] max-md:w-[320px] max-sm:w-[380px] max-sm:h-[550px]  p-5 flex flex-col justify-between relative text-white'>
+                <div className='blog-imgn4'></div>
+                <div className='absolute bottom-0 text-left p-4 left-0 '>
+                  <span className='text-[50px]'> 06</span>
+                  <h3 className='font-bold text-[20px] leading-[28px] tracking-tight mb-[20px]'>
+                    Digital Frontiers
+                  </h3>
+                  <p className='font-medium text-[18px] leading-[23px] tracking-tight mb-[20px]'>
+                    Join us as we explore the latest trends, emerging
+                    technologies, and groundbreaking ideas that are shaping the
+                    future of our digital world
                   </p>
                   <h4 className='font-bold text-[16px] leading-[28px] tracking-tight'>
                     Read more

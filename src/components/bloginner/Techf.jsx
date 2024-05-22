@@ -1,5 +1,5 @@
 import React from 'react'
-import img from './assets/2716353.jpg'
+import img from './assets/16.png'
 import img2 from './assets/2716353.jpg'
 
 import Link from 'next/link'
@@ -8,161 +8,167 @@ import Image from 'next/image'
 const Techf = () => {
   return (
     <>
-      <div className='w-full h-[2526px] relative bg-white  max-md:h-[3200px]'>
-        <div className="w-[771.24px] h-[138.09px] max-lg:h-[400px] left-[153.76px] top-[205.80px] absolute text-neutral-800 text-[46px] font-semibold font['Poppins'] leading-[69px] max-lg:w-full max-lg:left-2">
-          Magic Touch: Transforming Web Marketing with Tech Wonders
-        </div>
+      <div className='w-full max-w-7xl mx-auto h-full pb-20 relative bgwhite max-md:h-[3500px]'>
         <Image
-          className='w-[50%] max-lg:w-full max-lg: max-lg:left-2 h-[490.08px] left-[150.62px] top-[456.12px] absolute rounded-[21.75px] max-md:mt-20'
+          className='w-[90%] max-lg:w-full max-lg: max-lg:left-2 h-[490.08px] left[150.62px] top-[456.12px rounded-[21.75px] max-md:mt-20'
           src={img}
           alt=''
         />
-        <div className="left-[154px] max-lg:hidden top-[350.77px] absolute text-gray-800 text-base font-normal font['Poppins']">
-          12/04/2024
-        </div>
-        <div className='h-[1958px] max-lg:left-2 left-[154px] top-[1033.50px] absolute flex-col justify-start items-start gap-[35px] inline-flex'>
-          <div className="w-[744px] text-neutral-900 text-base font-normal font['Poppins'] leading-normal max-lg:w-full">
-            In the world of web marketing, staying ahead isn't just about
-            keeping up. It's about using cool tech stuff in a way that's easy to
-            get and makes sense. Let's take a trip through some awesome examples
-            where technology meets creativity, making web marketing not just
-            effective but also super fun!
-          </div>
-          <div className="w-[744px] text-neutral-900 text-base font-normal font['Poppins'] leading-normal max-lg:w-full">
-            1. AI: Your Personal Shopping Buddy Ever felt like the internet
-            knows you better than you know yourself? That's the magic of AI!
-            Imagine browsing an online store, and suddenly, it's like the
-            website is reading your mind, suggesting things you'd love.
-            <br />
-            Example: Think of your favorite clothing store's website. With AI,
-            it learns what you like based on what you've bought before and what
-            you look at. So, next time you visit, it's like your own personal
-            shopper, showing you stuff you're most likely to want. How cool is
-            that?
-            <br />
-            <br />
-            2. AR: Bringing Products to Life Augmented reality is like adding a
-            sprinkle of fairy dust to your screen. It lets you see things in
-            your world that aren't really there, making shopping online feel
-            like stepping into a magical wonderland.
-            <br />
-            <br />
-            Example: Imagine you're furniture shopping online. With AR, you can
-            use your phone's camera to see how a sofa or table would look in
-            your living room. It's like having a magic mirror that shows you
-            exactly what you want in your home before you even buy it. Neat,
-            right?
-            <br />
-            <br />
-            3. Gamification: Turning Boring Stuff into Fun Adventures Ever
-            wished doing chores or exercising could be more like playing a game?
-            That's gamification! It's like adding game elements to real-life
-            stuff to make it more enjoyable.
-            <br />
-            Example: Picture a fitness app that turns workouts into a game. You
-            earn points and badges for completing exercises, and you can
-            challenge your friends to beat your score. Suddenly, getting fit
-            feels more like leveling up in a video game. Who knew exercise could
-            be so much fun?
-            <br />
-            <br />
-            4. Voice Search: Talking to Your Devices Ever chatted with your
-            phone or smart speaker and had it find stuff for you? That's voice
-            search! It's like having a friendly assistant who listens to what
-            you say and finds what you need.
-            <br />
-            <br />
-            Example: Let's say you're cooking dinner and need a recipe. Instead
-            of typing, you can just ask your smart speaker for ideas, and it'll
-            read out recipes for you to try. It's like having your own personal
-            chef on standby, ready to help whenever you need it. How handy is
-            that?
-            <br />
-            <br />
-            5. Blockchain: Making Things Super Secure Blockchain might sound
-            fancy, but it's like a super-secure digital diary that keeps track
-            of stuff in a really trustworthy way. It's perfect for making sure
-            things like loyalty points or transactions are safe and fair.
-            <br />
-            <br />
-            Example: Think of a loyalty program where you earn points for
-            shopping. With blockchain, every point you earn is recorded
-            securely, so you know it's legit. Plus, it's transparent, so you can
-            see exactly how many points you have and what you can do with them.
-            No more wondering if your rewards are real or not!
-          </div>
-          <div className="w-[744px] text-neutral-900 text-base font-normal font['Poppins'] leading-normal max-lg:w-full">
-            Conclusion: In the world of web marketing, technology is like a
-            magic wand that can make things awesome. By keeping it simple and
-            using cool tech in creative ways, marketers can make shopping online
-            feel like a magical adventure. So, let's embrace the magic of AI,
-            AR, gamification, voice search, and blockchain, and make web
-            marketing a journey everyone wants to take!
-            <br />
-          </div>
+
+        <div className="w-[771.24px] h-[138.09px] max-lg:h-[400px] left[153.76px] top-[205.80px]  text-neutral-800 text-[46px] font-semibold font['Poppins'] leading-[69px] max-lg:w-full max-lg:left-2">
+          'Tech Chronicles: Exploring the Digital Frontier'
         </div>
 
-        <div className='left-[1064.25px]  max-md:hidden top-[1275px] absolute flex-col justify-start items-start gap-9 inline-flex'>
-          <div className="text-neutral-800 text-[42px] font-semibold font['Poppins'] leading-[63px]">
-            Similar articles
+        <div className='flex items-center font-sans'>
+          <div className='bg-black text-pink-500 rounded-full w-12 h-12 flex justify-center items-center text-xs font-bold text-center'>
+            <Image src='' alt='' />
           </div>
-          <div className='flex-col justify-start items-start gap-[25.50px] flex'>
-            <div className='h-[343.52px]  w-[295px] px-[29.29px] py-[31.82px] bg-white rounded-[22.22px] shadow flex-col justify-start items-start gap-1 flex'>
-              <div className='self-stretch h-[279.88px] flex-col justify-end items-start gap-[27.27px] flex'>
-                <div className='rounded-[7.07px] justify-end items-center inline-flex'>
-                  {/* <img className="w-[274.77px] h-[194.67px]" src={img} alt="" /> */}
-                </div>
-                <div className='self-stretch h-[116.74px] flex-col justify-start items-start gap-[15.66px] flex'>
-                  <div className='self-stretch h-[86.08px] flex-col justify-start items-start gap-[8.08px] flex'>
-                    <div className="self-stretch text-gray-800 text-xl font-bold font['Poppins']">
-                      Lorem ipsum dolor sit amet consectetur.
-                    </div>
-                    <div className="opacity-80 text-gray-800 text-xs font-normal font['Poppins']">
-                      12/12/2012
-                    </div>
+          <div className='ml-3 font-semibold text-[#014C76]'>by Aman Kapil</div>
+          <div className='ml-1 font-semibold text-[#014C76]'>
+            • Sun May 4, 2024
+          </div>
+        </div>
+        <div className='flex gap-10 justify-center items-center'>
+          <div className='h-full  max-lg:left-2 mt-10 max-lg:h-full max-lg:mb-8 top-[1033.50px] flex-col justify-start items-start gap-[35px] inline-flex w-[70%] text-[20px] text-[#175574]'>
+            <h1 className='text-[30px] text-[#175574] font-semibold'>
+              Introduction
+            </h1>
+            <div className="w[] textneutral-900 textbase font-normal font['Poppins'] leading-normal max-lg:w-full">
+              Welcome to "Tech Chronicles," where we embark on a journey through
+              the digital frontier, uncovering fascinating tales of innovation
+              and discovery. Join us as we delve into the world of technology,
+              exploring its impact on diverse aspects of our lives and
+              unraveling the mysteries of the digital realm. In this series of
+              blogs, we'll traverse uncharted territories, from the depths of
+              artificial intelligence to the heights of space exploration, and
+              everything in between. Let's set sail on this adventure and
+              discover the wonders that await us in the digital landscape.
+            </div>
+            <h1 className='text-[30px] text-[#175574] font-semibold'>
+              1: The Rise of Virtual Reality: Immersive Experiences in the
+              Digital Age
+            </h1>
+            <div className="w[] textneutral-900 textbase font-normal font['Poppins'] leading-normal max-lg:w-full">
+              Step into the realm of virtual reality, where the boundaries
+              between the physical and digital worlds blur into existence. From
+              immersive gaming experiences to virtual travel adventures and
+              interactive storytelling, we'll explore the fascinating world of
+              VR technology and its potential to transform entertainment,
+              education, and beyond. Join us as we dive deep into the virtual
+              realm and unlock the secrets of this groundbreaking technology.
+              <br /> <br />
+              <h1 className='text-[30px] text-[#175574] font-semibold'>
+                2. The Power of Biotechnology: Transforming Healthcare and
+                Beyond
+              </h1>
+              Explore the frontiers of biotechnology, where science and
+              technology converge to unlock the secrets of life itself. From
+              gene editing and personalized medicine to bioinformatics and
+              synthetic biology, we'll delve into the cutting-edge innovations
+              that are revolutionizing healthcare, agriculture, and
+              environmental sustainability. Join us as we unravel the mysteries
+              of biotechnology and discover its potential to shape the future of
+              humanity.
+              <br />
+              <br />
+              <h1 className='text-[30px] text-[#175574] font-semibold'>
+                3. Cryptocurrency Chronicles: Navigating the World of Digital
+                Currency
+              </h1>
+              Venture into the realm of cryptocurrency, where digital assets and
+              blockchain technology are reshaping the landscape of finance and
+              economics. From Bitcoin and Ethereum to decentralized finance
+              (DeFi) and non-fungible tokens (NFTs), we'll explore the
+              intricacies of this rapidly evolving ecosystem and its
+              implications for the future of money, investment, and beyond. Join
+              us as we decode the world of cryptocurrency and uncover its
+              potential to revolutionize the way we transact and interact
+              online.
+              <br />
+              <br />
+              <h1 className='text-[30px] text-[#175574] font-semibold'>
+                4. The Promise of Quantum Computing: Unlocking the Power of the
+                Quantum Realm
+              </h1>
+              Peer into the quantum realm, where the laws of physics take on a
+              surreal and mind-bending form. From quantum computers and
+              cryptography to quantum teleportation and entanglement, we'll
+              explore the strange and fascinating world of quantum mechanics and
+              its potential to revolutionize computing, communication, and
+              scientific discovery. Join us as we journey into the quantum
+              frontier and uncover the mysteries of this cutting-edge technology
+              <br />
+              <br />
+              <h1 className='text-[30px] text-[#175574] font-semibold'>
+                5. The Future of Mobility: Navigating the Road to Autonomous
+                Vehicles
+              </h1>
+              Embark on a journey into the future of transportation, where
+              autonomous vehicles and electric mobility are reshaping the way we
+              move and commute. From self-driving cars and flying taxis to
+              hyperloop trains and electric scooters, we'll explore the latest
+              innovations in transportation technology and their potential to
+              transform urban mobility, reduce traffic congestion, and combat
+              climate change. Join us as we navigate the road to the future of
+              mobility and discover the possibilities that lie ahead.
+              <br />
+            </div>
+
+            <h1 className='text-[30px] text-[#175574] font-semibold'>
+              Conclusion
+            </h1>
+            <div className='w-] textneutral-900 textbase font-normal leading-normal max-lg:w-full'>
+              As we journey through the digital seas of innovation, let us
+              embrace the transformative power of technology to shape our world
+              and redefine what is possible. For in the boundless expanse of the
+              digital universe, the only limit is the horizon of our
+              imagination.
+              <br />
+            </div>
+          </div>
+
+          <div className='left-[1064.25px]  max-md:hidden top-[1275px]  flex-col justify-start items-start gap-9 inline-flex'>
+            <div className="text-neutral-800 text-[42px] font-semibold font['Poppins'] leading-[63px]">
+              Similar articles
+            </div>
+            <div className='flex-col justify-start items-start gap-[25.50px] flex'>
+              <div className='h-[343.52px] w-[295px] px-[29.29px] py-[31.82px] bg-white rounded-[22.22px] shadow flex-col justify-start items-start gap-1 flex'>
+                <div className='self-stretch h-[279.88px] flex-col justify-end items-start gap-[27.27px] flex'>
+                  <div className='rounded-[7.07px] justify-end items-center inline-flex'>
+                    {/* <img className="w-[274.77px] h-[194.67px]" src={img} alt="" /> */}
                   </div>
-                  <div className="text-lime-800 text-sm font-bold font['Satoshi'] leading-none">
-                    Read More
+                  <div className='self-stretch h-[116.74px] flex-col justify-start items-start gap-[15.66px] flex'>
+                    <div className='self-stretch h-[86.08px] flex-col justify-start items-start gap-[8.08px] flex'>
+                      <div className="self-stretch text-gray-800 text-xl font-bold font['Poppins']">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </div>
+                      <div className="opacity-80 text-gray-800 text-xs font-normal font['Poppins']">
+                        12/12/2012
+                      </div>
+                    </div>
+                    <div className="text-lime-800 text-sm font-bold font'Satoshi'] leading-none">
+                      Read More
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className='h-[343.52px] w-[295px] px-[29.29px] py-[31.82px] bg-white rounded-[22.22px] shadow flex-col justify-start items-start gap-1 flex'>
-              <div className='self-stretch h-[279.88px] flex-col justify-end items-start gap-[27.27px] flex'>
-                <div className='rounded-[7.07px] justify-end items-center inline-flex'>
-                  {/* <img className="w-[274.77px] h-[194.67px]" src={img} alt="" /> */}
-                </div>
-                <div className='self-stretch h-[116.74px] flex-col justify-start items-start gap-[15.66px] flex'>
-                  <div className='self-stretch h-[86.08px] flex-col justify-start items-start gap-[8.08px] flex'>
-                    <div className="self-stretch text-gray-800 text-xl font-bold font['Poppins']">
-                      Lorem ipsum dolor sit amet consectetur.
-                    </div>
-                    <div className="opacity-80 text-gray-800 text-xs font-normal font['Poppins']">
-                      12/12/2012
-                    </div>
+              <div className='h-[343.52px] w-[295px] px-[29.29px] py-[31.82px] bg-white rounded-[22.22px] shadow flex-col justify-start items-start gap-1 flex'>
+                <div className='self-stretch h-[279.88px] flex-col justify-end items-start gap-[27.27px] flex'>
+                  <div className='rounded-[7.07px] justify-end items-center inline-flex'>
+                    {/* <img className="w-[274.77px] h-[194.67px]" src={img} alt="" /> */}
                   </div>
-                  <div className="text-lime-800 text-sm font-bold font'Satoshi'] leading-none">
-                    Read More
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className='h-[343.52px] w-[295px] px-[29.29px] py-[31.82px] bg-white rounded-[22.22px] shadow flex-col justify-start items-start gap-1 flex'>
-              <div className='self-stretch h-[279.88px] flex-col justify-end items-start gap-[27.27px] flex'>
-                <div className='rounded-[7.07px] justify-end items-center inline-flex'>
-                  {/* <img className="w-[274.77px] h-[194.67px]" src={img} alt="" /> */}
-                </div>
-                <div className='self-stretch h-[116.74px] flex-col justify-start items-start gap-[15.66px] flex'>
-                  <div className='self-stretch h-[86.08px] flex-col justify-start items-start gap-[8.08px] flex'>
-                    <div className="self-stretch text-gray-800 text-xl font-bold fon']">
-                      Lorem ipsum dolor sit amet consectetur.
+                  <div className='self-stretch h-[116.74px] flex-col justify-start items-start gap-[15.66px] flex'>
+                    <div className='self-stretch h-[86.08px] flex-col justify-start items-start gap-[8.08px] flex'>
+                      <div className="self-stretch text-gray-800 text-xl font-bold fon']">
+                        Lorem ipsum dolor sit amet consectetur.
+                      </div>
+                      <div className="opacity-80 text-gray-800 text-xs font-normal font['Poppins']">
+                        12/12/2012
+                      </div>
                     </div>
-                    <div className="opacity-80 text-gray-800 text-xs font-normal font['Poppins']">
-                      12/12/2012
+                    <div className="text-lime-800 text-sm font-bold font['Satoshi'] leading-none">
+                      Read More
                     </div>
-                  </div>
-                  <div className="text-lime-800 text-sm font-bold font['Satoshi'] leading-none">
-                    Read More
                   </div>
                 </div>
               </div>

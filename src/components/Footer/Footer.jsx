@@ -10,7 +10,7 @@ import tweet4 from './assets/facebook-3-3 2.svg'
 const Footer = () => {
   return (
     <>
-      <footer className='main-footer footer-bg bg-[#062B43] max-lg:p-4 z-50'>
+      <footer className='main-footer footer-bg bg-[#fff] text-[#175574] max-lg:p-4 z-50'>
         <div className='pattern-layer'></div>
 
         <div className='auto-container max-w-6xl mx-auto'>
