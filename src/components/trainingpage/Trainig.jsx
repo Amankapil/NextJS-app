@@ -309,7 +309,7 @@ const Trainig = () => {
                       <button
                         onClick={makePayment}
                         disabled={loading}
-                        className='letta bg-[#D79442] hoverborder-[#00557E] hovertext-[#00557E] hoverbg-[#E3F5FE] text-white p-4 rounded-full wfull font-bold'
+                        className='letta hover:bg-[#CC7914] bg-[#D79442] hoverborder-[#00557E] hovertext-[#00557E] hoverbg-[#E3F5FE] text-white p-4 rounded-full wfull font-bold'
                       >
                         {loading ? (
                           'Loading...'
@@ -460,7 +460,7 @@ const Trainig = () => {
                       <button
                         onClick={makePayment}
                         disabled={loading}
-                        className='letta bg-[#D79442] hoverborder-[#00557E] hovertext-[#00557E] hoverbg-[#E3F5FE] text-white p-4 rounded-full wfull font-bold'
+                        className='letta hover:bg-[#CC7914] bg-[#D79442] hoverborder-[#00557E] hovertext-[#00557E] hoverbg-[#E3F5FE] text-white p-4 rounded-full wfull font-bold'
                       >
                         {loading ? (
                           'Loading...'
@@ -609,7 +609,7 @@ const Trainig = () => {
                       <button
                         onClick={makePayment}
                         disabled={loading}
-                        className='letta bg-[#D79442] hoverborder-[#00557E] hovertext-[#00557E] hoverbg-[#E3F5FE] text-white p-4 rounded-full wfull font-bold'
+                        className='letta  bg-[#D79442] hoverborder-[#00557E] hovertext-[#00557E] hoverbg-[#E3F5FE] text-white p-4 rounded-full wfull font-bold'
                       >
                         {loading ? (
                           'Loading...'

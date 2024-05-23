@@ -117,7 +117,7 @@ const Team = () => {
               </Link>
             </div>
           </div>
-          ;
+
           <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px]'>
             <Image src={amn} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>
@@ -149,7 +149,7 @@ const Team = () => {
               </Link>
             </div>
           </div>
-          ;
+
           <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px]'>
             <Image src={dev} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>
@@ -179,7 +179,7 @@ const Team = () => {
               </Link>
             </div>
           </div>
-          ;
+
           <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px]'>
             <Image src={pro} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>
@@ -269,7 +269,7 @@ const Team = () => {
               </Link>
             </div>
           </div>
-          ;
+
           <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px]'>
             <Image src={jat} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>

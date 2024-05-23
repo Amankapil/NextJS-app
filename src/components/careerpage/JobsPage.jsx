@@ -347,7 +347,7 @@ const JobsPage = () => {
                   </p>
 
                   <div className='mt-2'>
-                    <button className='px-8 py-3 hover:bg[#8AAAE5] bg-[#D79442] text-white hovertext-black rounded-3xl  '>
+                    <button className='px-8 py-3 hover:bg[#8AAAE5] bg-[#D79442] hover:bg-[#CC7914] text-white hovertext-black rounded-3xl  '>
                       Apply
                     </button>
                   </div>

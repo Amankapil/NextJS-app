@@ -1,5 +1,5 @@
 import React from 'react'
-import img from './assets/16.png'
+import img from './assets/21.png'
 import img2 from './assets/2716353.jpg'
 
 import Link from 'next/link'

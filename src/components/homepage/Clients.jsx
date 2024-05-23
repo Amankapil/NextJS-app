@@ -39,9 +39,8 @@ const Clients = () => {
             </p>
 
             <Link
-              href='/Industries
-'
-              className='px-8 py-3 mt-10 hover:bg[#8AAAE5] bg-[#D79442] text-white hover:text-black rounded-3xl  '
+              href='/Industries'
+              className='px-8 py-3 mt-10 hover:bg[#8AAAE5] bg-[#D79442] text-white hover:bg-[#CC7914] rounded-3xl  '
             >
               Read more
             </Link>

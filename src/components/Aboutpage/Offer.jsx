@@ -12,9 +12,8 @@ const Offer = () => {
 
           <div className='mt-8 flex justify-center items-start'>
             <Link
-              href='/contact
-'
-              className='px-8 py-3 hover:bg[#8AAAE5] bg-[#D79442] text-white hover:text-black rounded-3xl  '
+              href='/contact'
+              className='px-8 py-3 hover:bg[#8AAAE5] bg-[#D79442] text-white hover:bg-[#CC7914] rounded-3xl  '
             >
               Contact Us
             </Link>

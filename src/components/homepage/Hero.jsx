@@ -39,7 +39,7 @@ const Hero = () => {
               <Link
                 href='/contact
 '
-                className='px-8 py-3 hover:bg[#8AAAE5] bg-[#D79442] text-white hover:text-black rounded-3xl  '
+                className='px-8 py-3 hover:bg[#8AAAE5] bg-[#D79442] hover:bg-[#CC7914] text-white hovertext-black rounded-3xl  '
               >
                 Contact Us
               </Link>
