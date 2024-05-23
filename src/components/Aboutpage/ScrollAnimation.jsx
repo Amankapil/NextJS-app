@@ -114,7 +114,7 @@ const ScrollAnimation = () => {
           //         style={{ height: '0%' }}
         ></div>
 
-        <div className='border-b2 mt-10 sticky top-4 h-[100px]  max-w-6xl mx-auto text-[40px] '>
+        <div className='border-b2 mt-10  top-5 h-[100px]  max-w-6xl mx-auto text-[40px] '>
           <h1 className='border-yellow-500 border-b-[16px] w-[38%]'>
             Streamlined IT Solutions
           </h1>
