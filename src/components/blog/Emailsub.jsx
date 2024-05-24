@@ -23,7 +23,7 @@ const Emailsub = () => {
   }
   return (
     <>
-      <section className='news-letter mt-16 flex items-center justify-center pt16 bg[#F4F7FA] blog-bg'>
+      <section className='news-letter mt-16 flex items-center justify-center pt16 bg[#F4F7FA] blog  bg'>
         <div className='letter flex items-center justify-center flex-col'>
           <h1>Subscribe to our newsletter</h1>
           <p className='pt-1 pb-8 max-md:w-full'>
@@ -62,7 +62,7 @@ const Emailsub = () => {
               </button> */}
 
               <button className='flex flex-col justify-center self-stretch my-auto mx-2'>
-                <div className='justify-center px-9 py-4 rounded text-white border-white border-solid border-[0.5px] max-md:px-5 lettal'>
+                <div className='justify-center px-9 py-4 rounded text-white border-white border-solid border-[0.5px] max-md:px-5 letta bg-[#D79442]'>
                   Subscribe
                 </div>
               </button>

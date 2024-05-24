@@ -22,7 +22,7 @@ const Clients = () => {
   return (
     <>
       <div className='clint  '>
-        <div className=' max-w-6xl mx-auto py-20 flex justify-between items-center gap-20 max-md:flex-col'>
+        <div className=' max-w-7xl mx-auto py-20 flex justify-between items-center gap-20 max-md:flex-col'>
           <div className='servidc mb-10 h-full w-[50%] max-md:w-full max-md:p-4'>
             <h3 className='self-start text-[#175574] text-xl font-bold leading-[51.2px]'>
               <span className='text-[#D79442]'>|</span> Partners

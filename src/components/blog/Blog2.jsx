@@ -9,8 +9,8 @@ import Emailsub from './Emailsub'
 import bgl from './assets/bl1.png'
 import bgl2 from './assets/bl2.png'
 import bgl3 from './assets/bl3.png'
-import bgl4 from './assets/bl4.png'
-import bgl5 from './assets/bl5.png'
+import bgl4 from './assets/17.png'
+import bgl5 from './assets/16.png'
 import imgs from './assets/29.png'
 
 import './blog.scss'
@@ -21,32 +21,31 @@ const Blog2 = () => {
   const tabs = [
     {
       id: 0,
-      title: 'Neural Network Evolution',
+      title: 'Unveiling the Digital Symphony',
       content: {
-        title: 'Spiking Neural Network: The building block for innovation',
+        title: 'Unveiling the Digital Symphony',
         description:
-          'The Spiking Neural Network (SNN) is the third generation of neural network models, built with specialized network topologies that redefine the entire computational process.',
+          '  Website Design and Digital Marketing as the Art of Brand Orchestration.',
         image: imgs
       }
     },
     {
       id: 1,
-      title: 'The Cybersecurity Gold Rush',
+      title: 'Blockchain Beyond Crypto',
       content: {
-        title: 'Cybersecurity in the Modern Age',
+        title: 'Blockchain Beyond Crypto',
         description:
           'Cybersecurity is becoming increasingly critical as the number of cyber threats continues to grow. Learn how to protect your data and systems.',
-        image: imgs
+        image: bgl5
       }
     },
     {
       id: 2,
-      title: 'Sensitive Data With Blockchain',
+      title: ' Future',
       content: {
-        title: 'Blockchain for Data Security',
-        description:
-          'Blockchain technology offers a secure way to handle sensitive data. Discover the benefits and applications of blockchain in data security.',
-        image: imgs
+        title: ' Future',
+        description: 'Exploring the Frontiers of Quantum Computing',
+        image: bgl4
       }
     }
   ]
@@ -184,7 +183,7 @@ max-md:gap-y-[20px] ml[90px] max-xl:ml-[50px] max-sm:ml-[0px] py-[100px] max-md:
             <Link href='/blog/Tech-chronicles'>
               <div className='bg[#fff] rounded-lg shadowlg w-[416px] h-[555px] max-md:w-[320px] max-sm:w-[380px] max-sm:h-[550px]  p-5 flex flex-col justify-between relative text-white'>
                 <div className='blog-imgn6'></div>
-                <div className='absolute bottom-0 text-left p-4 left-0 '>
+                <div className='absolute bottom-0 text-left p-4 left-0'>
                   <span className='text-[50px]'> 04</span>
                   <h3 className='font-bold text-[20px] leading-[28px] tracking-tight mb-[20px]'>
                     Tech Chronicles: Exploring the Digital Frontier

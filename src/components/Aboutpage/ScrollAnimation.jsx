@@ -110,7 +110,7 @@ const ScrollAnimation = () => {
       <div className='relative'>
         <div
           ref={lineRef}
-          className='absolute  left-[18%] top-16 w-4 bg-yellow-500'
+          className='absolute  left-[18%] top-32 w-4 bg-yellow-500'
           //         style={{ height: '0%' }}
         ></div>
 

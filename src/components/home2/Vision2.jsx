@@ -9,10 +9,10 @@ import img4 from './assetss/2.png'
 import './style.scss'
 const Vision2 = () => {
   return (
-    <div className='bg[#20AFED] flex flex-col self-center p-10 pb-20 mt28 w-full max--[1021px] max-md:mt-10 max-md:max-w-full mx-auto backdrop-blur-[110.60px] visin-bg max-md:p-4'>
+    <div className='bg[#20AFED] flex flex-col self-center p10 pb-20 mt28 w-full max-w-7xl mxauto max-md:mt-10 max-md:max-w-full mx-auto backdrop-blur-[110.60px] visin-bg max-md:p-4'>
       <div className='max-w-7xl mx-auto'>
         <div className='flex flex-col self-end max-w-full w[287px]'>
-          <div className='flex max-lg:flex-col justify-center gap-40 items-center max-md:items-center max-md:justify-center max-md:flex-wrap'>
+          <div className='flex max-lg:flex-col justify-between gap-40 items-center max-md:items-center max-md:justify-center max-md:flex-wrap'>
             <div className='flex flex-col items-start pt-6 aspect bgstone-300 rounded[65px] max-md:pr-5'>
               <div className='flex z-10 flex-col items-start px-5 pt-1 pb-6 mb-0 bordr max-md:mb-2.5'>
                 <Image

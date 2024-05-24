@@ -5,7 +5,7 @@ const Offer = () => {
   return (
     <>
       <div className='flex justify-center items-start px-16 pb-20 w-full text-white max-lg:h-full   max-md:px-5 max-md:max-w-full about-bg-offer mx-auto max-w-[1200px] '>
-        <div className='flex flex-col mt-9 w-1/2 max-md:max-w-full z-[999999] max-md:w-full'>
+        <div className='flex flex-col mt- w-1/2 max-md:max-w-full z-[999999] max-md:w-full'>
           <p className='self-  self-center  text-center text-[#062B43] text-[55px] font-bold leading-[62.2px]'>
             Ready to elevate your brand with Creative Design solutions?
           </p>

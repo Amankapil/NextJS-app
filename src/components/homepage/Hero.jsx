@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import hero from './assetss/he.png'
+import hero1 from './assetss/71.png'
 // import herok from "./assets/1094546947preview.mp4";
 // import herok from "./assets/1097384643preview.mp4";
 import herok from './assets/hero.jpg'
@@ -46,7 +47,7 @@ const Hero = () => {
             </div>
           </div>
           <div className='right-desc w-[40%] max-md:w-full'>
-            <Image src={hero} width={600} alt='hero' />
+            <Image src={hero1} width={600} alt='hero' />
           </div>
         </div>
       </div>

@@ -26,7 +26,7 @@ const Tech2 = () => {
             src={imgte}
             alt='k'
           /> */}
-          <div className='max-w-6xl mx-auto'>
+          <div className='max-w-7xl mx-auto'>
             <div className='flex flex-col self-end mt-10 max-md:mt-10 max-md:max-w-full'>
               {/* <div className='flex gap-5 self-start text-xl leading-9 text-sky-500 uppercase mt-10'>
                 <div className='flex-auto  max-md:pl-6'>Start now</div>
@@ -47,11 +47,11 @@ const Tech2 = () => {
             </p> */}
 
             <div className='max-w-7xl overflowhidden'>
-              <div className='w[250%] flex '>
+              <div className='w[250%] flex max-md:flex-wrap'>
                 {/* <div> */}
                 {/* </div>  */}
-                <div className='w-full justify-center items-start max-sm:w-[100%] flex flexwrap rid gridcols-2  gap-20 overflw-hidden text-center py-8 px12 sm:px-0  mtech'>
-                  <div className='w-full justify-center items-center max-sm:w-[100%] flex flex-col rid gridcols-2  gap-20 overflw-hidden text-center py-8 px12 sm:px-0  mtech'>
+                <div className='w-full justify-center items-start max-sm:w-[100%] flex max-md:flex-wrap rid gridcols-2  gap-20 overflw-hidden text-center py-8 px12 sm:px-0  mtech'>
+                  <div className='w-full justify-center items-center max-sm:w-[100%] flex flex-col rid gridcols-2  gap-20 overflw-hidden text-center py-8 px12 sm:px-0  mtech max-md:flex-row'>
                     <div className=' w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno'>
                       <Image
                         src={hero}
@@ -83,7 +83,7 @@ const Tech2 = () => {
                     </div>
                   </div>
 
-                  <div className='w-full justify-center items-center max-sm:w-[100%] flex flex-col rid gridcols-2  gap-20 overflw-hidden text-center py-8 px12 sm:px-0  mtech mt-28'>
+                  <div className='w-full justify-center items-center max-md:flex-wrap max-sm:w-[100%] flex flex-col rid gridcols-2  gap-20 overflw-hidden text-center py-8 px12 sm:px-0  mtech mt-28 max-md:flex-row'>
                     <div className=' w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno'>
                       <Image
                         src={hero3}
@@ -113,7 +113,7 @@ const Tech2 = () => {
                       <p className='mt-4'>Next JS</p>
                     </div>
                   </div>
-                  <div className='w-full justify-center items-center max-sm:w-[100%] flex flex-col rid gridcols-2  gap-20 overflw-hidden text-center py-8 px12 sm:px-0  mtech'>
+                  <div className='w-full justify-center items-center max-md:flex-wrap max-sm:w-[100%] flex flex-col rid gridcols-2  gap-20 overflw-hidden text-center py-8 px12 sm:px-0  mtech max-md:flex-row'>
                     <div className='  w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno'>
                       <Image
                         src={hero7}
@@ -149,7 +149,7 @@ const Tech2 = () => {
                       <p className='mt-4'>SQL</p>
                     </div>
                   </div>
-                  <div className='w-full justify-center items-center max-sm:w-[100%] flex flex-col rid gridcols-2  gap-20 overflw-hidden text-center py-8 px12 sm:px-0  mtech mt-28'>
+                  <div className='w-full justify-center items-center max-md:flex-wrap max-sm:w-[100%] flex flex-col rid gridcols-2  gap-20 overflw-hidden text-center py-8 px12 sm:px-0  mtech mt-28 max-md:flex-row'>
                     <div className=' w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno'>
                       <Image
                         src={java}
@@ -181,7 +181,7 @@ const Tech2 = () => {
                     </div>
                   </div>
 
-                  <div className='w-full justify-center items-center max-sm:w-[100%] flex flex-col rid gridcols-2  gap-20 overflw-hidden text-center py-8 px12 sm:px-0  mtech'>
+                  <div className='w-full justify-center items-center max-md:flex-wrap max-sm:w-[100%] flex flex-col rid gridcols-2  gap-20 overflw-hidden text-center py-8 px12 sm:px-0  mtech max-md:flex-row'>
                     <div className=' w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno'>
                       <Image
                         src={aws}
@@ -201,6 +201,26 @@ const Tech2 = () => {
                       />
 
                       <p className='mt-4'>VPS</p>
+                    </div>
+                    <div className=' w-[150px] shadow-md hover:scale-105 duration-500 py-2 rounded-lg techno'>
+                      <svg
+                        width='70'
+                        height='71'
+                        viewBox='0 0 70 71'
+                        fill='none'
+                        xmlns='http://www.w3.org/2000/svg'
+                        className='w-full'
+                      >
+                        <path
+                          d='M34.9999 66.4579C34.1736 66.4583 33.3617 66.241 32.6461 65.8279L25.1561 61.3938C24.0383 60.7682 24.583 60.5473 24.9527 60.4182C26.1418 60.0515 27.2801 59.5371 28.3411 58.8869C28.4298 58.8452 28.5278 58.8271 28.6255 58.8344C28.7232 58.8417 28.8174 58.8741 28.8989 58.9285L34.6543 62.3476C34.7614 62.4043 34.8808 62.4339 35.0021 62.4339C35.1233 62.4339 35.2427 62.4043 35.3499 62.3476L57.7936 49.3932C57.8991 49.3308 57.9863 49.2418 58.0466 49.135C58.1069 49.0283 58.1381 48.9076 58.1371 48.7851V22.872C58.1374 22.7475 58.1055 22.6252 58.0445 22.5167C57.9836 22.4082 57.8957 22.3174 57.7893 22.2529L35.3455 9.30945C35.2399 9.24923 35.1204 9.21755 34.9988 9.21755C34.8772 9.21755 34.7577 9.24923 34.6521 9.30945L12.2214 22.2573C12.1144 22.3205 12.0256 22.4104 11.9635 22.5181C11.9014 22.6258 11.8682 22.7477 11.8671 22.872V48.7741C11.8685 48.8961 11.9017 49.0155 11.9635 49.1206C12.0253 49.2258 12.1134 49.3129 12.2193 49.3735L18.3749 52.926C21.7108 54.5929 23.7539 52.6285 23.7539 50.6554V25.0813C23.7539 24.9073 23.8231 24.7404 23.9462 24.6173C24.0692 24.4942 24.2361 24.4251 24.4102 24.4251H27.2539C27.428 24.4251 27.5949 24.4942 27.718 24.6173C27.8411 24.7404 27.9102 24.9073 27.9102 25.0813V50.6576C27.9102 55.1091 25.4864 57.6576 21.2646 57.6576C19.4434 57.688 17.6509 57.201 16.0955 56.2532L10.1958 52.8691C9.48019 52.4514 8.88639 51.8536 8.47346 51.1352C8.06053 50.4168 7.84285 49.6028 7.84206 48.7741V22.872C7.83949 22.0418 8.05569 21.2256 8.4689 20.5055C8.88211 19.7855 9.47774 19.187 10.1958 18.7704L32.6418 5.81164C33.365 5.41684 34.1759 5.20996 34.9999 5.20996C35.8239 5.20996 36.6347 5.41684 37.358 5.81164L59.8018 18.7704C60.5171 19.1875 61.111 19.7845 61.5243 20.5021C61.9376 21.2197 62.1559 22.0329 62.1577 22.861V48.7741C62.1567 49.603 61.9387 50.4171 61.5253 51.1355C61.112 51.854 60.5178 52.4517 59.8018 52.8691L37.358 65.8279C36.6411 66.2418 35.8277 66.4591 34.9999 66.4579Z'
+                          fill='#83CD29'
+                        />
+                        <path
+                          d='M30.7432 40.1054C30.7432 39.9313 30.8123 39.7644 30.9354 39.6414C31.0584 39.5183 31.2254 39.4491 31.3994 39.4491H34.3022C34.4573 39.4496 34.6072 39.5051 34.7254 39.6056C34.8435 39.7061 34.9222 39.8452 34.9475 39.9982C35.385 42.9535 36.6975 44.4432 42.6322 44.4432C47.3594 44.4432 49.3741 43.3735 49.3741 40.8645C49.3741 39.4185 48.8032 38.3445 41.4554 37.6248C35.3129 37.0166 31.5154 35.656 31.5154 30.7473C31.5154 26.2191 35.3325 23.5176 41.731 23.5176C48.9213 23.5176 52.4804 26.0135 52.931 31.3685C52.9379 31.4579 52.9263 31.5478 52.8972 31.6326C52.868 31.7173 52.8217 31.7952 52.7612 31.8615C52.7008 31.9277 52.6274 31.9808 52.5456 32.0175C52.4638 32.0543 52.3753 32.0738 52.2857 32.0751H49.3632C49.2166 32.073 49.0749 32.0219 48.9607 31.9299C48.8465 31.838 48.7664 31.7104 48.7332 31.5676C48.0354 28.4591 46.3269 27.466 41.7332 27.466C36.5707 27.466 35.9713 29.2641 35.9713 30.6116C35.9713 32.2435 36.68 32.7204 43.6494 33.6413C50.5466 34.5535 53.8235 35.8441 53.8235 40.6916C53.8235 45.5829 49.746 48.3829 42.6344 48.3829C32.8016 48.396 30.7432 43.8876 30.7432 40.1054Z'
+                          fill='#83CD29'
+                        />
+                      </svg>
+                      <p className='mt-4'>Node JS</p>
                     </div>
                   </div>
                 </div>

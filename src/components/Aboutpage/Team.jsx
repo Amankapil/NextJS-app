@@ -30,7 +30,7 @@ const Team = () => {
           Meet Our Team
         </h2>
         <div className='flex gap-10 flex-wrap justify-center items-center max-md:justify-center max-md:items-center '>
-          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px]'>
+          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px] group'>
             <Image src={abhii} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>
               <div>
@@ -43,7 +43,7 @@ const Team = () => {
               <Link
                 target='_blanck'
                 href='http://linkedin.com/in/abhidatt-sharma'
-                className='absolute right-0'
+                className='absolute -right-10 opacity-0 group-hover:opacity-100 group-hover:right-0 transition-all'
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -59,7 +59,7 @@ const Team = () => {
               </Link>
             </div>
           </div>
-          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px]'>
+          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px] group'>
             <Image src={devesh} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>
               <div>
@@ -71,8 +71,8 @@ const Team = () => {
 
               <Link
                 target='_blanck'
-                href='http://linkedin.com/in/abhidatt-sharma'
-                className='absolute right-0'
+                href='https://www.linkedin.com/in/devesh-kumar-shukla-ba98ba245'
+                className='absolute -right-10 opacity-0 group-hover:opacity-100 group-hover:right-0 transition-all'
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -88,7 +88,7 @@ const Team = () => {
               </Link>
             </div>
           </div>
-          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px]'>
+          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px] group'>
             <Image src={shruti} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>
               <div>
@@ -100,8 +100,8 @@ const Team = () => {
 
               <Link
                 target='_blanck'
-                href='http://linkedin.com/in/abhidatt-sharma'
-                className='absolute right-0'
+                href='http://www.linkedin.com/in/shruti-dixit-23b1021b7'
+                className='absolute -right-10 opacity-0 group-hover:opacity-100 group-hover:right-0 transition-all'
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -118,7 +118,7 @@ const Team = () => {
             </div>
           </div>
 
-          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px]'>
+          <div className='bgwhite rounded-lg group shadowmd p-2 max-w-[300px]'>
             <Image src={amn} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>
               <div>
@@ -132,8 +132,8 @@ const Team = () => {
 
               <Link
                 target='_blanck'
-                href='http://linkedin.com/in/abhidatt-sharma'
-                className='absolute right-0'
+                href='www.linkedin.com/in/aman-kapil-750640200'
+                className='absolute -right-10 opacity-0 group-hover:opacity-100 group-hover:right-0 transition-all'
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -150,7 +150,7 @@ const Team = () => {
             </div>
           </div>
 
-          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px]'>
+          <div className='bgwhite rounded-lg group shadowmd p-2 max-w-[300px]'>
             <Image src={dev} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>
               <div>
@@ -162,8 +162,8 @@ const Team = () => {
 
               <Link
                 target='_blanck'
-                href='http://linkedin.com/in/abhidatt-sharma'
-                className='absolute right-0'
+                href='http://linkedin.com/in/devayani-deshmukh-a29451297'
+                className='absolute -right-10 opacity-0 group-hover:opacity-100 group-hover:right-0 transition-all'
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -180,7 +180,7 @@ const Team = () => {
             </div>
           </div>
 
-          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px]'>
+          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px] group'>
             <Image src={pro} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>
               <div>
@@ -192,8 +192,8 @@ const Team = () => {
 
               <Link
                 target='_blanck'
-                href='http://linkedin.com/in/abhidatt-sharma'
-                className='absolute right-0'
+                href='https://www.linkedin.com/in/projit-biswas-0a346a201'
+                className='absolute -right-10 opacity-0 group-hover:opacity-100 group-hover:right-0 transition-all'
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -209,7 +209,7 @@ const Team = () => {
               </Link>
             </div>
           </div>
-          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px]'>
+          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px]  group'>
             <Image src={sudh} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>
               <div>
@@ -223,8 +223,8 @@ const Team = () => {
 
               <Link
                 target='_blanck'
-                href='http://linkedin.com/in/abhidatt-sharma'
-                className='absolute right-0'
+                href='https://www.linkedin.com/in/sudhanshu-gupta-0b2787216'
+                className='absolute -right-10 opacity-0 group-hover:opacity-100 group-hover:right-0 transition-all'
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -240,7 +240,7 @@ const Team = () => {
               </Link>
             </div>
           </div>
-          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px]'>
+          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px] group'>
             <Image src={faiz} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>
               <div>
@@ -252,8 +252,8 @@ const Team = () => {
 
               <Link
                 target='_blanck'
-                href='http://linkedin.com/in/abhidatt-sharma'
-                className='absolute right-0'
+                href='https://www.linkedin.com/in/faizan-husain'
+                className='absolute -right-10 opacity-0 group-hover:opacity-100 group-hover:right-0 transition-all'
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -270,7 +270,7 @@ const Team = () => {
             </div>
           </div>
 
-          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px]'>
+          <div className='bgwhite rounded-lg shadowmd p-2 max-w-[300px] group'>
             <Image src={jat} width={300} height={300} alt='hero' />
             <div className='flex justify-center items-center relative'>
               <div>
@@ -282,8 +282,8 @@ const Team = () => {
 
               <Link
                 target='_blanck'
-                href='http://linkedin.com/in/abhidatt-sharma'
-                className='absolute right-0'
+                href='https://www.linkedin.com/in/jatinkumar05'
+                className='absolute -right-10 opacity-0 group-hover:opacity-100 group-hover:right-0 transition-all'
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
