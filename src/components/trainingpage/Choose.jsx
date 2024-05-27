@@ -7,10 +7,10 @@ import './train.scss'
 
 const Choose = () => {
   return (
-    <section className='w-full py12 bggryy h-[735px] max-md:h-[500px] relative overflow-hidden'>
+    <section className='w-full py12 bggryy h-[735px] relative overflow-hidden max-md:h-full'>
       <div className='w-full max-w-[1300px] mx-auto '>
-        <div className="w-4px] text-400 text-white   font-normal font['Graphik'] max-md:text-[50px] max-md:leading-[54px]  max-lg:text-[70px] max-lg:leading-[7px] text-center flex justify-start items-start h-[500px] flex-col">
-          <div className='servidc mt-12 w-1/2 max-lg:w-full'>
+        <div className="w-4px] text-400 text-white   font-normal font['Graphik'] max-md:text-[50px] max-md:leading-[54px]  max-lg:text-[70px] max-lg:leading-[7px] text-center flex justify-start items-start h-[500px] flex-col max-md:h-full">
+          <div className='servidc mt-12 w-1/2 max-lg:w-full max-md:p-4 '>
             <h3 className='self-start text-left text-[#062B43] text-xl font-bold leading-[51.2px]'>
               Why Choose us
             </h3>
@@ -19,8 +19,8 @@ const Choose = () => {
             </h1>
           </div>
 
-          <div className='flex flex-wrap mt-10 items-center justify-center gap-10'>
-            <div className='card-0 max-w-[629px] h-[153px] flex gap-4 items-start shadow-md p-4 rounded-[30px]'>
+          <div className='flex flex-wrap mt-10 items-center justify-center gap-10 max-md:h-full'>
+            <div className='card-0 max-w-[629px] h-[153px] flex gap-4 items-start shadow-md p-4 rounded-[30px] max-md:h-full'>
               <div className='iconnn'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -105,7 +105,7 @@ const Choose = () => {
                 </p>
               </div>
             </div>
-            <div className='card-0 max-w-[629px] h-[153px] flex gap-4 items-start shadow-md p-4 rounded-[30px]'>
+            <div className='card-0 max-w-[629px] h-[153px] flex gap-4 items-start shadow-md p-4 rounded-[30px] max-md:h-full'>
               <div className='iconnn'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -178,7 +178,7 @@ const Choose = () => {
                 </p>
               </div>
             </div>
-            <div className='card-0 max-w-[629px] h-[153px] flex gap-4 items-start shadow-md p-4 rounded-[30px]'>
+            <div className='card-0 max-w-[629px] h-[153px] flex gap-4 items-start shadow-md p-4 rounded-[30px] max-md:h-full'>
               <div className='iconnn'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -263,7 +263,7 @@ const Choose = () => {
                 </p>
               </div>
             </div>
-            <div className='card-0 max-w-[629px] h-[153px] flex gap-4 items-start shadow-md p-4 rounded-[30px]'>
+            <div className='card-0 max-w-[629px] h-[153px] flex gap-4 items-start shadow-md p-4 rounded-[30px] max-md:h-full'>
               <div className='iconnn'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'

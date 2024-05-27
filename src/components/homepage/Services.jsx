@@ -17,7 +17,7 @@ const Services = () => {
     <>
       <div className='home-service  max-lg:h-full'>
         <div className='mx-auto max-w-7xl'>
-          <div className='servidc mb-20'>
+          <div className='servidc mb-20  max-sm:p-4'>
             <h3 className='self-start text-[#175574] text-xl font-bold leading-[51.2px]'>
               <span className='text-[#D79442]'>|</span> Services
             </h3>
@@ -25,14 +25,14 @@ const Services = () => {
               Our Services
             </h1>
           </div>
-          <div className='flex justify-start items-center gap-4 flexwrap max-lg:justify-center max-lg:h-full max-md:flex-col'>
+          <div className='flex justify-start items-center gap-4 flexwrap max-lg:justify-center max-lg:h-full max-md:flex-col max-md:p-4'>
             <a
               class='mb-[17px] service-cards w-[27.451%] h[350px] p-[20px] bgwhite flex-col items-start gap-[46.12px] inline-flex  transitionall text-black group client
  bg[#062b43] hover:shadow-xl transition-all hovertext-white hovertext-white max-md:w-full  rounded-md hover:bordersolid'
               href='/services'
             >
-              <div class='justify-center items-center inline-flex'>
-                <div class='w-full h[62.77px] relative flex-col justify-start items-start flex'>
+              <div class='justify-center items-center inline-flex w-full'>
+                <div class='w-full h[62.77px] relative flex-col justify-start items-start flex max-md:justify-center max-md:items-center'>
                   <Image
                     src={img6}
                     className='mix-blenddifference w-full'
@@ -42,7 +42,7 @@ const Services = () => {
               </div>
               <div class='flex-col justify-end items-start gap-6 inline-flex max-[800px]:justify-between group-hoverbg-black'>
                 <div class='w[300px] max-sm:h-full h[143px] flex-col justify-between items-start flex max-[800px]:h-[174px] max-[1310px]:w-full'>
-                  <div class="service-heading letter-spacing-4 text-[24px] font-normal font['Graphik'] leading-[28.80px] group-hoverunderline grouphover:textwhite">
+                  <div class="service-heading letter-spacing-4 text-[24px] font-normal font['Graphik'] leading-[28.80px] group-hover:underline grouphover:textwhite">
                     Tech Training
                   </div>
                   <div class="w[300px] leading[150%] opacity-80  text-[18px] font-normal font['Graphik'] leading-normal  max-[1310px]:w-full">
@@ -96,7 +96,7 @@ const Services = () => {
 '
               href='/services'
             >
-              <div class='justify-center items-center inline-flex'>
+              <div class='justify-center items-center inline-flex  w-full'>
                 <div class='w[62.77px] h[62.77px] relative flex-col justify-start items-start flex'>
                   <Image src={img7} alt='hero' />
                 </div>
@@ -156,10 +156,10 @@ const Services = () => {
             </a>
             <a
               class='mb-[17px] service-cards w-[27.451%] [350px] p-[20px] bgwhite flex-col items-start gap-[46.12px] inline-flex  transitionall text-black group client
-  hoverbg-[#062b43] hover:shadow-xl transition-all hovertext-white hovertext-white max-md:w-full '
+  hoverbg-[#062b43] hover:shadow-xl transition-all hovertext-white hovertext-white max-md:w-full   rounded-md'
               href='/services'
             >
-              <div class='justify-center items-center inline-flex'>
+              <div class='justify-center items-center inline-flex  w-full'>
                 <div class='w62.77px] h[62.77px] relative flex-col justify-start items-start flex'>
                   <Image src={img8} alt='hero' />
                 </div>
@@ -218,10 +218,10 @@ const Services = () => {
               </div>
             </a>
             <a
-              class='mb-[17px] service-cards w-[27.451%] h[350px] pl-[20px] pr-[10px] py-[20px] bgwhite flex-col items-start gap-[46.12px] inline-flex  transitionall text-black group client hover:shadow-xl transition-all hovertext-white hovertext-white max-md:w-full'
+              class='mb-[17px] service-cards w-[27.451%] h[350px] pl-[20px] pr-[10px] py-[20px] bgwhite flex-col items-start gap-[46.12px] inline-flex  transitionall text-black group client hover:shadow-xl transition-all hovertext-white hovertext-white max-md:w-full  rounded-md'
               href='/services'
             >
-              <div class='justify-center items-center inline-flex'>
+              <div class='justify-center items-center inline-flex  w-full'>
                 <div class='w62.77px] h[62.77px] relative flex-col justify-start items-start flex'>
                   <Image src={img9} alt='hero' />
                 </div>

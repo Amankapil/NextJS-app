@@ -6,7 +6,7 @@ import img from './32.png'
 const CareerHero = () => {
   return (
     <>
-      <div className='careerhr h-[840px]'>
+      <div className='careerhr h-[840px] max-md:h-full'>
         <div className=' mx-auto max-w-6xl text-start w-3/4 py-20 mt-0'>
           <div className='servidc mb-20'>
             <h3 className='self-start text-[#175574] text-xl font-bold leading-[51.2px]'>

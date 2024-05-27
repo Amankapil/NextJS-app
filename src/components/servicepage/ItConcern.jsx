@@ -16,10 +16,10 @@ const ItConcern = () => {
       <div className='startw'>
         <div className='serviepageappdes max-lg:px-4 bg-srvice cardw'>
           <div className='w-full h-full relative max-lg:h-full'>
-            <div className='flex max-lg:flex-wrap-reverse  max-lg:justify-center  max-lg:items-center   max-w-6xl mx-auto justify-center gap-40 items-center bg-white  p-8 rounded-[80px]'>
+            <div className='flex max-lg:flex-wrap   max-lg:justify-center  max-lg:items-center   max-w-6xl mx-auto justify-center gap-40 items-center bg-white  p-8 rounded-[80px] max-md:gap-10'>
               <div className='w[359px]  max-md:w-full max-md:h-full  max-lg:w-[665px] max-lg:h-[800px] h-full mt[80px]  bg-inc-100 flexcol relative justify-center items-center flex'>
                 <Image src={img} hieght={400} alt='hero' />
-                <div className="w-[631.03px] max-md:w-full text-[#175574] text-[22px] font-normal font[''] leading-[33.04px] max-sm:text-[40px] absolute top-4 right-4 text-end">
+                <div className="w-[631.03px] max-md:w-full text-[#175574] text-[22px] font-normal font[''] leading-[33.04px] max-sm:text-[40px] absolute top-4 right-4 text-end max-md:hidden">
                   Service Spectrum
                 </div>
               </div>
@@ -56,10 +56,10 @@ const ItConcern = () => {
 
         <div className='serviepageappdes my-10 max-lg:px-4 bg-srvice cardw'>
           <div className='w-full h-full relative max-lg:h-full'>
-            <div className='flex max-lg:flex-wrap-reverse  max-lg:justify-center  max-lg:items-center   max-w-6xl mx-auto justify-center gap-40 items-center bg-white  p-8 rounded-[80px]'>
+            <div className='flex max-lg:flex-wrap  max-lg:justify-center  max-lg:items-center   max-w-6xl mx-auto justify-center gap-40 items-center bg-white  p-8 rounded-[80px] max-md:gap-10'>
               <div className='w[359px]  max-md:w-full max-md:h-full  max-lg:w-[665px] max-lg:h-[800px] h-full mt[80px]  bg-inc-100 flexcol relative justify-center items-center flex'>
                 <Image src={img2} hieght={400} alt='hero' />
-                <div className="w-[631.03px] max-md:w-full text-[#175574] text-[22px] font-normal font[''] leading-[33.04px] max-sm:text-[40px] absolute top-4 right-4 text-end">
+                <div className="w-[631.03px] max-md:w-full text-[#175574] text-[22px] font-normal font[''] leading-[33.04px] max-sm:text-[40px] absolute top-4 right-4 text-end max-md:hidden">
                   Tech Solutions
                 </div>
               </div>
@@ -84,8 +84,7 @@ const ItConcern = () => {
 
                 <div className='mt-8'>
                   <Link
-                    href='/contact
-'
+                    href='/contact'
                     className='px-8 py-3 hover:bg[#8AAAE5] bg-[#D79442] text-white hover:bg-[#CC7914] rounded-3xl  '
                   >
                     Contact Us
@@ -98,10 +97,10 @@ const ItConcern = () => {
 
         <div className='serviepageappdes ny-10 max-lg:px-4 bg-srvice cardw'>
           <div className='w-full h-full relative max-lg:h-full'>
-            <div className='flex max-lg:flex-wrap-reverse  max-lg:justify-center  max-lg:items-center   max-w-6xl mx-auto justify-center gap-40 items-center bg-white  p-8 rounded-[80px]'>
+            <div className='flex max-lg:flex-wrap  max-lg:justify-center  max-lg:items-center   max-w-6xl mx-auto justify-center gap-40 items-center bg-white  p-8 rounded-[80px] max-md:gap-10'>
               <div className='w[359px]  max-md:w-full max-md:h-full  max-lg:w-[665px] max-lg:h-[800px] h-full mt[80px]  bg-inc-100 flexcol relative justify-center items-center flex'>
                 <Image src={img3} hieght={400} alt='hero' />
-                <div className="w-[631.03px] max-md:w-full text-[#175574] text-[22px] font-normal font[''] leading-[33.04px] max-sm:text-[40px] absolute top-4 right-4 text-end">
+                <div className="w-[631.03px] max-md:w-full text-[#175574] text-[22px] font-normal font[''] leading-[33.04px] max-sm:text-[40px] absolute top-4 right-4 text-end max-md:hidden">
                   Service Spectrum
                 </div>
               </div>
@@ -126,8 +125,7 @@ const ItConcern = () => {
 
                 <div className='mt-8'>
                   <Link
-                    href='/contact
-'
+                    href='/contact'
                     className='px-8 py-3 hover:bg[#8AAAE5] bg-[#D79442] text-white hover:bg-[#CC7914] rounded-3xl  '
                   >
                     Contact Us
@@ -138,21 +136,21 @@ const ItConcern = () => {
           </div>
         </div>
 
-        <div className='serviepageappdes max-lg:px-4 bg-srvice cardw'>
+        <div className='serviepageappdes max-lg:px-4 bg-srvice cardw  h-full'>
           <div className='w-full h-full relative max-lg:h-full'>
-            <div className='flex max-lg:flex-wrap-reverse  max-lg:justify-center  max-lg:items-center   max-w-6xl mx-auto justify-center gap-40 items-center bg-white  p-8 rounded-[80px]'>
+            <div className='flex max-lg:flex-wrap  max-lg:justify-center  max-lg:items-center   max-w-6xl mx-auto justify-center gap-40 items-center bg-white  p-8 rounded-[80px] max-md:gap-10  h-full'>
               <div className='w[359px]  max-md:w-full max-md:h-full  max-lg:w-[665px] max-lg:h-[800px] h-full mt[80px]  bg-inc-100 flexcol relative justify-center items-center flex'>
                 <Image src={img4} hieght={400} alt='hero' />
-                <div className="w-[631.03px] max-md:w-full text-[#175574] text-[22px] font-normal font[''] leading-[33.04px] max-sm:text-[40px] absolute top-4 right-4 text-end">
+                <div className="w-[631.03px] max-md:w-full text-[#175574] text-[22px] font-normal font[''] leading-[33.04px] max-sm:text-[40px] absolute top-4 right-4 text-end max-md:hidden">
                   Service Spectrum
                 </div>
               </div>
 
-              <div className='max-md:w-full'>
+              <div className='max-md:w-full  h-full'>
                 <div className='w[631.03px] max-md:w-full text-[#175574] text-[41px] font-bold leading-[33.04px] max-sm:text-[40px] '>
                   Web Development
                 </div>
-                <div className='ml[80px] max-md:ml-0 mt-[20px]  flex-col justify-center items-start gap-[30px] inline-flex max-xl:ml-4'>
+                <div className='ml[80px] max-md:ml-0 mt-[20px]  flex-col justify-center items-start gap-[30px] inline-flex max-xl:ml-4  h-full'>
                   <div className='flex-col justify-start items-start gap-[42px] flex'>
                     <div className='flex-col justify-start items-start gap-[22px] flex'>
                       <div className="w-[513.61px] max-md:w-full opacity80 text-[#175574]  font-normal font[''] leading-normal text-[18px]">
@@ -167,8 +165,7 @@ const ItConcern = () => {
 
                 <div className='mt-8'>
                   <Link
-                    href='/contact
-'
+                    href='/contact'
                     className='px-8 py-3 hover:bg[#8AAAE5] bg-[#D79442] text-white hover:bg-[#CC7914] rounded-3xl  '
                   >
                     Contact Us

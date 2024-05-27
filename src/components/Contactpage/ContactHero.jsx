@@ -73,14 +73,14 @@ const ContactHero = () => {
                 id='lnamee'
                 name='lastname'
                 placeholder='Enter your email'
-                className='email'
+                className='email p-4'
                 onChange={e => setEmail(e.target.value)}
               />
               <textarea
                 id='subject'
                 name='subject'
                 placeholder='Your message'
-                className='text'
+                className='text p-4'
                 onChange={e => setMessage(e.target.value)}
               ></textarea>
             </div>
@@ -93,7 +93,7 @@ const ContactHero = () => {
 
             <div
               onClick={handleSubmit}
-              className='justify-center px-9 py-4 rounded-[54px] border-white border-solid border-[0.5px] max-md:px-5 ettal hoverborder-[#00557E] hovertext-[#00557E] hoverg-[#E3F5FE] cursor-pointer text-white w- text-center bg-[#D79442]'
+              className='justify-center max-md:w-full px-9 py-4 rounded-[54px] border-white border-solid border-[0.5px] max-md:px-5 ettal hoverborder-[#00557E] hovertext-[#00557E] hoverg-[#E3F5FE] cursor-pointer text-white w- text-center bg-[#D79442]'
             >
               Submit
             </div>

@@ -14,7 +14,7 @@ const Servicepage = () => {
       <section className='w-full py12 bggrayy h-[735px] max-md:h-[500px] relative overflow-hidden'>
         <div class='w-full max-w-7xl mx-auto '>
           <div class="w-4px] text-400 text-white text-[87.74px]  font-normal font['Graphik'] leading-[108%] max-md:text-[50px] max-md:leading-[54px]  max-lg:text-[70px] max-lg:leading-[7px] text-center flex justify- items-start h-[648px] flex-col justify-between">
-            <div className=' mt-10 w-[64%] max-md:w-full'>
+            <div className=' mt-10 w-[64%] max-md:w-full max-md:p-4 '>
               <h3 className='self-start text-[#175574] text-xl text-left font-bold leading-[51.2px]'>
                 <span className='text-[#D79442]'>|</span> What we're offering
               </h3>

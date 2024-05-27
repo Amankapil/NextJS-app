@@ -324,9 +324,7 @@ const JobsPage = () => {
                 <div className='flex flex-col'>
                   <div className='flex flexcol justifycenter items-center gap-3'>
                     <Image src={img} alt='' />
-                    <h2 className='text-xl font-semibold w-[200px]'>
-                      {job.title}
-                    </h2>
+                    <h2 className='text-xl font-bold w-[200px]'>{job.title}</h2>
                   </div>
                   <ul className='mt-2 flx flex-wrap gap-5 w-[600px] max-md:w-full'>
                     <li>skills:</li>
@@ -334,7 +332,7 @@ const JobsPage = () => {
                     {job.tags.map(tag => (
                       <li
                         key={tag}
-                        className='inline-block bg[#062b43]  text-[#001833] bg-[#EBF6FC]  px-2 py-1 rounded-md m-2 font-normal '
+                        className='inline-block bg[#062b43] font-bold text-[#001833] bg-[#EBF6FC]  px-2 py-1 rounded-md m-2 font '
                       >
                         {tag}
                       </li>

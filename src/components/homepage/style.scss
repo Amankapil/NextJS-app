@@ -167,10 +167,10 @@
 }
 
 .bot-top {
-  animation: slide_to_top 15s linear infinite;
+  animation: slide_to_topp 15s linear infinite;
 }
 
-@keyframes slide_to_top {
+@keyframes slide_to_topp {
   0% {
     transform: translateY(-50%);
   }

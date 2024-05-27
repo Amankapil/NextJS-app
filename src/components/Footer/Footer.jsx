@@ -143,7 +143,7 @@ const Footer = () => {
             </form>
           </div> */}
           <div className='footer-bottom clearfix flex justify-between gap-10 border-t-2 border-white max-md:flex-wrap'>
-            <div className='flex gap-10'>
+            <div className='flex gap-10 max-md:flex-wrap max-md:gap-4'>
               <div className='copyright pull-left'>
                 <p>
                   &copy; 2020 <a href='index.html'>Hiring Tech</a>, All Rights

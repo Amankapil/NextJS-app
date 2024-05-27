@@ -26,6 +26,16 @@ const Testimonials = () => {
           <h2 className='self-start text-[#062B43] text-xl font-bold leading-[51.2px]'>
             <span className='text-[#D79442]'>|</span> Testimonials
           </h2>
+
+          <div className='servidc mb-20  max-sm:p-4'>
+            <h1 className='self-start text-[#062B43] text-[41px] font-bold leading-[51.2px]'>
+              Client Testimonials
+            </h1>
+            <h3 className='self-start text-[#175574] text-xl font-bold leading-[23.2px]'>
+              Discover what our client had to say about their experience working
+              with us.
+            </h3>
+          </div>
         </div>
         <div className='flx max-w-7xl mx-auto p-10'>
           <Swiper

@@ -3,6 +3,7 @@
   position: sticky;
 }
 
+
 // .cardw:nth-child(1n) {
 //   top: 70px;
 // }
@@ -57,6 +58,11 @@
     top: -15%;
     z-index: -1;
     width: 100%;
+  }
+
+  .cardw {
+    top: 100px;
+    position: relative;
   }
 }
 

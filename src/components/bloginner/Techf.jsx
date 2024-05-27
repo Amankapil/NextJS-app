@@ -8,7 +8,7 @@ import Image from 'next/image'
 const Techf = () => {
   return (
     <>
-      <div className='w-full max-w-7xl mx-auto h-full pb-20 relative bgwhite max-md:h-[3500px]'>
+      <div className='w-full max-w-7xl mx-auto h-full pb-20 relative bgwhite max-md:h-full'>
         <Image
           className='w-[90%] max-lg:w-full max-lg: max-lg:left-2 h-[490.08px] left[150.62px] top-[456.12px rounded-[21.75px] max-md:mt-20'
           src={img}
@@ -29,7 +29,7 @@ const Techf = () => {
           </div>
         </div>
         <div className='flex gap-10 justify-center items-center'>
-          <div className='h-full  max-lg:left-2 mt-10 max-lg:h-full max-lg:mb-8 top-[1033.50px] flex-col justify-start items-start gap-[35px] inline-flex w-[70%] text-[20px] text-[#175574]'>
+          <div className='h-full  max-lg:left-2 mt-10 max-lg:h-full max-lg:mb-8 top-[1033.50px] flex-col justify-start items-start gap-[35px] inline-flex w-[70%] text-[20px] text-[#175574] max-md:w-full max-md:p-4'>
             <h1 className='text-[30px] text-[#175574] font-semibold'>
               Introduction
             </h1>
