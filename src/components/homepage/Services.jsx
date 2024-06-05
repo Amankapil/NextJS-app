@@ -97,8 +97,12 @@ const Services = () => {
               href='/services'
             >
               <div class='justify-center items-center inline-flex  w-full'>
-                <div class='w[62.77px] h[62.77px] relative flex-col justify-start items-start flex'>
-                  <Image src={img7} alt='hero' />
+                <div class='w-full h[62.77px] relative flex-col justify-start items-start flex'>
+                  <Image
+                    src={img7}
+                    alt='hero'
+                    className='mix-blenddifference w-full'
+                  />
                 </div>
               </div>
               <div class='flex-col justify-end items-start gap-6 inline-flex max-[800px]:justify-between group-hoverbg-black'>
@@ -160,8 +164,12 @@ const Services = () => {
               href='/services'
             >
               <div class='justify-center items-center inline-flex  w-full'>
-                <div class='w62.77px] h[62.77px] relative flex-col justify-start items-start flex'>
-                  <Image src={img8} alt='hero' />
+                <div class='w-full h[62.77px] relative flex-col justify-start items-start flex'>
+                  <Image
+                    src={img8}
+                    alt='hero'
+                    className='mix-blenddifference w-full'
+                  />
                 </div>
               </div>
               <div class='flex-col justify-end items-start gap-6 inline-flex max-[800px]:justify-between group-hoverbg-black'>
@@ -222,8 +230,12 @@ const Services = () => {
               href='/services'
             >
               <div class='justify-center items-center inline-flex  w-full'>
-                <div class='w62.77px] h[62.77px] relative flex-col justify-start items-start flex'>
-                  <Image src={img9} alt='hero' />
+                <div class='w-full h[62.77px] relative flex-col justify-start items-start flex'>
+                  <Image
+                    src={img9}
+                    alt='hero'
+                    className='mix-blenddifference w-full'
+                  />
                 </div>
               </div>
               <div class='flex-col justify-end items-start gap-6 inline-flex max-[800px]:justify-between group-hoverbg-black'>

@@ -1,3 +1,4 @@
+'use client'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header/Header'
@@ -6,15 +7,34 @@ import Footer from '@/components/Footer/Footer'
 import Link from 'next/link'
 import { TransitionProvider } from '@/components/context/TransitionContext'
 import TransitionComponent from '@/components/Transition'
+import Lenis from 'lenis'
+import { useEffect } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'Hiring Tech',
-  description: 'Hire Good geeks'
-}
+// export const metadata = {
+//   title: 'Hiring Tech',
+//   description: 'Hire Good geeks'
+// }
 
 export default function RootLayout ({ children }) {
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const lenis = new Lenis()
+
+      lenis.on('scroll', e => {
+        console.log(e)
+      })
+
+      function raf (time) {
+        lenis.raf(time)
+        requestAnimationFrame(raf)
+      }
+
+      requestAnimationFrame(raf)
+    }
+  }, [])
+
   return (
     <html lang='en'>
       <body className={inter.className}>
